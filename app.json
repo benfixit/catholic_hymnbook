@@ -26,6 +26,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-asset",
+        {
+          "assets": ["content/about.md"]
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
