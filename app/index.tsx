@@ -11,10 +11,10 @@ const renderItem = (item, setHymn) => {
     return (
         <Pressable onPress={() => {
             setHymn(item)
-            router.push({ pathname: `/hymns/${item.metadata.id}` });
+            router.push({ pathname: `/hymns/${item.id}` });
         }} style={({ pressed }) => [{ backgroundColor: pressed ? 'rgb(210, 230, 255)' : 'white'}, styles.pressable]}>
             <View style={styles.view}>
-                <Text style={styles.text}>{item.metadata.title}</Text>
+                <Text style={styles.text}>{item.title}</Text>
             </View>
         </Pressable>
     );
@@ -25,7 +25,7 @@ export default function Index() {
     return (
         <SafeAreaProvider>
             <SafeAreaView style={styles.container}>
-                <FlatList renderItem={({item}) => renderItem(item, setHymn)} data={hymns} keyExtractor={(item) => item.metadata.id} />
+                <FlatList renderItem={({item}) => renderItem(item, setHymn)} data={hymns} keyExtractor={(item) => item.id} />
             </SafeAreaView>
         </SafeAreaProvider>
     );

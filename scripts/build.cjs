@@ -17,7 +17,10 @@ const data = files.map(file => {
     return {
         slug,
         content,
-        metadata: data
+        id: data.id,
+        title: data.title,
+        chorus: data.chorus,
+        type: data.type
     }
 });
 

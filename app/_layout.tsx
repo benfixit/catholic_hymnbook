@@ -9,8 +9,8 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={DefaultTheme}>
       <HymnProvider>
-        <Stack screenOptions={{ headerTitle: "Catholic Hymbook" }}>
-          <Stack.Screen name="index" />
+        <Stack>
+          <Stack.Screen name="index" options={{ headerTitle: "Catholic Hymnbook" }} />
           <Stack.Screen name="hymns" />
         </Stack>
         <StatusBar style="auto" />
