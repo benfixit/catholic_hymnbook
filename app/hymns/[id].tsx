@@ -11,18 +11,41 @@ export default function HymnScreen() {
   const { selectedHymn } = useHymns();
 
   return (
-    <ScrollView style={styles.container}>
-      <Text style={styles.text}>{selectedHymn.content}</Text>
+    <ScrollView style={{ height: "100%" }} contentInsetAdjustmentBehavior='automatic'>
+      <View style={wrapper.view}>
+        <Markdown style={styles}>
+          {selectedHymn.verses}
+        </Markdown>
+      </View>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 20,
+  paragraph: {
+    fontSize: 18,
+    marginBottom: 8,
+    marginTop: 8
   },
-  text: {
-    fontSize: 18
+  ordered_list_icon: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 8,
+    marginTop: 8,
+  },
+  ordered_list_content: {
+    fontSize: 18,
+    marginBottom: 8,
+    marginTop: 8,
+  },
+  list_item: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+  }
+});
+
+const wrapper = StyleSheet.create({
+  view: {
+    padding: 24
   }
 });

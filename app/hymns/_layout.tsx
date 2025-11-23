@@ -9,7 +9,7 @@ const HymnLayout = () => {
 
     useEffect(() => {
         if (selectedHymn) {
-            navigation.setOptions({ title: `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}` })
+            navigation.setOptions({ title: `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}\n(${selectedHymn.subtitle})` })
         }
     }, [navigation]);
 
