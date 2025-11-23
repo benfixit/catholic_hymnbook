@@ -9,7 +9,6 @@ const SearchBox: React.FC<Props> = ({ onSearch }) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
 
     const handleChange = (text: string) => {
-        console.log("Search text ::: ", text);
         setSearchTerm(text);
 
         //@todo debounce this

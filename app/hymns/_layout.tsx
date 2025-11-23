@@ -1,24 +1,25 @@
-import { useEffect } from "react";
-import { Redirect, Slot, useNavigation } from "expo-router";
+import { Redirect, Slot, Stack } from "expo-router";
 import { useHymns } from "@/store/HymnProvider";
 
 
 const HymnLayout = () => {
     const { selectedHymn } = useHymns();
-    const navigation = useNavigation();
-
-    useEffect(() => {
-        if (selectedHymn) {
-            navigation.setOptions({ title: `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}\n(${selectedHymn.subtitle})` })
-        }
-    }, [navigation]);
 
     if (!selectedHymn) {
         return <Redirect href={`/+not-found`} />
     }
 
+    let title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
+    if (selectedHymn.subtitle) {
+        title += ` ${selectedHymn.subtitle}`;
+    }
+
     return (
-        <Slot />
+        <>
+            <Stack.Screen options={{ title }} />
+            <Slot />
+        </>
+
     );
 }
 

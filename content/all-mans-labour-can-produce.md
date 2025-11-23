@@ -1,7 +1,7 @@
 ---
 id: 11
 title: All man's labour can produce
-type: entrance
+category: entrance
 ---
 
 1. All man's labour can produce,

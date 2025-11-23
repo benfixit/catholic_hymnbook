@@ -2,10 +2,8 @@ export type HymnType = {
     id: number,
     title: string,
     subtitle?: string,
-    chorus?: string,
-    refrain?: string,
-    verses: string[],
-    type: Category
+    content: string,
+    category: Category
 }
 
 export enum Category {

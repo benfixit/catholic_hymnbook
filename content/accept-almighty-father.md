@@ -1,7 +1,7 @@
 ---
 id: 3
 title: Accept almighty father
-type: entrance
+category: entrance
 ---
 
 1. Accept Almighty Father,

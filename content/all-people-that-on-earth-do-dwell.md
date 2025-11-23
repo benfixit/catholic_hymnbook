@@ -1,7 +1,7 @@
 ---
 id: 13
 title: All people that on earth do dwell
-type: entrance
+category: entrance
 ---
 
 1. All peo­ple that on earth do dwell,

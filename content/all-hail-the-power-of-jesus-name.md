@@ -1,7 +1,7 @@
 ---
 id: 10
 title: All Hail The Power Of Jesus Name
-type: entrance
+category: entrance
 ---
 
 1. All hail the pow'r of Jesus' name,

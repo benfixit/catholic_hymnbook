@@ -4,9 +4,9 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function NotFoundScreen() {
   return (
     <>
-        <Stack.Screen options={{ title: "Oops! Not Found"}} />
+        <Stack.Screen />
         <View style={styles.container}>
-            <Text>Not Found Page</Text>
+            <Text>Hymn not found</Text>
             <Link href="/" dismissTo style={styles.link}>
                 <Text>Go to home screen</Text>
             </Link>

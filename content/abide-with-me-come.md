@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Abide With Me Come
-type: entrance
+category: entrance
 ---
 
 1. Abide with me; fast falls the eventide:

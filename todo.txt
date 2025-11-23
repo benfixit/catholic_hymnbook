@@ -1,0 +1,2 @@
+1. Add debounce to the search functionality
+2. Type the next 10 hymns

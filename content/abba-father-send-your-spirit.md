@@ -1,7 +1,7 @@
 ---
 id: 1
 title: Abba father send your spirit
-type: entrance
+category: entrance
 ---
 
 1. Abba, Father, send Your Spirit

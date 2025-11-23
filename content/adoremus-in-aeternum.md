@@ -1,7 +1,7 @@
 ---
 id: 5
 title: Adoremus in aeternum
-type: entrance
+category: entrance
 ---
 
 _Refrain:_

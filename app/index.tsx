@@ -13,11 +13,9 @@ export default function Index() {
 
     const onSearch = (searchTerm) => {
         const newHymns = hymns.filter(hymn => {
-            return hymn.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            return hymn.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
             hymn.subtitle?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            hymn.verses?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            hymn.chorus?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            hymn.refrain?.toLowerCase().includes(searchTerm.toLowerCase());
+            hymn.content.toLowerCase().includes(searchTerm.toLowerCase());
         });
 
         setFilteredHymns(newHymns);

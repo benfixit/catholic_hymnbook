@@ -1,7 +1,7 @@
 ---
 id: 9
 title: All Glory Praise and Honour
-type: entrance
+category: entrance
 ---
 
 _Refrain:_

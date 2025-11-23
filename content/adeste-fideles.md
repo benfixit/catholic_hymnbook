@@ -1,7 +1,7 @@
 ---
 id: 4
 title: Adeste Fideles
-type: entrance
+category: entrance
 ---
 
 1. Adeste, fideles

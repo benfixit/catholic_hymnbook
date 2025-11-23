@@ -14,7 +14,7 @@ export default function HymnScreen() {
     <ScrollView style={{ height: "100%" }} contentInsetAdjustmentBehavior='automatic'>
       <View style={wrapper.view}>
         <Markdown style={styles}>
-          {selectedHymn.verses}
+          {selectedHymn.content}
         </Markdown>
       </View>
     </ScrollView>

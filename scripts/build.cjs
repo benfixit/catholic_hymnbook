@@ -16,11 +16,11 @@ const data = files.map(file => {
 
     return {
         slug,
-        verses: content,
+        content,
         id: data.id,
         title: data.title,
         subtitle: data.subtitle,
-        type: data.type
+        category: data.category
     }
 });
 
