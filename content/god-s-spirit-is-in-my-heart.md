@@ -1,8 +1,13 @@
 ---
-id: 195
+id: 116
 title: God's Spirit Is In My Heart
 category: entrance
 ---
+
+1. God's Spirit is in my heart,
+He has called me and set me apart,
+This is what I have to do,
+What I have to do.
 
 _Chorus:_
 _He sent me to give the Good News to the poor_
@@ -13,11 +18,6 @@ _And go tell ev'ryone_
 _the news that the kingdom of God has come,_
 _And go tell ev'ryone_
 _the news that God's kingdom has come._
-
-1. God's Spirit is in my heart,
-He has called me and set me apart,
-This is what I have to do,
-What I have to do.
 
 2. Just as the Father sent me,
 So I'm sending you out to be,

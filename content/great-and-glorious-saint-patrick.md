@@ -1,10 +1,10 @@
 ---
-id: 204
+id: 120
 title: Great and Glorious Saint Patrick
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Great and glorious St. Patrick,_
 _Pray for thy dear country._
 _Great and glorious St. Patrick,_

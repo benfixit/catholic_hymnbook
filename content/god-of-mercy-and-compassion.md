@@ -1,19 +1,19 @@
 ---
-id: 193
+id: 111
 title: God of Mercy and Compassion
 category: entrance
 ---
+
+1. God of mercy and compassion,
+Look with pity upon me.
+Father, let me call the Father,
+'Tis thy child returns to thee.
 
 _Chorus:_
 _Jesus, Lord, I ask for mercy;_
 _Let me not implore in vain._
 _All my sins, I now detest them,_
 _Never will I sin again._
-
-1. God of mercy and compassion,
-Look with pity upon me.
-Father, let me call the Father,
-'Tis thy child returns to thee.
 
 2. By my sins I have deservèd
 Death and endless misery,

@@ -1,3 +1,5 @@
 1. Add debounce to the search functionality
-2. Type the next 10 hymns
+2. Add dark theme functionality
 3. Hymn app Icons and images
+4. Group by categories
+5. Share on Whatsapp

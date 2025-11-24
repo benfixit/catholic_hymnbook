@@ -1,5 +1,5 @@
 ---
-id: 124
+id: 0000
 title: Come, Ye Faithful, Raise the Strain
 category: entrance
 ---

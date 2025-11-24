@@ -1,10 +1,10 @@
 ---
-id: 187
+id: 110
 title: God Loves a Cheerful Giver
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _God Loves a Cheerful Giver_
 _Give it all you've got,_
 _He loves to hear you laughing_

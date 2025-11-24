@@ -1,5 +1,5 @@
 ---
-id: 121
+id: 72
 title: Come, Thou Almighty King
 category: entrance
 ---
@@ -8,30 +8,30 @@ category: entrance
 Help us thy name to sing,
 Help us to praise.
 Father all glorious,
-O'er all victorious,
-Come, and reign over us,
+Wholly victorious,
+Come, and rule over us,
 Ancient of Days.
 
 2. Come, thou Incarnate Word,
-Who for us death endured,
+And make your message heard,
 Our prayer attend;
-Come and thy people bless,
-And give thy word success;
-Fill us with righteousness,
-Savior and friend.
+Come and your people bless,
+And give your word success;
+And let your holiness,
+to us descend.
 
 3. Come, Holy Comforter,
-Thy sacred witness bear
+Your sacred witness bear,
 In this glad hour;
-To us thy grace impart;
-And rule in ev'ry heart!
-Never from us depart,
+You who almighty art,
+Enlighten every heart
+From us do not depart,
 Spirit of pow'r!
 
-4. To thee, O Trinity,
-Eternal praises be
-Forever more!
-Thy sov'reign majesty
+4. To You, great One in Three,
+Eternal praises be,
+Hence, ever more!
+Your sovereign majesty
 May we in glory see,
 And to eternity
 Love and adore!

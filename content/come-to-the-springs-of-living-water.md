@@ -1,10 +1,10 @@
 ---
-id: 115
+id: 75
 title: Come to the Springs of Living Water
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Come to the springs of living water_
 _Flowing from the heart of God._
 

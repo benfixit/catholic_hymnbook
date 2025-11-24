@@ -1,10 +1,10 @@
 ---
-id: 179
+id: 102
 title: Glory to God Glory
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Glory to God, Glory,_
 _O praise Him, alleluia._
 _Glory to God, Glory,_

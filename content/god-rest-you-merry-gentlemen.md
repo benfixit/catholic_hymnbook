@@ -1,19 +1,19 @@
 ---
-id: 191
+id: 114
 title: God Rest You Merry, Gentlemen
 category: entrance
 ---
-
-_Chorus:_
-_O tidings of comfort and joy, comfort and joy;_
-_O tidings of comfort and joy!_
 
 1. God rest you mery, gentlemen,
 Let nothing you dismay;
 Remember Christ our Savior
 Was born on Christmas day,
 To save us all from Satan's pow'r
-When we were gone astray:
+When we were gone astray.
+
+_Chorus:_
+_O tidings of comfort and joy, comfort and joy;_
+_O tidings of comfort and joy!_
 
 2. In Bethlehem in Jewry
 This blessed Babe was born,

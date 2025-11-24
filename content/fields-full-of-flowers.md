@@ -1,18 +1,18 @@
 ---
-id: 159
+id: 92
 title: Fields Full of Flowers
 category: entrance
 ---
-
-_Chorus:_
-_All of the heavens and all of the earth_
-_Will praise the Holy of Holies._
 
 1. Fields full of flowers and woods full of pine,
 And the waters clear and blue.
 Every bird who is winging thru' the sky overhead
 Lifts our hearts to thoughts of you God of hosts,
 They lift our hearts to you.
+
+_Chorus:_
+_All of the heavens and all of the earth_
+_Will praise the Holy of Holies._
 
 2. Who will go up to the mountain of God?
 Who will see his holy place?

@@ -1,10 +1,10 @@
 ---
-id: 180
+id: 103
 title: Glory to God O Praise Him, Alleuia
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Glory to God, Glory, O praise Him, alleluia!_
 _Glory to God, Glory, O praise the name of the Lord._
 

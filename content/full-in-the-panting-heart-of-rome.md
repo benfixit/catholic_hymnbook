@@ -1,19 +1,19 @@
 ---
-id: 172
+id: 98
 title: Full in the Panting Heart of Rome
 category: entrance
 ---
+
+1. Full in the panting heart of Rome,
+Beneath th'apostle's crowning dome,
+From pilgrims' lips that kiss the ground,
+Breathes in all tongues only one sound.
 
 _Chorus:_
 _"God bless our Pope,_
 _God bless our Pope,_
 _God bless our Pope,_
 _the great, the good."_
-
-1. Full in the panting heart of Rome,
-Beneath th'apostle's crowning dome,
-From pilgrims' lips that kiss the ground,
-Breathes in all tongues only one sound.
 
 2. The golden roof, the marble walls,
 The Vatican's majestic halls,

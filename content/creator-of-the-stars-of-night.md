@@ -1,5 +1,5 @@
 ---
-id: 127
+id: 0000
 title: Creator of the Stars of Night
 category: entrance
 ---

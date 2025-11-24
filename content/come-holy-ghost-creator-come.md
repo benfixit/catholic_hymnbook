@@ -1,6 +1,7 @@
 ---
-id: 118
+id: 65
 title: Come, Holy Ghost, Creator Come
+subtitle: (Veni Creator Spiritus)
 category: entrance
 ---
 
@@ -32,10 +33,10 @@ Beneath thy sacred wing.
 6. Through thee may we the Father know,
 Through thee th'eternal Son,
 And thee the Spirit of them both,
-Thrice-blessed Three in ONe.
+Thrice-blessed Three in One.
 
 7. All glory to the Father be,
 With his co-equal Son:
 The same to thee, great Paraclete,
-While endless ages run.
+While endless ages run. Amen.
 

@@ -1,10 +1,10 @@
 ---
-id: 200
+id: 121
 title: Great Indeed are your Works, O Lord
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Great indeed are Your works,O Lord_
 _Now and evermore._
 _Great indeed are Your works,O Lord_

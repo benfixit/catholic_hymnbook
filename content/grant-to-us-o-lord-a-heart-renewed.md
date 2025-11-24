@@ -1,10 +1,10 @@
 ---
-id: 199
+id: 119
 title: Grant to Us O Lord, a Heart Renewed
 category: entrance
 ---
 
-_Chorus:_
+_Antiphon:_
 _Grant to us, O Lord, a heart renewed;_
 _Recreate in us Your own Spirit, Lord!_
 

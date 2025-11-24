@@ -1,10 +1,10 @@
 ---
-id: 181
+id: 104
 title: Glory to God on High
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Glory to God on high;_
 _Peace to all good men._
 _Honour and praise Him all of our days_

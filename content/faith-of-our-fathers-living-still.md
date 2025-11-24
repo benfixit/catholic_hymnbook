@@ -1,17 +1,17 @@
 ---
-id: 156
+id: 90
 title: Faith of our Fathers Living Still
 category: entrance
 ---
-
-_Chorus:_
-_Faith of our fathers! Holy faith!_
-_We will be true to Thee till death!_
 
 1. Faith of our fathers, living still
 In spite of dungeon, fire and sword,
 O how our hearts beat high with joy
 Whene'er we hear that glorious word!
+
+_Chorus:_
+_Faith of our fathers! Holy faith!_
+_We will be true to Thee till death!_
 
 2. Our fathers, chained in prisons dark,
 Were still in heart and conscience free;

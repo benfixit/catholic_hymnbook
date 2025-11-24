@@ -1,10 +1,10 @@
 ---
-id: 165
+id: 96
 title: For We Are One in the Love of Christ
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _For we are one in the love of Christ._
 _If we die with him, we will rise up to life._
 

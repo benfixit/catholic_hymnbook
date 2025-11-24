@@ -1,10 +1,10 @@
 ---
-id: 108
+id: 68
 title: Come Lord Jesus The Light is Dying
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Come Lord Jesus, the light is dying,_
 _The night keeps crying,_
 _Come Lord Jesus._

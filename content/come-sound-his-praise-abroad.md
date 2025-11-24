@@ -1,19 +1,20 @@
 ---
-id: 111
+id: 71
 title: Come Sound His Praise Abroad
+subtitle: (Psalm 95)
 category: entrance
 ---
+
+1. Come, sound his praise abroad,
+And hymns of glory sing:
+Jesus is the sovereign Lord,
+The universal King.
 
 _Chorus:_
 _Praise ye the Lord, Alleluia!_
 _Praise ye the Lord, Alleluia!_
 _Alleluia, Alleluia, Alleluia!_
 _Praise ye the Lord._
-
-1. Come, sound his praise abroad,
-And hymns of glory sing:
-Jesus is the sovereign Lord,
-The universal King.
 
 2. He formed the deeps unknown;
 He gave the seas their bound;

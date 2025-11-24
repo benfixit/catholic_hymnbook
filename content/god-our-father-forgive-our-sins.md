@@ -1,19 +1,19 @@
 ---
-id: 189
+id: 113
 title: God Our Father Forgive Our Sins
 category: entrance
 ---
+
+1. God our Father, forgive our sins,
+For we are very weak,
+God our Father, we hope in Thee
+Throughout our lives.
 
 _Chorus:_
 _Remember the Lord,_
 _The King of earth,_
 _And of the sea,_
 _Of heaven above._
-
-1. God our Father, forgive our sins,
-For we are very weak,
-God our Father, we hope in Thee
-Throughout our lives.
 
 2. Lord, show us Thy way,
 To do according to Thy will.

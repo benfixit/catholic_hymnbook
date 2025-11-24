@@ -1,19 +1,19 @@
 ---
-id: 184
+id: 107
 title: God Be with You till We Meet Again
 category: entrance
 ---
+
+1. God be with you till we meet again!
+By his counsels guide, uphold you;
+With his sheep securely fold you;
+God be with you till we meet again!
 
 _Chorus:_
 _Till we meet! Till we meet!_
 _Till we meet at Jesus feet!_
 _Till we meet! Till we meet!_
 _God be with you till we meet again!_
-
-1. God be with you till we meet again!
-By his counsels guide, uphold you;
-With his sheep securely fold you;
-God be with you till we meet again!
 
 2. God be with you till we meet again!
 'Neath His wings securely hide you;

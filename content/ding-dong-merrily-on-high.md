@@ -1,17 +1,17 @@
 ---
-id: 143
+id: 84
 title: Ding Dong! Merrily on High
 category: entrance
 ---
-
-_Chorus:_
-_Gloria, Hosanna in excelsis!_
-_Gloria, Hosanna in excelsis!_
 
 1. Ding dong! Merrily on high!
 In heav'n the bells are ringing;
 ding dong! Verily the sky
 Is riv'n with angels singing.
+
+_Chorus:_
+_Gloria, Hosanna in excelsis!_
+_Gloria, Hosanna in excelsis!_
 
 2. E'en so here below, below,
 Let steeple bells be swungen,

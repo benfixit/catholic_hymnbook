@@ -1,5 +1,5 @@
 ---
-id: 185
+id: 108
 title: God Give His People Strength
 category: entrance
 ---

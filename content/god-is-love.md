@@ -1,10 +1,10 @@
 ---
-id: 186
+id: 109
 title: God Is Love
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _God is love, and he who abides in love_
 _Abides in God and God in him._
 

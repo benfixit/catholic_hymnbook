@@ -1,5 +1,5 @@
 ---
-id: 132
+id: 77
 title: Daily, Daily, Sing to Mary
 category: entrance
 ---
@@ -31,7 +31,16 @@ Sing the world's majestic Queen:
 Weary not nor faint in telling,
 All the gifts she gives to men.
 
-4. All our joys do flow from Mary;
+4. All my senses, heart, affections
+Strive to sound her glory forth,
+Spread abroad the sweet memorials
+Of the Virgin's priceless worth.
+Where the voice of music thrilling,
+Where the tongues of eloquence,
+That can utter hymns beseeming
+All her matchless excellence.
+
+5. All our joys do flow from Mary;
 All then join her praise to sing:
 Trembling sing the Virgin Mother,
 Mother of our Lord and King.

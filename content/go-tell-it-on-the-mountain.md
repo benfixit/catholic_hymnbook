@@ -1,10 +1,10 @@
 ---
-id: 183
+id: 106
 title: Go Tell It on the Mountain
 category: entrance
 ---
 
-_Chorus:_
+_Refrain:_
 _Go, tell it on the mountain,_
 _Over the hills and everywhere._
 _Go tell it on the mountain,_
