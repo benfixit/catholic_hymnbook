@@ -30,7 +30,8 @@ export default function Index() {
                 router.push({ pathname: `/hymns/${item.id}` });
             }} style={({ pressed }) => [{ backgroundColor: pressed ? 'rgb(210, 230, 255)' : 'white'}, styles.pressable]}>
                 <View style={styles.view}>
-                    <Text style={styles.text}>{item.id}. {item.title}</Text>
+                    {/* <Text style={styles.text}>{item.id}. {item.title}</Text> */}
+                    <Text style={styles.text}>{item.title}</Text>
                 </View>
             </Pressable>
         );
