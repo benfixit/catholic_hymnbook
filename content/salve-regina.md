@@ -1,0 +1,18 @@
+---
+id: 548
+title: Salve, Regina
+category: entrance
+---
+
+1. Salve, Regina, mater misericordiae:
+Vita, dulcedo, et spes nostra, salve.
+Ad te clamamus, exsules, filii Hevae.
+Ad te suspiramus, gementes et flentes
+In hac lacrimarum valle.
+Eia ergo, Advocata nostra,
+Illos tuos misericordes oculos
+Ad nos converte.
+Et Iesum, benedictum fructum ventris tui,
+Nobis, post hoc exsilium ostende.
+O clemens, O pia: O dulcis Virgo Maria.
+

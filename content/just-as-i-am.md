@@ -1,0 +1,26 @@
+---
+id: 328
+title: Just As I Am
+category: entrance
+---
+
+1. Just as I am, without one plea,
+But that Thy blood was shed for me,
+And that Thou bid'st me come to Thee,
+O Lamb of God, I come, I come.
+
+2. Just as I am, though tossed about
+With many a conflict, many doubts,
+Fightings and fears within, without,
+O Lamb of God, I come, I come.
+
+3. Just as I am, poor, wretched, blind;
+Sight, riches, healing of the mind,
+Yea, all I need, in Thee to find,
+O Lamb of God, I come,I come.
+
+4. Just as I am, Thou wilt receive,
+Wilt welcome, pardon, cleanse, relieve;
+Because Thy promise I believe,
+O Lamb of God, I come, I come.
+

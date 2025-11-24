@@ -1,0 +1,19 @@
+---
+id: 24
+title: Anima Christi
+category: entrance
+---
+
+Anima Christi, sanctifica me,
+Corpus Christi, salva me,
+Sanguis Christi, inebria me,
+Aqua lateris Christi, lava me
+Passio Christi, conforta me.
+O bone Jesu, exaudi me,
+Intra tua vulnera absconde me
+Ne permittas me separari a te
+Ab hoste maligno defende me
+In hora mortis meae voca me,
+Et iube me venire ad te,
+Ut cum Sanctis tuis laudem te
+In saecula saeculorum. Amen.
