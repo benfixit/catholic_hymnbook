@@ -1,3 +1,4 @@
+import { useTheme } from "@/store/ThemeProvider";
 import React, { useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
 
@@ -7,7 +8,6 @@ type Props = {
 
 const SearchBox: React.FC<Props> = ({ onSearch }) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
-
     const handleChange = (text: string) => {
         setSearchTerm(text);
 

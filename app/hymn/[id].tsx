@@ -4,6 +4,7 @@ import { Link, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
 import Markdown from "react-native-markdown-display";
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HymnScreen() {
   const [content, setContent] = useState();
@@ -11,13 +12,17 @@ export default function HymnScreen() {
   const { selectedHymn } = useHymns();
 
   return (
-    <ScrollView style={{ height: "100%" }} contentInsetAdjustmentBehavior='automatic'>
-      <View style={wrapper.view}>
-        <Markdown style={styles}>
-          {selectedHymn.content}
-        </Markdown>
-      </View>
-    </ScrollView>
+    <SafeAreaProvider>
+      <SafeAreaView>
+        <ScrollView showsVerticalScrollIndicator={false} style={{ height: "100%" }} contentInsetAdjustmentBehavior='automatic'>
+          <View style={wrapper.view}>
+            <Markdown style={styles}>
+              {selectedHymn.content}
+            </Markdown>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 

@@ -2,7 +2,13 @@ import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useStat
 import { HymnType, Optional } from "../typings";
 import hymns from "../assets/hymns/index.json";
 
-const HymnContext = createContext<{ hymns: HymnType[], selectedHymn: Optional<HymnType>, setHymn: Dispatch<SetStateAction<HymnType>> }>({
+type Props = {
+    hymns: HymnType[], 
+    selectedHymn: Optional<HymnType>, 
+    setHymn: Dispatch<SetStateAction<HymnType>>
+};
+
+const HymnContext = createContext<Props>({
     hymns: [],
     selectedHymn: undefined,
     setHymn: () => {}

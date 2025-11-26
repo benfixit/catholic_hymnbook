@@ -3,3 +3,7 @@
 3. Hymn app Icons and images
 4. Group by categories
 5. Share on Whatsapp
+6. Style the status bar and back button
+7. Make the title bar break long text to the next line
+8. Support old and new number
+9. save user theme preference

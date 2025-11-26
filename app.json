@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "hymnbook",
+    "name": "Catholic Hymnbook (Nigeria)",
     "slug": "hymnbook",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "hymnbook",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -26,12 +26,6 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      [
-        "expo-asset",
-        {
-          "assets": ["content/about.md"]
-        }
-      ],
       "expo-router",
       [
         "expo-splash-screen",
