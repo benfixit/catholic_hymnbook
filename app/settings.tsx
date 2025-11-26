@@ -1,50 +1,58 @@
 //@ts-nocheck
 import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
+import Ionicons from '@react-native-vector-icons/ionicons';
 import { Link, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Text, View, StyleSheet, ScrollView, Button } from 'react-native';
+import { Text, View, StyleSheet, ScrollView, Button, Pressable } from 'react-native';
 import Markdown from "react-native-markdown-display";
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { DARK_THEME, LIGHT_THEME, AUTO_THEME } from '@/constants/theme';
+import SettingsButton from '@/components/SettingsButton';
+import { ThemeType } from '@/typings';
 
 export default function SettingsScreen() {
-    const { theme, toggleTheme } = useTheme();
-
-    const handlePress = () => {
-        toggleTheme();
-    }
+    const [isActive, setIsActive] = useState(false);
+    const { theme, toggleTheme, setToSystemTheme } = useTheme();
 
   return (
-    <View>
-      
-    </View>
+    <SafeAreaProvider>
+      <SafeAreaView>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View style={styles.container}>
+            <Text style={styles.themeTitle}>Theme</Text>
+            <View style={styles.themeGroup}>
+              <SettingsButton title='Dark' icon='moon-outline' isActive={theme === DARK_THEME} onPress={() => toggleTheme(DARK_THEME)} />
+              <SettingsButton title='Light' icon='sunny-outline' isActive={theme === LIGHT_THEME} onPress={() => toggleTheme(LIGHT_THEME)} />
+            </View>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
 const styles = StyleSheet.create({
-  paragraph: {
-    fontSize: 18,
-    marginBottom: 8,
-    marginTop: 8
+  container: {
+    padding: 16
   },
-  ordered_list_icon: {
-    fontSize: 18,
-    fontWeight: "bold",
-    marginBottom: 8,
+  themeTitle: {
+    fontWeight: 700
+  },
+  pressable: {
+    borderColor: "#cdcdcd",
+    borderWidth: 1,
+    backgroundColor: "#ffffff",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    padding: 16,
     marginTop: 8,
-  },
-  ordered_list_content: {
-    fontSize: 18,
     marginBottom: 8,
-    marginTop: 8,
+    borderRadius: 8
   },
-  list_item: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-  }
-});
-
-const wrapper = StyleSheet.create({
-  view: {
-    padding: 24
-  }
+  pressableView: {
+    display: "flex",
+    flexDirection: "row"
+  },
 });

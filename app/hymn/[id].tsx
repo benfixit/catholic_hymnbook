@@ -1,5 +1,6 @@
 //@ts-nocheck
 import { useHymns } from '@/store/HymnProvider';
+import { useTheme } from '@/store/ThemeProvider';
 import { Link, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
@@ -10,13 +11,16 @@ export default function HymnScreen() {
   const [content, setContent] = useState();
   const { id } = useLocalSearchParams();
   const { selectedHymn } = useHymns();
+  const { colors } = useTheme();
+  const wrapper = makeStyles(colors);
+  const markdown = makeMarkdownStyles(colors);
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView>
-        <ScrollView showsVerticalScrollIndicator={false} style={{ height: "100%" }} contentInsetAdjustmentBehavior='automatic'>
+      <SafeAreaView style={wrapper.safeArea}>
+        <ScrollView showsVerticalScrollIndicator={false} style={wrapper.scrollView} contentInsetAdjustmentBehavior='automatic'>
           <View style={wrapper.view}>
-            <Markdown style={styles}>
+            <Markdown style={markdown}>
               {selectedHymn.content}
             </Markdown>
           </View>
@@ -26,31 +30,46 @@ export default function HymnScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  paragraph: {
-    fontSize: 18,
-    marginBottom: 8,
-    marginTop: 8
-  },
-  ordered_list_icon: {
-    fontSize: 18,
-    fontWeight: "bold",
-    marginBottom: 8,
-    marginTop: 8,
-  },
-  ordered_list_content: {
-    fontSize: 18,
-    marginBottom: 8,
-    marginTop: 8,
-  },
-  list_item: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-  }
-});
+const makeMarkdownStyles = (colors) => {
+  return StyleSheet.create({
+    paragraph: {
+      color: colors.text,
+      fontSize: 18,
+      marginBottom: 12,
+      marginTop: 12
+    },
+    ordered_list_icon: {
+      fontSize: 18,
+      fontWeight: "bold",
+      marginBottom: 12,
+      marginTop: 12,
+    },
+    ordered_list_content: {
+      fontSize: 18,
+      marginBottom: 12,
+      marginTop: 12,
+    },
+    list_item: {
+      color: colors.text,
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+    }
+  });
+}
 
-const wrapper = StyleSheet.create({
-  view: {
-    padding: 24
-  }
-});
+const makeStyles = (colors) => {
+  return StyleSheet.create({
+    safeArea: {
+      backgroundColor: colors.background,
+    },
+    scrollView: {
+      backgroundColor: colors.background,
+      height: "100%"
+    },
+    view: {
+      padding: 24,
+      backgroundColor: colors.background,
+      color: colors.text,
+    }
+  });
+}

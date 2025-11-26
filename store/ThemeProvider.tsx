@@ -1,33 +1,31 @@
 import * as React from 'react';
-import { useState, useEffect, createContext, ReactNode, Dispatch, SetStateAction } from 'react';
-import { useColorScheme } from 'react-native';
+import { useState, useEffect, createContext, ReactNode } from 'react';
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
-import { Colors } from '@/constants/theme';
+import { Colors, LIGHT_THEME } from '@/constants/theme';
+import { ThemeType } from '@/typings';
 
 const STORAGE_KEY = "theme_store"
 
 type Props = {
-  isDark: boolean;
   colors: Record<string, string>;
-  theme: string;
-  toggleTheme: Dispatch<SetStateAction<string>>;
+  theme: ThemeType;
+  toggleTheme: Function;
 };
 
-const ThemeContext = createContext<Props>({ isDark: false, colors: {}, theme: "", toggleTheme: () => {}});
+const ThemeContext = createContext<Props>({ colors: {}, theme: LIGHT_THEME, toggleTheme: () => {} });
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-    const [theme, setTheme] = useState(useColorScheme() ?? 'light');
+    const [theme, setTheme] = useState<ThemeType>(LIGHT_THEME);
     const { getItem, setItem } = useAsyncStorage(STORAGE_KEY);
 
-    const isDark = theme === "dark";
+    // if it is automatic, use the system value
     const colors = Colors[theme];
 
     useEffect(() => {
       const getTheme = async () => {
-        const data = await getItem() || 'light';
+        const data = await getItem() as ThemeType;
 
-        // @ts-ignore
-        setTheme(data);
+        setTheme(data ?? LIGHT_THEME);
       }
 
       getTheme();
@@ -35,26 +33,24 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
 
 
-    const toggleTheme = async () => {
-      const newTheme = theme === "dark" ? "light" : "dark";
-      setTheme(newTheme);
-
-      setItem(newTheme);
+    const toggleTheme = async (theme: ThemeType) => {
+      setTheme(theme);
+      setItem(theme);
     }
 
     return (
-    <ThemeContext.Provider value={{ isDark, colors, theme, toggleTheme }}>{children}</ThemeContext.Provider>
+    <ThemeContext.Provider value={{ colors, theme, toggleTheme }}>{children}</ThemeContext.Provider>
   );
 }
 
 export function useTheme() {
-  const { isDark, colors } = React.useContext(ThemeContext);
+  const { theme, ...rest } = React.useContext(ThemeContext);
 
-  if (colors == null) {
+  if (theme == null) {
     throw new Error(
       "Couldn't find a theme. Is your component inside NavigationContainer or does it have a theme?"
     );
   }
 
-  return { isDark, colors };
+  return { theme, ...rest };
 }

@@ -1,11 +1,11 @@
 import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, useColorScheme, View } from 'react-native';
-import HymnProvider from '@/store/HymnProvider';
-import { ThemeProvider } from '@/store/ThemeProvider';
+import { StyleSheet, View } from 'react-native';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem, DrawerItemList } from '@react-navigation/drawer';
 import { Ionicons } from '@react-native-vector-icons/ionicons';
+import HymnProvider from '@/store/HymnProvider';
+import { ThemeProvider } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
 
 const CustomDrawerContent = (props: DrawerContentComponentProps) => {
@@ -24,7 +24,16 @@ export default function RootLayout() {
   return (
     <ThemeProvider>
       <HymnProvider>
-        <Drawer drawerContent={CustomDrawerContent}>
+        <Drawer 
+          drawerContent={CustomDrawerContent} 
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: "#0078d7"
+            },
+            headerTintColor: "#ffffff",
+            
+          }}
+          >
           <Drawer.Screen 
             name='index' options={{ 
               title: "Catholic Hymnbook (Nigeria)", 
@@ -70,8 +79,6 @@ export default function RootLayout() {
           },
           headerRight: () => <Right />
         }}>
-          <Stack.Screen name="index" options={{ headerTitle: "Catholic Hymnbook (Nigeria)" }} />
-          <Stack.Screen name="hymn" />
         </Stack>
         <StatusBar style="auto" /> */}
       </HymnProvider>

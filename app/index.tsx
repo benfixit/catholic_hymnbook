@@ -9,10 +9,9 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
     const { hymns, setHymn } = useHymns();
-    const { colors } = useTheme();
+    const { colors, theme } = useTheme();
     const [filteredHymns, setFilteredHymns] = useState(hymns);
-    const styles = useMemo(() => makeStyles(colors), [colors])
-    
+    const styles = useMemo(() => makeStyles(colors), [colors])    
 
     const onSearch = (searchTerm) => {
         const newHymns = hymns.filter(hymn => {

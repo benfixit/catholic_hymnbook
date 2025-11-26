@@ -1,14 +1,19 @@
 import { Redirect, router, Slot, Stack } from "expo-router";
-import { useHymns } from "@/store/HymnProvider";
-import { HeaderBackButton } from "@react-navigation/elements";
+import { StyleSheet } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
+import { HeaderBackButton } from "@react-navigation/elements";
+import { useHymns } from "@/store/HymnProvider";
+
+
+
 
 
 const HymnLayout = () => {
     const { selectedHymn } = useHymns();
 
     const HeaderLeft = () => {
-        return <HeaderBackButton backImage={() => <Ionicons name="arrow-back-outline" size={24} style={{ padding: 12 }} />} onPress={() => router.back()}></HeaderBackButton>
+        return <HeaderBackButton 
+                    backImage={() => <Ionicons name="arrow-back-outline" size={24} style={styles.backButton} />} onPress={() => router.back()}></HeaderBackButton>
     }
 
     if (!selectedHymn) {
@@ -30,5 +35,12 @@ const HymnLayout = () => {
 
     );
 }
+
+const styles = StyleSheet.create({
+    backButton: {
+        color: "#ffffff",
+        padding: 12,
+    }
+});
 
 export default HymnLayout;

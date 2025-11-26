@@ -1,3 +1,5 @@
+import { LIGHT_THEME, DARK_THEME, AUTO_THEME } from "@/constants/theme";
+
 export type HymnType = {
     id: number,
     slug: string,
@@ -14,6 +16,8 @@ export enum Category {
     RECESSIONAL,
     ADVENT
 }
+
+export type ThemeType = "light" | "dark"
 
 export type Nullable<T> = HymnType | null;
 
