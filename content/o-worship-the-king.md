@@ -1,7 +1,7 @@
 ---
 id: 494
 title: O Worship the King
-category: entrance
+
 ---
 
 1. O worship the King, all glorious above!

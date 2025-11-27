@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: For All the Saints
-category: entrance
+
 ---
 
 _Chorus:_

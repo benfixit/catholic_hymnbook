@@ -1,7 +1,7 @@
 ---
 id: 284
 title: O King of Might and Splendour
-category: communion
+
 ---
 
 1. O King of might and splendour,

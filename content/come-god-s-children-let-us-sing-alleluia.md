@@ -1,7 +1,7 @@
 ---
 id: 64
 title: Come God's Children Let Us Sing, Alleluia!
-category: offertory
+
 ---
 
 1. Come God's children let us sing, Alleluia,

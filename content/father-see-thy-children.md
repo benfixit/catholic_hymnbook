@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Father, See Thy Children
-category: entrance
+
 ---
 
 1. Father, see thy children bending at thy throne,

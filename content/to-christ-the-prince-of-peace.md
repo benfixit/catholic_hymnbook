@@ -1,7 +1,6 @@
 ---
 id: 645
 title: To Christ the Prince of Peace
-category: entrance
 ---
 
 1. To Christ, the Prince of peace,

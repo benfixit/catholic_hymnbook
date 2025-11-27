@@ -1,7 +1,7 @@
 ---
 id: 272
 title: I Believe That Jesus Died For Me
-category: offertory
+
 ---
 
 _Chorus:_

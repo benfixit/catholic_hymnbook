@@ -1,7 +1,7 @@
 ---
 id: 569
 title: Sing them Over Again to Me
-category: entrance
+
 ---
 
 _Chorus:_

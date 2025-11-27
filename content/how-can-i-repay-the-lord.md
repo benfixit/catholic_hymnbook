@@ -1,7 +1,7 @@
 ---
 id: 261
 title: How Can I Repay the Lord
-category: offertory
+
 ---
 
 _Chorus:_

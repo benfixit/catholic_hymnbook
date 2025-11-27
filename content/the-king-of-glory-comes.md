@@ -1,7 +1,6 @@
 ---
-id: 617
+id: 377
 title: The King of Glory Comes
-category: entrance
 ---
 
 _Chorus:_

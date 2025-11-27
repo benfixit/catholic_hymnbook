@@ -1,7 +1,7 @@
 ---
-id: 359
+id: 224
 title: Long Time Ago In Bethlehem
-category: entrance
+
 ---
 
 _Chorus:_

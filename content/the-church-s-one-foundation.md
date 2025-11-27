@@ -1,7 +1,7 @@
 ---
 id: 604
 title: The Church's One Foundation
-category: entrance
+
 ---
 
 1. The Church's one foundation

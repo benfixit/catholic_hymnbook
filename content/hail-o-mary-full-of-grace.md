@@ -1,7 +1,7 @@
 ---
 id: 129
 title: Hail O Mary Full of Grace
-category: advent
+
 ---
 
 1. Hail, O Mary, full of grace,

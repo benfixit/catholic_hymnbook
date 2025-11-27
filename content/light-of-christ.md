@@ -1,7 +1,7 @@
 ---
 id: 219
 title: Light of Christ
-category: recessional
+
 ---
 
 _Chorus:_

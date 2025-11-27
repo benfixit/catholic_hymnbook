@@ -1,7 +1,6 @@
 ---
-id: 652
+id: 400
 title: Unto Us Is Born A Son
-category: entrance
 ---
 
 1. Unto us is born a Son,

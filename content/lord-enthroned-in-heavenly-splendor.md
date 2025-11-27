@@ -1,7 +1,7 @@
 ---
 id: 369
 title: Lord, Enthroned in Heavenly Splendor
-category: entrance
+
 ---
 
 1. Lord, enthroned in heav'nly splendor,

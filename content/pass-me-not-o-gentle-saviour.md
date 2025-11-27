@@ -1,7 +1,7 @@
 ---
 id: 313
 title: Pass Me Not O Gentle Saviour
-category: communion
+
 ---
 
 _Chorus:_

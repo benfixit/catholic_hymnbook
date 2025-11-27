@@ -1,7 +1,7 @@
 ---
 id: 76
 title: Crown Him with Many Crowns
-category: entrance
+
 ---
 
 1. Crown him with many crowns,

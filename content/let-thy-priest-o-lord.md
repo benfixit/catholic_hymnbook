@@ -1,7 +1,7 @@
 ---
 id: 339
 title: Let Thy Priest O Lord
-category: entrance
+
 ---
 
 _Chorus:_

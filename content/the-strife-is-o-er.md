@@ -1,7 +1,7 @@
 ---
 id: 627
 title: The Strife Is O'er
-category: entrance
+
 ---
 
 _Chorus:_

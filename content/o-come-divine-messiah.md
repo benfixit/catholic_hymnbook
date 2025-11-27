@@ -1,7 +1,7 @@
 ---
 id: 433
 title: O Come, Divine Messiah
-category: entrance
+
 ---
 
 _Chorus:_

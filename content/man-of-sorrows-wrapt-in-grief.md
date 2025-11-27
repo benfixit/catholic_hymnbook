@@ -1,7 +1,7 @@
 ---
-id: 386
+id: 240
 title: Man of Sorrows Wrapt in Grief
-category: entrance
+
 ---
 
 1. Man of sorrows wrapt in grief,

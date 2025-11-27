@@ -1,7 +1,7 @@
 ---
 id: 482
 title: O Sanctissima
-category: entrance
+
 ---
 
 1. O sanctíssima,

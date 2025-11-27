@@ -1,7 +1,6 @@
 ---
-id: 673
+id: 416
 title: We Shall Go Up With Joy
-category: entrance
 ---
 
 _Chorus:_

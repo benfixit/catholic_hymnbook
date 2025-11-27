@@ -1,7 +1,7 @@
 ---
-id: 507
+id: 304
 title: Once in Royal David's City
-category: entrance
+
 ---
 
 1. Once in royal David's city

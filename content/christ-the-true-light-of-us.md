@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Christ, the True Light of Us
-category: entrance
+
 ---
 
 1. Christ, the true light of us, true morn,

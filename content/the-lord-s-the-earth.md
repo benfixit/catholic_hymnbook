@@ -1,7 +1,6 @@
 ---
-id: 624
+id: 379
 title: The Lord's the Earth
-category: entrance
 ---
 
 _Chorus:_

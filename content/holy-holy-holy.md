@@ -1,7 +1,6 @@
 ---
-id: 259
+id: 156
 title: Holy, Holy, Holy
-category: entrance
 ---
 
 1. Holy, holy, holy! Lord God Almighty!

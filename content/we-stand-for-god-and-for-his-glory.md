@@ -1,7 +1,7 @@
 ---
 id: 417
 title: We Stand for God and for His Glory
-category: recessional
+
 ---
 
 _Chorus:_

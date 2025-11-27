@@ -1,7 +1,7 @@
 ---
 id: 518
 title: Peace, Perfect Peace
-category: entrance
+
 ---
 
 1. Peace, perfect peace,

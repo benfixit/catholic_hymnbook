@@ -1,7 +1,6 @@
 ---
-id: 642
+id: 391
 title: This is the day that the Lord Has Made
-category: entrance
 ---
 
 _Chorus:_

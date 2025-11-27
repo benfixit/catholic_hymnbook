@@ -1,7 +1,7 @@
 ---
 id: 322
 title: Jesus, the Very Thought of Thee
-category: entrance
+
 ---
 
 1. Jesus, the very thought of thee

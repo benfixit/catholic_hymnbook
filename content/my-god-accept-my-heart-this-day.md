@@ -1,7 +1,7 @@
 ---
 id: 399
 title: My God, Accept My Heart This Day
-category: entrance
+
 ---
 
 1. My God, accept my heart this day,

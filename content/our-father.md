@@ -1,7 +1,7 @@
 ---
 id: 511
 title: Our Father
-category: entrance
+
 ---
 
 1. Father, who art in Heaven,

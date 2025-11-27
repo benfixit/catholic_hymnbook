@@ -1,7 +1,7 @@
 ---
 id: 167
 title: Humbly Let Us Voice Our Homage (Tantum Ergo)
-category: communion
+
 ---
 
 1. Humbly let us voice our homage

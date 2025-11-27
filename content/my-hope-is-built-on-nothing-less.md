@@ -1,7 +1,7 @@
 ---
 id: 401
 title: My Hope Is Built on Nothing Less
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 286
 title: I, the Lord of Sea and Sky
-category: entrance
+
 ---
 
 _Chorus:_

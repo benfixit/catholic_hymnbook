@@ -1,7 +1,7 @@
 ---
 id: 340
 title: Sent Forth By God's Blessing
-category: recessional
+
 ---
 
 1. Sent forth by God's blessing, our true faith confessing,

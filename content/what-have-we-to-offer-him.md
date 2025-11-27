@@ -1,7 +1,7 @@
 ---
 id: 425
 title: What Have We To Offer Him
-category: offertory
+
 ---
 
 1. What have we to offer Him

@@ -1,7 +1,7 @@
 ---
 id: 79
 title: Dear Angel, Ever at My Side
-category: entrance
+
 ---
 
 1. Dear angel, ever at my side,

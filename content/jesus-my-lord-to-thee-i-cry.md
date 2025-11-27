@@ -1,7 +1,7 @@
 ---
 id: 198
 title: Jesus, My Lord, to Thee I Cry
-category: communion
+
 ---
 
 _Chorus:_

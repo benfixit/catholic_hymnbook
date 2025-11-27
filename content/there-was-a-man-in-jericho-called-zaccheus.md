@@ -1,7 +1,7 @@
 ---
 id: 635
 title: There Was A Man in Jericho called Zaccheus
-category: entrance
+
 ---
 
 _Chorus:_

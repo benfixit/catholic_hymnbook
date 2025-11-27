@@ -1,7 +1,7 @@
 ---
-id: 512
+id: 309
 title: Our Lord is Risen From the Dead
-category: entrance
+
 ---
 
 _Chorus:_

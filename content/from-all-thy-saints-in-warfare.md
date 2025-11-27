@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: From All Thy Saints in Warfare
-category: entrance
+
 ---
 
 1. From all thy saints in warfare,

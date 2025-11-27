@@ -1,7 +1,7 @@
 ---
 id: 463
 title: O Lord My God
-category: entrance
+
 ---
 
 _Chorus:_

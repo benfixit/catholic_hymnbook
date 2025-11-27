@@ -1,7 +1,6 @@
 ---
 id: 648
 title: To Jesus' Heart All Burning
-category: entrance
 ---
 
 _Chorus:_

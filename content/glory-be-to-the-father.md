@@ -1,7 +1,7 @@
 ---
 id: 101
 title: Glory Be to the Father
-category: recessional
+
 ---
 
 1. Glory be to the Father,

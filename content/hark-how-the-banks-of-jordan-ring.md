@@ -1,7 +1,7 @@
 ---
 id: 232
 title: Hark! How the Banks of Jordan Ring
-category: entrance
+
 ---
 
 1. Hark how the banks of Jordan ring,

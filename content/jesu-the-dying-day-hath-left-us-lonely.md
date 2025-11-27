@@ -1,7 +1,7 @@
 ---
 id: 306
 title: Jesu! The Dying Day Hath Left Us Lonely
-category: entrance
+
 ---
 
 1. Jesu! the dying day hath left us lonely;

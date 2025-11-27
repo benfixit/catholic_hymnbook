@@ -1,7 +1,6 @@
 ---
-id: 616
+id: 376
 title: The Joy of the Lord
-category: entrance
 ---
 
 _Chorus:_

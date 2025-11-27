@@ -1,7 +1,7 @@
 ---
 id: 389
 title: This Is My Body Given For Your Freedom
-category: communion
+
 ---
 
 _Chorus:_

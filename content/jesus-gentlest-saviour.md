@@ -1,7 +1,7 @@
 ---
 id: 309
 title: Jesus Gentlest Saviour
-category: entrance
+
 ---
 
 1. Jesus, gentlest Savior!

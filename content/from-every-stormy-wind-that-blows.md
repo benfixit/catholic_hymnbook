@@ -1,7 +1,7 @@
 ---
 id: 97
 title: From Every Stormy Wind that Blows
-category: entrance
+
 ---
 
 1. From every stormy wind that blows,

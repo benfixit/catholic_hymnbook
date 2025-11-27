@@ -1,7 +1,7 @@
 ---
 id: 327
 title: Just A Closer Walk With Thee
-category: entrance
+
 ---
 
 _Chorus:_

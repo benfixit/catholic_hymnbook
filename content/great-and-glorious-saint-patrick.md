@@ -1,7 +1,7 @@
 ---
 id: 120
 title: Great and Glorious Saint Patrick
-category: entrance
+
 ---
 
 _Refrain:_

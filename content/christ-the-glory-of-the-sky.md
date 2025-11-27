@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Christ, the Glory of the Sky
-category: entrance
+
 ---
 
 1. Christ, the glory of the sky,

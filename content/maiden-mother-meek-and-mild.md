@@ -1,7 +1,7 @@
 ---
 id: 384
 title: Maiden Mother, Meek and Mild
-category: entrance
+
 ---
 
 1. Maiden Mother, meek and mild,

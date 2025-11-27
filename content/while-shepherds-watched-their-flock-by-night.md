@@ -1,7 +1,7 @@
 ---
-id: 697
+id: 435
 title: While Shepherds Watched Their Flock By Night
-category: entrance
+
 ---
 
 1. While shepherds watched their flock by night

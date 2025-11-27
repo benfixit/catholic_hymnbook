@@ -1,7 +1,7 @@
 ---
 id: 58
 title: Christ is King of Earth and Heaven
-category: entrance
+
 ---
 
 1. Christ is King of earth and heaven!

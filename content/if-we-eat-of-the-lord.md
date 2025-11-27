@@ -1,7 +1,7 @@
 ---
 id: 183
 title: If We Eat of the Lord
-category: communion
+
 ---
 
 1. If we eat of the Lord,

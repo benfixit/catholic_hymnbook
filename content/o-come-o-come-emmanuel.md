@@ -1,7 +1,7 @@
 ---
 id: 435
 title: O Come, O Come, Emmanuel
-category: entrance
+
 ---
 
 _Chorus:_

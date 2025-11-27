@@ -1,7 +1,7 @@
 ---
 id: 253
 title: Holy Light on Earth's Horizon
-category: entrance
+
 ---
 
 1. Holy light on earth's horizon,

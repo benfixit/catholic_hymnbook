@@ -1,7 +1,6 @@
 ---
-id: 442
+id: 275
 title: O God Thy People Gather
-category: entrance
 ---
 
 1. O God, thy people gather,

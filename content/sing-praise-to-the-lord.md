@@ -1,7 +1,6 @@
 ---
-id: 564
+id: 344
 title: Sing Praise to the Lord
-category: entrance
 ---
 
 1. Sing praise to the Lord! praise God in the height;

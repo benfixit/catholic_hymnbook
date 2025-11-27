@@ -1,7 +1,7 @@
 ---
 id: 245
 title: Heart of Jesus, We Are Grateful
-category: entrance
+
 ---
 
 _Chorus:_

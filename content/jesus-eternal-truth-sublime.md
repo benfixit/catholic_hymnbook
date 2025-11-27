@@ -1,7 +1,7 @@
 ---
 id: 308
 title: Jesus Eternal Truth Sublime
-category: entrance
+
 ---
 
 1. Jesus eternal truth sublime,

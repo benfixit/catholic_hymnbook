@@ -1,7 +1,7 @@
 ---
 id: 282
 title: I Will Seek and Find Thee Now
-category: entrance
+
 ---
 
 _Chorus:_

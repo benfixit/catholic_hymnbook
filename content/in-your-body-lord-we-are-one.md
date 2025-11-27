@@ -1,7 +1,7 @@
 ---
 id: 188
 title: In Your Body, Lord, We Are One
-category: communion
+
 ---
 
 1. In your body, Lord, we are one

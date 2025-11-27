@@ -1,7 +1,7 @@
 ---
 id: 695
 title: When the Patriarch Was Returning
-category: entrance
+
 ---
 
 1. When the Patriach was returning,

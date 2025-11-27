@@ -1,7 +1,7 @@
 ---
 id: 16
 title: All to Jesus I surrender
-category: entrance
+
 ---
 
 1. All to Jesus I surrender,

@@ -1,7 +1,7 @@
 ---
 id: 274
 title: O God, Our Help in Ages Past
-category: recessional
+
 ---
 
 1. O God, our help in ages past,

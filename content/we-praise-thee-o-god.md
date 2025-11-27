@@ -1,7 +1,7 @@
 ---
 id: 415
 title: We Praise Thee O God
-category: communion
+
 ---
 
 _Chorus:_

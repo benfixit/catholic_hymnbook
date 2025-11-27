@@ -1,7 +1,7 @@
 ---
 id: 409
 title: We Gather Together
-category: offertory
+
 ---
 
 1. We gather together

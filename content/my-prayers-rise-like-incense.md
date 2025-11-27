@@ -1,7 +1,7 @@
 ---
 id: 403
 title: My Prayers Rise Like Incense
-category: entrance
+
 ---
 
 _Chorus:_

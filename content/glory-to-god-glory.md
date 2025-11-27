@@ -1,7 +1,7 @@
 ---
 id: 102
 title: Glory to God Glory
-category: recessional
+
 ---
 
 _Refrain:_

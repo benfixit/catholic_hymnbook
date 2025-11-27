@@ -1,7 +1,7 @@
 ---
 id: 264
 title: O Brothers of Christ Jesus Come
-category: offertory
+
 ---
 
 _Chorus:_

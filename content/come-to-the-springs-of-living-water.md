@@ -1,7 +1,6 @@
 ---
 id: 75
 title: Come to the Springs of Living Water
-category: entrance
 ---
 
 _Refrain:_

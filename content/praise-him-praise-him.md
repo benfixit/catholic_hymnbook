@@ -1,7 +1,6 @@
 ---
-id: 524
+id: 318
 title: Praise Him, Praise Him
-category: entrance
 ---
 
 1. Praise Him, Praise Him.

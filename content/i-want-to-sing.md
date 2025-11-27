@@ -1,7 +1,6 @@
 ---
-id: 280
+id: 178
 title: I Want to Sing
-category: entrance
 ---
 
 _Chorus:_

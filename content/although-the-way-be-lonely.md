@@ -1,7 +1,7 @@
 ---
 id: 20
 title: Although the way be lonely
-category: entrance
+
 ---
 
 1. Although the way be lonely,

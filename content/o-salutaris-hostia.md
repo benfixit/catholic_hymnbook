@@ -1,7 +1,6 @@
 ---
-id: 481
+id: 295
 title: O Salutaris Hostia
-category: entrance
 ---
 
 1. O salutáris hóstia,

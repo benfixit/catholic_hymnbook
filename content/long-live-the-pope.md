@@ -1,7 +1,7 @@
 ---
 id: 358
 title: Long Live the Pope!
-category: entrance
+
 ---
 
 1. Long live the Pope! His praises sound

@@ -1,7 +1,7 @@
 ---
 id: 246
 title: Help, Lord, the Souls That Thou Hast Made
-category: entrance
+
 ---
 
 1. Help, Lord, the souls that thou hast made,

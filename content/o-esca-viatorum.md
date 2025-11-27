@@ -1,7 +1,6 @@
 ---
-id: 437
+id: 270
 title: O Esca Viatorum
-category: entrance
 ---
 
 1. O esca viatorum,

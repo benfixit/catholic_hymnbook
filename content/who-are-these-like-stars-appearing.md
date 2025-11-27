@@ -1,7 +1,7 @@
 ---
 id: 698
 title: Who Are These Like Stars Appearing
-category: entrance
+
 ---
 
 1. Who are these like stars appearing,

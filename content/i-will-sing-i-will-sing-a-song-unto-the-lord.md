@@ -1,7 +1,6 @@
 ---
-id: 283
+id: 181
 title: I Will Sing, I will Sing A Song Unto the Lord
-category: entrance
 ---
 
 _Chorus:_

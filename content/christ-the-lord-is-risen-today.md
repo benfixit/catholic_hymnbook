@@ -1,7 +1,7 @@
 ---
 id: 61
 title: Christ, the Lord, Is Risen Today
-category: entrance
+
 ---
 
 1. Christ, the Lord, is ris'n today,

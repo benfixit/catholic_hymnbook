@@ -1,7 +1,6 @@
 ---
-id: 510
+id: 307
 title: Open Up Your Heart
-category: entrance
 ---
 
 1. Open up your heart and let the Lord come in

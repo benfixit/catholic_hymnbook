@@ -1,7 +1,7 @@
 ---
 id: 366
 title: Lord Jesus, When I Think of Thee
-category: entrance
+
 ---
 
 1. Lord Jesus, when I think of thee,

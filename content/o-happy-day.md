@@ -1,7 +1,7 @@
 ---
 id: 448
 title: O Happy Day
-category: entrance
+
 ---
 
 _Chorus:_

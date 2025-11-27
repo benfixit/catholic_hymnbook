@@ -1,7 +1,7 @@
 ---
 id: 488
 title: O Thee, O Heart of Jesus
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 406
 title: My Soul Doth Long for Thee
-category: entrance
+
 ---
 
 1. My soul doth long for thee,

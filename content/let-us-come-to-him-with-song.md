@@ -1,7 +1,6 @@
 ---
-id: 342
+id: 217
 title: Let Us come To Him With Song
-category: entrance
 ---
 
 _Chorus:_

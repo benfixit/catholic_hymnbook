@@ -10,6 +10,7 @@ export type CategoryType = {
     id: number,
     slug: Category,
     title: string,
+    hymns: Set<HymnType["id"]>
 }
 
 export type ColorsType = Record<string, string>
@@ -28,7 +29,7 @@ export enum Category {
     MASS_DEAD = "mass_dead",
     ORDINATION = "ordination_priesthood",
     OUR_LORD = "our_lord",
-    BVM = "bvm",
+    BVM = "blessed_virgin_mary",
     GENERAL = "general",
     BENEDICTION = "benediction",
     RECOLLECTION = "recollection",

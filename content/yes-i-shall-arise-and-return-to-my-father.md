@@ -1,7 +1,7 @@
 ---
 id: 710
 title: Yes I Shall Arise and Return to My Father
-category: entrance
+
 ---
 
 _Chorus:_

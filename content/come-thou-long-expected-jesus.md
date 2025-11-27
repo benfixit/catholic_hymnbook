@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, Thou Long-Expected Jesus
-category: entrance
 ---
 
 1. Come, thou long-expected Jesus,

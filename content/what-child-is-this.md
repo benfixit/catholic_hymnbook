@@ -1,7 +1,7 @@
 ---
 id: 680
 title: What Child Is This
-category: entrance
+
 ---
 
 1. What Child is this, who, laid to rest,

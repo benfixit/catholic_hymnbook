@@ -1,7 +1,7 @@
 ---
 id: 325
 title: Joy-Bells Ringing Children Singing
-category: entrance
+
 ---
 
 _Chorus:_

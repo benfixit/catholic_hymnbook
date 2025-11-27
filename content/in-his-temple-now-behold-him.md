@@ -1,7 +1,7 @@
 ---
 id: 293
 title: In His Temple Now Behold Him
-category: entrance
+
 ---
 
 1. In his temple now behold him,

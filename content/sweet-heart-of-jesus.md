@@ -1,7 +1,7 @@
 ---
 id: 586
 title: Sweet Heart of Jesus
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 80
 title: Dear Children Praise the Lord
-category: entrance
+
 ---
 
 1. Dear children, praise the Lord in all,

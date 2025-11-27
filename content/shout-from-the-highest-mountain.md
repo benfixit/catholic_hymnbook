@@ -1,7 +1,6 @@
 ---
-id: 559
+id: 341
 title: Shout From the Highest Mountain
-category: entrance
 ---
 
 _Chorus:_

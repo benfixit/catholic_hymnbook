@@ -1,7 +1,6 @@
 ---
-id: 513
+id: 310
 title: Pange Lingua Gloriosi
-category: entrance
 ---
 
 1. Pange, lingua, gloriosi

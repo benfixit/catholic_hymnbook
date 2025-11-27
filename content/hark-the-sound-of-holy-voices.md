@@ -1,7 +1,7 @@
 ---
 id: 235
 title: Hark! The Sound of Holy Voices
-category: entrance
+
 ---
 
 1. Hark! The sound of holy voices,

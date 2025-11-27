@@ -1,7 +1,7 @@
 ---
 id: 387
 title: There's A Call Comes Ringing
-category: communion
+
 ---
 
 _Chorus:_

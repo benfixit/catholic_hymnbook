@@ -1,7 +1,7 @@
 ---
 id: 1009
 title: Bread of the World
-category: entrance
+
 ---
 
 1. Bread of the world, in mercy broken,

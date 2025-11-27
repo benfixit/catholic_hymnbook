@@ -1,7 +1,7 @@
 ---
-id: 675
+id: 418
 title: We Three Kings of Orient Are
-category: entrance
+
 ---
 
 _Chorus:_

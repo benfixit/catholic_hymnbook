@@ -1,7 +1,7 @@
 ---
 id: 468
 title: O Praise Ye the Lord
-category: entrance
+
 ---
 
 1. O praise ye the Lord! prepare a new song;

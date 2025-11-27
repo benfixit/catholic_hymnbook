@@ -1,7 +1,7 @@
 ---
 id: 227
 title: Lord Dismiss Us With Your Blessing
-category: recessional
+
 ---
 
 1. Lord, dismiss us with Your blessing;

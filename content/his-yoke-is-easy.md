@@ -1,7 +1,7 @@
 ---
 id: 153
 title: His Yoke is Easy
-category: communion
+
 ---
 
 _Chorus:_

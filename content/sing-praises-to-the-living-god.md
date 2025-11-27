@@ -1,7 +1,7 @@
 ---
 id: 565
 title: Sing Praises to the Living God
-category: entrance
+
 ---
 
 _Chorus:_

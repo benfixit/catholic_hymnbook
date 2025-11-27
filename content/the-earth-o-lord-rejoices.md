@@ -1,7 +1,6 @@
 ---
-id: 608
+id: 373
 title: The Earth, O Lord, Rejoices
-category: entrance
 ---
 
 1. The earth, O Lord, rejoices,

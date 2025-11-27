@@ -1,7 +1,7 @@
 ---
 id: 535
 title: Priestly People Kingly People
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
-id: 690
+id: 430
 title: When I Survey the Wondrous Cross
-category: entrance
+
 ---
 
 1. When I survey the wondrous cross

@@ -1,7 +1,7 @@
 ---
 id: 68
 title: Come Lord Jesus The Light is Dying
-category: advent
+
 ---
 
 _Refrain:_

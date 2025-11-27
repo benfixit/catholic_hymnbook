@@ -1,7 +1,7 @@
 ---
 id: 219
 title: Hail to the Lord's Anointed
-category: entrance
+
 ---
 
 1. Hail to the Lord's Anointed,

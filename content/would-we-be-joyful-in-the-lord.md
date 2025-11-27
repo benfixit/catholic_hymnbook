@@ -1,7 +1,7 @@
 ---
 id: 703
 title: Would We Be Joyful In The Lord
-category: entrance
+
 ---
 
 _Chorus:_

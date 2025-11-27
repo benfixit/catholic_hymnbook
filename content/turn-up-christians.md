@@ -1,7 +1,6 @@
 ---
 id: 399
 title: Turn Up Christians
-category: offertory
 ---
 
 _Chorus:_

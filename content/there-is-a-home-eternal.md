@@ -1,7 +1,7 @@
 ---
 id: 632
 title: There Is A Home Eternal
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 287
 title: O Lord, I am Not Worthy
-category: communion
+
 ---
 
 1. O Lord, I am not worthy

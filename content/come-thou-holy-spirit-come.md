@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, Thou Holy Spirit, Come
-category: entrance
 ---
 
 1. Come, thou Holy Spirit, come!

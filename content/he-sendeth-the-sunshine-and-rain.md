@@ -1,7 +1,7 @@
 ---
 id: 239
 title: He Sendeth the Sunshine and Rain
-category: entrance
+
 ---
 
 _Chorus:_

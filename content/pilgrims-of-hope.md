@@ -1,7 +1,7 @@
 ---
 id: 520
 title: Pilgrims of Hope
-category: entrance
+
 ---
 
 _Chorus:_

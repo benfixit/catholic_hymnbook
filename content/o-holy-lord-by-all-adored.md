@@ -1,7 +1,7 @@
 ---
 id: 449
 title: O Holy Lord By All Adored
-category: entrance
+
 ---
 
 1. O Holy Lord, by all adored,

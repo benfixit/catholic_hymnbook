@@ -1,7 +1,7 @@
 ---
 id: 298
 title: In the Bleak Midwinter
-category: entrance
+
 ---
 
 1. In the bleak midwinter,

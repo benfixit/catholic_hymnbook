@@ -1,7 +1,6 @@
 ---
 id: 712
 title: You Are the Honour
-category: entrance
 ---
 
 _Chorus:_

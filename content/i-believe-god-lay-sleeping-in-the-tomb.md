@@ -1,7 +1,7 @@
 ---
 id: 271
 title: I Believe God Lay Sleeping in the Tomb
-category: entrance
+
 ---
 
 _Chorus:_

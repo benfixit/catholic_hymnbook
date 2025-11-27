@@ -1,7 +1,6 @@
 ---
-id: 343
+id: 213
 title: Let the Heavens Be Glad
-category: entrance
 ---
 
 1. Let the heavens be glad and the earth rejoice,

@@ -1,7 +1,6 @@
 ---
 id: 9
 title: All Glory Praise and Honour
-category: recessional
 ---
 
 _Refrain:_

@@ -1,7 +1,7 @@
 ---
 id: 128
 title: Hail, Jesus, Hail!
-category: entrance
+
 ---
 
 1. Hail, Jesus! Hail! who for my sake

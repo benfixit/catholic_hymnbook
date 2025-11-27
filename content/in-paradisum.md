@@ -1,7 +1,6 @@
 ---
-id: 294
+id: 187
 title: In Paradisum
-category: entrance
 ---
 
 1. In paradisum deducant angeli:

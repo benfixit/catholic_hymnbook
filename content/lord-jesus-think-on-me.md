@@ -1,7 +1,7 @@
 ---
 id: 365
 title: Lord Jesus, Think on Me
-category: entrance
+
 ---
 
 1. Lord Jesus, think on me,

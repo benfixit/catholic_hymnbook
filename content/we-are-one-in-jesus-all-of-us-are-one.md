@@ -1,7 +1,7 @@
 ---
 id: 661
 title: We Are One In Jesus, All of Us Are One
-category: entrance
+
 ---
 
 1. We are one in Jesus, all of us are one

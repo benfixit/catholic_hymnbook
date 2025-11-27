@@ -1,7 +1,7 @@
 ---
 id: 424
 title: O Christ, Our Hope
-category: entrance
+
 ---
 
 1. O Christ, our hope, our hearts' desire,

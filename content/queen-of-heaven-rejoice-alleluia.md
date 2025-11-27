@@ -1,7 +1,7 @@
 ---
 id: 536
 title: Queen of Heaven Rejoice, Alleluia!
-category: entrance
+
 ---
 
 1. Queen of Heaven, rejoice. Alleluia!

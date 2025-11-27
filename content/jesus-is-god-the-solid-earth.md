@@ -1,7 +1,7 @@
 ---
 id: 314
 title: Jesus is God! The Solid Earth
-category: entrance
+
 ---
 
 1. Jesus is God! The solid earth,

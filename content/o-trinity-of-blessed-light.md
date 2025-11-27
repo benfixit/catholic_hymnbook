@@ -1,7 +1,7 @@
 ---
 id: 489
 title: O Trinity of Blessed Light
-category: entrance
+
 ---
 
 1. O Trinity of blessed light,

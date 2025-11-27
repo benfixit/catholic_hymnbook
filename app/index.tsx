@@ -8,6 +8,7 @@ import { useHymns } from "@/store/HymnProvider";
 import { useTheme } from "@/store/ThemeProvider";
 import { Category, ColorsType, HymnType } from "@/typings";
 import { searchFilterCallback } from "@/utils";
+import { categories } from "@/constants/categories";
 
 export default function Index() {
     const { hymns, setHymn } = useHymns();
@@ -21,7 +22,9 @@ export default function Index() {
         let data = hymns;
 
         if (params.category) {
-            data = data.filter((hymn) => hymn.category === params.category);
+            const category = categories.find(category => category.slug === params.category);
+
+            data = data.filter((hymn) => category?.hymns.has(hymn.id));
         }
 
         data = data.filter(hymn => searchFilterCallback(hymn, searchTerm));

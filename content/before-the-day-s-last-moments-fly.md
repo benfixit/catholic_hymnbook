@@ -1,7 +1,7 @@
 ---
 id: 1005
 title: Before the Day's Last Moments Fly
-category: entrance
+
 ---
 
 1. Before the day's last moments fly,

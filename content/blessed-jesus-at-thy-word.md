@@ -1,7 +1,7 @@
 ---
 id: 1007
 title: Blessed Jesus, at Thy Word
-category: entrance
+
 ---
 
 1. Blessed Jesus, at thy word

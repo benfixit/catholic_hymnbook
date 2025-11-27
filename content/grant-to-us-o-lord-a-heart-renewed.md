@@ -1,7 +1,7 @@
 ---
 id: 119
 title: Grant to Us O Lord, a Heart Renewed
-category: entrance
+
 ---
 
 _Antiphon:_

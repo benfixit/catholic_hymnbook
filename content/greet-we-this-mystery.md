@@ -1,7 +1,7 @@
 ---
 id: 124
 title: Greet We This Mystery
-category: communion
+
 ---
 
 1. Greet we this mystery yearly returning

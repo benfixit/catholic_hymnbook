@@ -1,7 +1,7 @@
 ---
 id: 601
 title: The Angel Gabriel
-category: entrance
+
 ---
 
 _Chorus:_

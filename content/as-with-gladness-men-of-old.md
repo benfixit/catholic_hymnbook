@@ -1,7 +1,7 @@
 ---
 id: 31
 title: As With Gladness Men of Old
-category: entrance
+
 ---
 
 1. As with gladness men of old

@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Hail the Day That Sees Him Rise
-category: entrance
+
 ---
 
 1. Hail the day that sees him rise,

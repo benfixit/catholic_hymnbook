@@ -1,7 +1,7 @@
 ---
 id: 276
 title: I Know That My Redeemer Lives
-category: entrance
+
 ---
 
 1. I know that my Redeemer lives!

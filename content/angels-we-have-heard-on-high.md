@@ -1,7 +1,7 @@
 ---
 id: 23
 title: Angels we have heard on high
-category: entrance
+
 ---
 
 

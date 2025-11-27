@@ -1,7 +1,7 @@
 ---
 id: 22
 title: Angels from the realms of glory
-category: entrance
+
 ---
 
 1. Angels from the realms of glory,

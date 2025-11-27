@@ -1,7 +1,7 @@
 ---
 id: 168
 title: Humbly We Adore Thee
-category: communion
+
 ---
 
 _Chorus:_

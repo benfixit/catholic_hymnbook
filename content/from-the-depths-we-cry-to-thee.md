@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: From the Depths We Cry to Thee
-category: entrance
+
 ---
 
 1. From the depths we cry to thee,

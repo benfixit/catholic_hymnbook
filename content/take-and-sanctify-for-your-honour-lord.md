@@ -1,7 +1,7 @@
 ---
 id: 362
 title: Take and Sanctify For Your Honour Lord
-category: offertory
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 354
 title: Lo! Round the Throne
-category: entrance
+
 ---
 
 1. Lo! Round the throne, a glorious band,

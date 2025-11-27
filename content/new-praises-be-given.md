@@ -1,7 +1,7 @@
 ---
-id: 411
+id: 257
 title: New Praises Be Given
-category: entrance
+
 ---
 
 1. New praises be given

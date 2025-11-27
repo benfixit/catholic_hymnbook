@@ -1,7 +1,7 @@
 ---
 id: 121
 title: Great Indeed are your Works, O Lord
-category: entrance
+
 ---
 
 _Refrain:_

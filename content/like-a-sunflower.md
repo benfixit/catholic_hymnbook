@@ -1,7 +1,7 @@
 ---
 id: 350
 title: Like a Sunflower
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
-id: 705
+id: 438
 title: Ye Sons and Daughters of the Lord
-category: entrance
+
 ---
 
 _Chorus:_

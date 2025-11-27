@@ -1,7 +1,7 @@
 ---
 id: 422
 title: O Breathe on Me, O Breath of God
-category: entrance
+
 ---
 
 1. O breathe on me, O Breath of God,

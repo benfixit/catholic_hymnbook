@@ -1,7 +1,7 @@
 ---
 id: 70
 title: Come Rock the Cradle for Him
-category: entrance
+
 ---
 
 1. Come, rock the cradle for Him,

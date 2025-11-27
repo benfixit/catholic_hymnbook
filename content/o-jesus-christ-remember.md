@@ -1,7 +1,7 @@
 ---
 id: 452
 title: O Jesus Christ, Remember
-category: entrance
+
 ---
 
 1. O Jesus Christ, remember,

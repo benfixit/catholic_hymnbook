@@ -1,7 +1,7 @@
 ---
-id: 461
+id: 286
 title: O Little Town of Bethlehem
-category: entrance
+
 ---
 
 1. O little town of Bethlehem,

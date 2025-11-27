@@ -1,7 +1,7 @@
 ---
 id: 29
 title: As I Kneel Before You
-category: entrance
+
 ---
 
 1. As I kneel before you,

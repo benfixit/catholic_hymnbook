@@ -1,7 +1,7 @@
 ---
 id: 238
 title: He Bought the Whole Field for Joy
-category: entrance
+
 ---
 
 _Chorus:_

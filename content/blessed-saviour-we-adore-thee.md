@@ -1,7 +1,7 @@
 ---
 id: 50
 title: Blessed Saviour We Adore Thee
-category: entrance
+
 ---
 
 1. Blessèd Saviour, we adore thee;

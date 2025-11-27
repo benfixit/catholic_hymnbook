@@ -1,7 +1,7 @@
 ---
 id: 470
 title: O Purest of Creatures
-category: entrance
+
 ---
 
 1. O purest of creatures! sweet Mother! sweet Maid!

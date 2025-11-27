@@ -1,7 +1,7 @@
 ---
 id: 312
 title: Jesus My Saviour Is All Things to Me
-category: entrance
+
 ---
 
 _Chorus:_

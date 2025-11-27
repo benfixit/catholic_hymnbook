@@ -1,7 +1,7 @@
 ---
 id: 127
 title: Hail, Holy Queen Enthroned Above
-category: entrance
+
 ---
 
 _Chorus:_

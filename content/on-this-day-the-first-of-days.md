@@ -1,7 +1,7 @@
 ---
 id: 503
 title: On This Day, the First of Days
-category: entrance
+
 ---
 
 1. On this day, the first of days,

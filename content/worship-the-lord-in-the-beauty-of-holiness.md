@@ -1,7 +1,7 @@
 ---
 id: 702
 title: Worship the Lord in the Beauty of Holiness
-category: entrance
+
 ---
 
 1. Worship the Lord in the beauty of holiness;

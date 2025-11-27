@@ -1,7 +1,7 @@
 ---
 id: 336
 title: Lead, Kindly Light
-category: entrance
+
 ---
 
 1. Lead, kindly Light, amid th'en-circling gloom,

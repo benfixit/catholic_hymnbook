@@ -1,7 +1,7 @@
 ---
 id: 466
 title: O Paradise! O Paradise!
-category: entrance
+
 ---
 
 _Chorus:_

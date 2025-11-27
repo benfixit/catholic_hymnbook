@@ -1,7 +1,6 @@
 ---
-id: 247
+id: 151
 title: Here We Are All Together
-category: entrance
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 328
 title: Just As I Am
-category: entrance
+
 ---
 
 1. Just as I am, without one plea,

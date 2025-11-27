@@ -1,7 +1,7 @@
 ---
 id: 275
 title: I Heard the Voice of Jesus Say
-category: entrance
+
 ---
 
 1. I heard the voice of Jesus say,

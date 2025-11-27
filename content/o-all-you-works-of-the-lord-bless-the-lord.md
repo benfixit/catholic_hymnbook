@@ -1,7 +1,7 @@
 ---
 id: 261
 title: O All You Works of the Lord Bless the Lord
-category: recessional
+
 ---
 
 _Chorus:_

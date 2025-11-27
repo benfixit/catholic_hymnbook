@@ -1,7 +1,7 @@
 ---
-id: 244
+id: 147
 title: Hear, O Thou Bounteous Maker
-category: entrance
+
 ---
 
 1. Hear, O thou bounteous Maker hear

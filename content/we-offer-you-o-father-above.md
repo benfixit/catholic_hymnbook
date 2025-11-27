@@ -1,7 +1,7 @@
 ---
 id: 413
 title: We Offer You O Father Above
-category: offertory
+
 ---
 
 1. We offer You, O Father above

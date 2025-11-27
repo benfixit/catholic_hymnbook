@@ -1,7 +1,7 @@
 ---
 id: 371
 title: Lord, Who at Cana's Wedding Feast
-category: entrance
+
 ---
 
 1. Lord, who at Cana's wedding feast

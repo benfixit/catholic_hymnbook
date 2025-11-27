@@ -1,7 +1,7 @@
 ---
 id: 277
 title: O Godhead Hid, Devoutly I Adore Thee
-category: entrance
+
 ---
 
 1. O Godhead hid, devoutly I adore Thee,

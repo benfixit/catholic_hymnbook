@@ -1,7 +1,6 @@
 ---
-id: 236
+id: 137
 title: Hark, My Soul
-category: entrance
 ---
 
 1. Hark, my soul, how ev'rything

@@ -1,7 +1,6 @@
 ---
-id: 260
+id: 160
 title: Hosanna! Hosanna! Hosanna!
-category: entrance
 ---
 
 1. Hosanna! Hosanna! Hosanna!

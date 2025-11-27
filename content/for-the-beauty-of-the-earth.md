@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: For the Beauty of the Earth
-category: entrance
+
 ---
 
 1. For the beauty of the earth,

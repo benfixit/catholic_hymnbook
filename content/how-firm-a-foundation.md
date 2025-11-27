@@ -1,7 +1,7 @@
 ---
 id: 263
 title: How Firm a Foundation
-category: entrance
+
 ---
 
 1. How firm a foundation, ye saints of the Lord,

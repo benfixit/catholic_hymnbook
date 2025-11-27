@@ -1,7 +1,7 @@
 ---
 id: 540
 title: Rejoice, the Lord Is King
-category: entrance
+
 ---
 
 _Chorus:_

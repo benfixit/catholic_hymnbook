@@ -1,7 +1,7 @@
 ---
 id: 499
 title: Oh the Love of My Lord is the Essence
-category: entrance
+
 ---
 
 1. Oh the love of my Lord is the essence,

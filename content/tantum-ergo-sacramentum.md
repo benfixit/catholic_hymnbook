@@ -1,7 +1,6 @@
 ---
-id: 596
+id: 366
 title: Tantum Ergo Sacramentum
-category: entrance
 ---
 
 1. Tantum ergo Sacramentum

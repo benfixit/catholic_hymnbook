@@ -1,7 +1,7 @@
 ---
 id: 296
 title: In This Sacrament, Sweet Jesus
-category: entrance
+
 ---
 
 1. In this sacrament, sweet Jesus,

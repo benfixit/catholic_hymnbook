@@ -1,7 +1,7 @@
 ---
 id: 495
 title: O for a Thousand Tongues to Sing
-category: entrance
+
 ---
 
 1. O for a thousand tongues to sing

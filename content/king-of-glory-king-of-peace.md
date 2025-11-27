@@ -1,7 +1,7 @@
 ---
 id: 331
 title: King of Glory King of Peace
-category: entrance
+
 ---
 
 1. King of glory, King of peace

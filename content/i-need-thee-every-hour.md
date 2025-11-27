@@ -1,7 +1,7 @@
 ---
 id: 175
 title: I Need Thee Every Hour
-category: communion
+
 ---
 
 _Chorus:_

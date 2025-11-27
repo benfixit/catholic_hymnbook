@@ -1,7 +1,7 @@
 ---
 id: 322
 title: Praise to the Holiest in the Height
-category: communion
+
 ---
 
 1. Praise to the holiest in the height,

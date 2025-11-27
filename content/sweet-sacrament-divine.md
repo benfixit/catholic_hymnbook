@@ -1,7 +1,7 @@
 ---
 id: 360
 title: Sweet Sacrament Divine
-category: communion
+
 ---
 
 1. Sweet Sacrament divine,

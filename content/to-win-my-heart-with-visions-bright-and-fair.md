@@ -1,7 +1,6 @@
 ---
 id: 649
 title: To Win My Heart With Visions Bright and Fair
-category: entrance
 ---
 
 _Chorus:_

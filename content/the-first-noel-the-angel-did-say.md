@@ -1,7 +1,7 @@
 ---
 id: 610
 title: The First Noel, The Angel Did Say
-category: entrance
+
 ---
 
 _Chorus:_

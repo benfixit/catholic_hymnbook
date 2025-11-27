@@ -1,7 +1,7 @@
 ---
 id: 382
 title: Magnificat- The Lord Has Done Marvels for Me
-category: entrance
+
 ---
 
 _Chorus:_

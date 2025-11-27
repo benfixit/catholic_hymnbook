@@ -1,7 +1,7 @@
 ---
 id: 109
 title: God Is Love
-category: communion
+
 ---
 
 _Refrain:_

@@ -1,7 +1,7 @@
 ---
 id: 285
 title: I'll Sing a Hymn to Mary
-category: entrance
+
 ---
 
 1. I'll sing a hymn to Mary,

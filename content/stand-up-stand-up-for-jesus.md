@@ -1,7 +1,6 @@
 ---
-id: 583
+id: 357
 title: Stand Up, Stand Up for Jesus
-category: entrance
 ---
 
 1. Stand up, stand up for Jesus,

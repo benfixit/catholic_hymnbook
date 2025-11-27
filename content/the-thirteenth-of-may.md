@@ -1,7 +1,7 @@
 ---
 id: 630
 title: The Thirteenth of May
-category: entrance
+
 ---
 
 _Chorus:_

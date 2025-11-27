@@ -1,7 +1,6 @@
 ---
-id: 549
+id: 335
 title: Sanctus
-category: entrance
 ---
 
 1. Sanctus, Sanctus, Sanctus Dominus

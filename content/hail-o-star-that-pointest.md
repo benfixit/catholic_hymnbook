@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Hail, O Star That Pointest
-category: entrance
+
 ---
 
 1. Hail, O star that pointest

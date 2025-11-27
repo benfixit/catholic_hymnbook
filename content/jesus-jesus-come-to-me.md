@@ -1,7 +1,7 @@
 ---
 id: 315
 title: Jesus, Jesus, Come to Me
-category: entrance
+
 ---
 
 1. Jesus, Jesus, come to me,

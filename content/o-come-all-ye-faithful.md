@@ -1,7 +1,7 @@
 ---
-id: 432
+id: 265
 title: O Come, All Ye Faithful
-category: entrance
+
 ---
 
 _Chorus:_

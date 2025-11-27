@@ -1,7 +1,7 @@
 ---
 id: 299
 title: Oh Sing Praises
-category: recessional
+
 ---
 
 _Chorus:_

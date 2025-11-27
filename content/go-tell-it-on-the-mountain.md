@@ -1,7 +1,7 @@
 ---
 id: 106
 title: Go Tell It on the Mountain
-category: entrance
+
 ---
 
 _Refrain:_

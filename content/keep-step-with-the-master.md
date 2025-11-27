@@ -1,7 +1,7 @@
 ---
 id: 330
 title: Keep Step With the Master
-category: entrance
+
 ---
 
 _Chorus:_

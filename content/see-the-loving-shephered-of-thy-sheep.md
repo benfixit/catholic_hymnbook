@@ -1,7 +1,7 @@
 ---
 id: 554
 title: See the Loving Shephered of Thy Sheep
-category: entrance
+
 ---
 
 1. See the loving shepherd of Thy sheep,

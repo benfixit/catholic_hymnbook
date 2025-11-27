@@ -1,7 +1,7 @@
 ---
 id: 393
 title: Mother Dearest, Mother Fairest
-category: entrance
+
 ---
 
 _Chorus:_

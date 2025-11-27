@@ -1,7 +1,7 @@
 ---
 id: 493
 title: O Word of God Incarnate
-category: entrance
+
 ---
 
 1. O Word of God incarnate,

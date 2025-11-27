@@ -1,7 +1,7 @@
 ---
 id: 659
 title: Watchman, Tell Us of the Night
-category: entrance
+
 ---
 
 1. Watchman, tell us of the night,

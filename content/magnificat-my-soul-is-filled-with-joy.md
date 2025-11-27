@@ -1,7 +1,7 @@
 ---
 id: 378
 title: Magnificat- My Soul Is Filled With Joy
-category: entrance
+
 ---
 
 _Chorus:_

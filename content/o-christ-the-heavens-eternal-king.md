@@ -1,7 +1,7 @@
 ---
 id: 425
 title: O Christ, the Heavens' Eternal King
-category: entrance
+
 ---
 
 1. O Christ, the heav'ns' eternal King,

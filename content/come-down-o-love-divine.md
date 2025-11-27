@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Come Down, O Love Divine
-category: entrance
+
 ---
 
 1. Come down, O Love divine;

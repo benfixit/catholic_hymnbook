@@ -1,7 +1,7 @@
 ---
 id: 258
 title: Now Thank We All Our God
-category: recessional
+
 ---
 
 1. Now thank we all our God,

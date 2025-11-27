@@ -1,7 +1,6 @@
 ---
-id: 650
+id: 398
 title: Today He's Risen, Death No More
-category: entrance
 ---
 
 _Chorus:_

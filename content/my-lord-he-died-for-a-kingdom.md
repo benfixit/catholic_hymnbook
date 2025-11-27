@@ -1,7 +1,7 @@
 ---
-id: 402
+id: 251
 title: My Lord He Died for A Kingdom
-category: entrance
+
 ---
 
 _Chorus:_

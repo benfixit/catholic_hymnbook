@@ -1,7 +1,6 @@
 ---
 id: 103
 title: Glory to God O Praise Him, Alleuia
-category: entrance
 ---
 
 _Refrain:_

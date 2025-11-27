@@ -1,7 +1,7 @@
 ---
 id: 391
 title: Most Ancient of All Mysteries
-category: entrance
+
 ---
 
 1. Most ancient of all mysteries,

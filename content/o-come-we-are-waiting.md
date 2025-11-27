@@ -1,7 +1,7 @@
 ---
 id: 269
 title: O Come We are Waiting
-category: advent
+
 ---
 
 _Chorus:_

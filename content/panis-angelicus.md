@@ -1,7 +1,6 @@
 ---
 id: 311
 title: Panis Angelicus (O Food of Angels)
-category: entrance
 ---
 
 1. Panis angelicus fit panis hominum;

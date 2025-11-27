@@ -1,7 +1,7 @@
 ---
 id: 367
 title: Lord We Pray for Golden Peace
-category: entrance
+
 ---
 
 _Chorus:_

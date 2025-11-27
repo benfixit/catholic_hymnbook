@@ -1,7 +1,7 @@
 ---
 id: 456
 title: O King of Kings
-category: entrance
+
 ---
 
 _Chorus:_

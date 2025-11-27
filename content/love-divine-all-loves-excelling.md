@@ -1,7 +1,7 @@
 ---
 id: 374
 title: Love Divine, All Loves Excelling
-category: entrance
+
 ---
 
 1. Love divine, all loves excelling,

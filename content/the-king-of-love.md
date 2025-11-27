@@ -1,7 +1,7 @@
 ---
 id: 618
 title: The King of Love
-category: entrance
+
 ---
 
 1. The King of love my shepherd is,

@@ -1,7 +1,7 @@
 ---
 id: 593
 title: Take Up Your Cross
-category: entrance
+
 ---
 
 1. "Take up your cross," the Savior said,

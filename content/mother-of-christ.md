@@ -1,7 +1,7 @@
 ---
 id: 394
 title: Mother of Christ
-category: entrance
+
 ---
 
 1. Mother of Christ, Mother of Christ,

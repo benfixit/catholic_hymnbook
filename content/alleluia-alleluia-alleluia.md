@@ -1,7 +1,7 @@
 ---
 id: 18
 title: Alleluia! Alleluia! Alleluia!
-category: entrance
+
 ---
 
 1. Alleluia, Alleluia, Alleluia,

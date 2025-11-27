@@ -1,7 +1,7 @@
 ---
 id: 367
 title: Taste and See that the Lord is Good
-category: communion
+
 ---
 
 _Chorus:_

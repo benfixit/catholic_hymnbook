@@ -1,7 +1,6 @@
 ---
 id: 6
 title: Adoro te Devote
-category: entrance
 ---
 
 1. Adoro te devote latens Deitas,

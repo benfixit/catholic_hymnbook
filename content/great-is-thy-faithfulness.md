@@ -1,7 +1,7 @@
 ---
 id: 122
 title: Great is Thy Faithfulness
-category: recessional
+
 ---
 
 _Chorus:_

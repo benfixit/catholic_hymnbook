@@ -1,7 +1,7 @@
 ---
 id: 434
 title: Where Two Or Three Are Gathered
-category: recessional
+
 ---
 
 _Chorus:_

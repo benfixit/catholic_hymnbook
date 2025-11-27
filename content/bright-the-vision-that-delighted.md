@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Bright the Vision That Delighted
-category: entrance
+
 ---
 
 1. Bright the vision that delighted

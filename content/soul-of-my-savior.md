@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Soul of My Savior
-category: entrance
+
 ---
 
 1. Soul of my Savior, sanctify my breast;

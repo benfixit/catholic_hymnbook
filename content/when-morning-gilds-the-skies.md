@@ -1,7 +1,7 @@
 ---
 id: 691
 title: When Morning Gilds the Skies
-category: entrance
+
 ---
 
 1. When morning gilds the skies,

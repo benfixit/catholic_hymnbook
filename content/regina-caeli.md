@@ -1,7 +1,6 @@
 ---
-id: 538
+id: 328
 title: Regina Caeli
-category: entrance
 ---
 
 1. Regina caeli laetare, Alleluia!

@@ -1,7 +1,7 @@
 ---
 id: 411
 title: We Long to See Thee So
-category: advent
+
 ---
 
 _Chorus:_

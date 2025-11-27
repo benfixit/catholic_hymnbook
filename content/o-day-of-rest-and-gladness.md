@@ -1,7 +1,7 @@
 ---
 id: 436
 title: O Day of Rest and Gladness
-category: entrance
+
 ---
 
 1. O day of rest and gladness,

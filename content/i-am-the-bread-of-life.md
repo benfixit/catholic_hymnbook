@@ -1,7 +1,7 @@
 ---
 id: 169
 title: I Am the Bread of Life
-category: communion
+
 ---
 
 _Chorus:_

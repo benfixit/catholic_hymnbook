@@ -1,7 +1,7 @@
 ---
 id: 33
 title: Asperges Me
-category: entrance
+
 ---
 
 1. Asperges me, Domine, hyssopo,

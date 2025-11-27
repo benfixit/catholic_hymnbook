@@ -1,7 +1,7 @@
 ---
 id: 134
 title: Hail Thou Star of Ocean
-category: entrance
+
 ---
 
 1. Hail, thou Star of Ocean,

@@ -1,7 +1,6 @@
 ---
-id: 281
+id: 179
 title: I Was Glad
-category: entrance
 ---
 
 1. I was glad, I was glad, when they said unto me:

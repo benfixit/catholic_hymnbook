@@ -1,7 +1,7 @@
 ---
 id: 302
 title: It Is a Thing Most Wonderful
-category: entrance
+
 ---
 
 1. It is a thing most wonderful,

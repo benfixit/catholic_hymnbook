@@ -1,7 +1,7 @@
 ---
 id: 388
 title: Mary, Let Perpetual Succor
-category: entrance
+
 ---
 
 _Chorus:_

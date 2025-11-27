@@ -1,7 +1,6 @@
 ---
-id: 333
-title: Kyrie
-category: entrance
+id: 208
+title: Kyrie (Misa pro defunctis - Mass for the dead)
 ---
 
 1. Kyrie eleison,

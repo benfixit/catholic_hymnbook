@@ -1,7 +1,7 @@
 ---
 id: 410
 title: We Long for You O Lord
-category: communion
+
 ---
 
 _Chorus:_

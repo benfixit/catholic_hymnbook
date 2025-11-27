@@ -1,7 +1,6 @@
 ---
-id: 334
+id: 209
 title: Lauda Sion Salvatorem
-category: entrance
 ---
 
 1. Lauda, Sion, Salvatorem,

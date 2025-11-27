@@ -1,7 +1,7 @@
 ---
 id: 607
 title: The Day of Wrath that Day
-category: entrance
+
 ---
 
 1. The day of wrath, that day

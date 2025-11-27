@@ -1,7 +1,7 @@
 ---
 id: 299
 title: Infant Holy, Infant Lowly
-category: entrance
+
 ---
 
 1. Infant holy, Infant lowly,

@@ -1,7 +1,7 @@
 ---
-id: 231
+id: 0000
 title: Hark! Hark the Angels Singing
-category: entrance
+
 ---
 
 1. Hark, hark, the Angels singing,

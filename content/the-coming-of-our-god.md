@@ -1,7 +1,7 @@
 ---
 id: 371
 title: The Coming of Our God
-category: advent
+
 ---
 
 1. The coming of our God

@@ -1,7 +1,7 @@
 ---
 id: 491
 title: O What Their Joy and Their Glory Must Be
-category: entrance
+
 ---
 
 1. O what their joy and their glory must be,

@@ -1,7 +1,7 @@
 ---
 id: 709
 title: Yes Heaven Is the Prize
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 225
 title: Hail, Virgin, Dearest Mary
-category: entrance
+
 ---
 
 1. Hail Virgin, dearest Mary!

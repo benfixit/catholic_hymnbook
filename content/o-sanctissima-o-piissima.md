@@ -1,7 +1,6 @@
 ---
-id: 483
+id: 296
 title: O Sanctissima, O Piissima
-category: entrance
 ---
 
 1. O sanctissima, O piissima,

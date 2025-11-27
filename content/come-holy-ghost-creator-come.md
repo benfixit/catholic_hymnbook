@@ -1,7 +1,7 @@
 ---
 id: 65
 title: Come, Holy Ghost, Creator Come (Veni Creator Spiritus)
-category: entrance
+
 ---
 
 1. Come, Holy Ghost, Creator, come,

@@ -1,7 +1,7 @@
 ---
 id: 408
 title: My Soul Is Longing For Your Peace
-category: entrance
+
 ---
 
 _Chorus:_

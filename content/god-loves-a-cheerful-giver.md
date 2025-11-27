@@ -1,7 +1,7 @@
 ---
 id: 110
 title: God Loves a Cheerful Giver
-category: offertory
+
 ---
 
 _Refrain:_

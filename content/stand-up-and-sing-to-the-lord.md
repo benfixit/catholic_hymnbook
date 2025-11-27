@@ -1,7 +1,6 @@
 ---
-id: 582
+id: 355
 title: Stand Up and Sing to the Lord
-category: entrance
 ---
 
 _Chorus:_

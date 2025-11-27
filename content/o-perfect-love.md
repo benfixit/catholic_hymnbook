@@ -1,7 +1,7 @@
 ---
 id: 467
 title: O Perfect Love
-category: entrance
+
 ---
 
 1. O perfect Love,

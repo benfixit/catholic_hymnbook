@@ -1,7 +1,7 @@
 ---
 id: 537
 title: Raise Your Voices, Vales and Mountains
-category: entrance
+
 ---
 
 _Chorus:_

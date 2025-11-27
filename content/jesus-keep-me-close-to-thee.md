@@ -1,7 +1,7 @@
 ---
 id: 316
 title: Jesus, Keep Me Close to Thee
-category: entrance
+
 ---
 
 _Chorus:_

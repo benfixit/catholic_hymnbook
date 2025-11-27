@@ -1,7 +1,6 @@
 ---
-id: 533
+id: 319
 title: Praise, My Soul, the King of Heaven
-category: entrance
 ---
 
 1. Praise my soul, the King of heaven;

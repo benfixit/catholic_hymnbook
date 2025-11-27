@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Hail, Thou Living Bread
-category: entrance
+
 ---
 
 1. Hail, thou living Bread from heaven,

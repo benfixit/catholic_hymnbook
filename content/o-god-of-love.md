@@ -1,7 +1,7 @@
 ---
 id: 273
 title: O God of Love
-category: recessional
+
 ---
 
 1. O God of love, O King of peace,

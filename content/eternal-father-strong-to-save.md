@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Eternal Father, Strong to Save
-category: entrance
+
 ---
 
 1. Eternal Father, strong to save,

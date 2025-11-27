@@ -1,7 +1,7 @@
 ---
-id: 573
+id: 349
 title: Sole Hope of All the World and Lord
-category: entrance
+
 ---
 
 1. Sole hope of all the world and Lord,

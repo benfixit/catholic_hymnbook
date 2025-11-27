@@ -1,7 +1,7 @@
 ---
 id: 319
 title: Jesus, My Lord, My God, My All
-category: entrance
+
 ---
 
 _Chorus:_

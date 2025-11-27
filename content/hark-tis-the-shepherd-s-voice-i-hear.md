@@ -1,7 +1,7 @@
 ---
 id: 227
 title: Hark! 'Tis the Shepherd's Voice I Hear
-category: offertory
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 628
 title: The Sun Is Shining Brightly
-category: entrance
+
 ---
 
 _Chorus:_

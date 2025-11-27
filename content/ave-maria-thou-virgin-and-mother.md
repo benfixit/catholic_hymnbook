@@ -1,7 +1,7 @@
 ---
 id: 1001
 title: Ave Maria! Thou Virgin and Mother
-category: entrance
+
 ---
 
 1. Ave Maria! thou Virgin and Mother,

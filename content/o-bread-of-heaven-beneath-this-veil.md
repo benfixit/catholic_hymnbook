@@ -1,7 +1,7 @@
 ---
 id: 263
 title: O Bread of Heaven Beneath This Veil
-category: communion
+
 ---
 
 1. O Bread of Heaven, beneath this veil

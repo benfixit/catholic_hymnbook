@@ -1,7 +1,7 @@
 ---
 id: 1000
 title: At the Cross Her Station Keeping
-category: entrance
+
 ---
 
 1. At the cross her station keeping,

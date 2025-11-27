@@ -1,7 +1,7 @@
 ---
 id: 584
 title: Standing on the Promises of Christ My King
-category: entrance
+
 ---
 
 _Chorus:_

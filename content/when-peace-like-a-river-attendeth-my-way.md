@@ -1,7 +1,7 @@
 ---
 id: 692
 title: When Peace Like A River Attendeth My Way
-category: entrance
+
 ---
 
 _Chorus:_

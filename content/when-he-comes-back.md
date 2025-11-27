@@ -1,7 +1,7 @@
 ---
 id: 427
 title: When He Comes Back
-category: advent
+
 ---
 
 _Chorus:_

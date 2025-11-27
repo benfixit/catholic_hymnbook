@@ -1,7 +1,6 @@
 ---
-id: 532
+id: 323
 title: Praise to the Lord the Almighty
-category: entrance
 ---
 
 1. Praise to the Lord,

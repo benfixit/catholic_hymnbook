@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Glory Be to Jesus
-category: entrance
+
 ---
 
 1. Glory be to Jesus,

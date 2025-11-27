@@ -1,7 +1,7 @@
 ---
 id: 704
 title: Ye Holy Angels Bright
-category: entrance
+
 ---
 
 1. Ye holy angels bright,

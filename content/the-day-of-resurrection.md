@@ -1,7 +1,7 @@
 ---
 id: 606
 title: The Day of Resurrection
-category: entrance
+
 ---
 
 1. The day of Resurrection;

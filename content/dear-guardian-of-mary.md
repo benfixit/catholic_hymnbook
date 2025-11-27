@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Dear Guardian of Mary
-category: entrance
+
 ---
 
 1. Dear Guardian of Mary! dear nurse of her Child!

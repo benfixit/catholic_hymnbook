@@ -1,7 +1,7 @@
 ---
 id: 34
 title: At the Lamb's High Feast We Sing
-category: entrance
+
 ---
 
 1. At the Lamb's high feast we sing,

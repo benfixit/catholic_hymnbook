@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, Ye Faithful, Raise the Strain
-category: entrance
 ---
 
 1. Come, ye faithful, raise the strain

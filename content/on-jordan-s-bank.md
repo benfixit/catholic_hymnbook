@@ -1,7 +1,7 @@
 ---
 id: 501
 title: On Jordan's Bank
-category: entrance
+
 ---
 
 1. On Jordan's bank the Baptist's cry

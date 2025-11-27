@@ -1,7 +1,7 @@
 ---
 id: 347
 title: Sing With Joy the Saviour's Glory
-category: communion
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 475
 title: O Sacred Head, Surrounded
-category: entrance
+
 ---
 
 1. O Sacred Head, surrounded,

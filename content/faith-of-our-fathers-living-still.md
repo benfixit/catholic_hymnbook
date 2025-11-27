@@ -1,7 +1,7 @@
 ---
 id: 90
 title: Faith of our Fathers Living Still
-category: entrance
+
 ---
 
 1. Faith of our fathers, living still

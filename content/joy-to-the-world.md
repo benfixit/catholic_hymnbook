@@ -1,7 +1,7 @@
 ---
-id: 324
+id: 201
 title: Joy to the World
-category: entrance
+
 ---
 
 1. Joy to the world; the Lord is come;

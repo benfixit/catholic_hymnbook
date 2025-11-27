@@ -1,7 +1,7 @@
 ---
 id: 38
 title: Ave Regina Caelorum
-category: entrance
+
 ---
 
 1. Ave Regina caelorum!

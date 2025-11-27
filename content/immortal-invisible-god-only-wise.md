@@ -1,7 +1,7 @@
 ---
 id: 291
 title: Immortal, Invisible, God Only Wise
-category: entrance
+
 ---
 
 1. Immortal, invisible, God only wise,

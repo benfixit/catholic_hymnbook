@@ -1,7 +1,6 @@
 ---
 id: 8
 title: Alabare
-category: entrance
 ---
 
 _Refrain:_

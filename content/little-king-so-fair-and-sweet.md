@@ -1,7 +1,7 @@
 ---
 id: 353
 title: Little King So Fair and Sweet
-category: entrance
+
 ---
 
 1. Little King, so fair and sweet,

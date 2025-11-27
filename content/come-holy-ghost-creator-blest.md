@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Come, Holy Ghost, Creator Blest
-category: entrance
+
 ---
 
 1. Come, Holy Ghost, Creator blest,

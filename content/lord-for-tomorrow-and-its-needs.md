@@ -1,7 +1,7 @@
 ---
 id: 373
 title: Lord, for Tomorrow and Its Needs
-category: entrance
+
 ---
 
 1. Lord, for tomorrow and its needs

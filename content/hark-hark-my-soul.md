@@ -1,7 +1,7 @@
 ---
 id: 230
 title: Hark! Hark My Soul
-category: entrance
+
 ---
 
 _Chorus:_

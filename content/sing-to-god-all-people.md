@@ -1,7 +1,6 @@
 ---
-id: 570
+id: 346
 title: Sing to God All People
-category: entrance
 ---
 
 1. Sing to God all people

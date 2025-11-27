@@ -1,7 +1,7 @@
 ---
 id: 301
 title: Oh Yes! In the Presence of the Lord
-category: offertory
+
 ---
 
 _Chorus:_

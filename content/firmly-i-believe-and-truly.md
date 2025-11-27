@@ -1,7 +1,7 @@
 ---
 id: 95
 title: Firmly I Believe and Truly
-category: entrance
+
 ---
 
 1. Firmly I believe and truly

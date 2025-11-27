@@ -1,7 +1,7 @@
 ---
 id: 409
 title: My Times are in Thy Hand
-category: entrance
+
 ---
 
 1. My times are in Thy hand;

@@ -1,7 +1,6 @@
 ---
-id: 301
+id: 0000
 title: It Came Upon the Midnight Clear
-category: entrance
 ---
 
 1. It came upon the midnight clear,

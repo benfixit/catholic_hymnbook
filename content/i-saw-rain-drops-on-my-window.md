@@ -1,7 +1,7 @@
 ---
 id: 278
 title: I Saw Rain Drops on My Window
-category: entrance
+
 ---
 
 1. I saw raindrops on my window,

@@ -1,7 +1,6 @@
 ---
-id: 544
+id: 331
 title: Rorate Caeli
-category: entrance
 ---
 
 _Chorus:_

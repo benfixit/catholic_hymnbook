@@ -1,7 +1,7 @@
 ---
 id: 340
 title: Let Us Break Bread Together At the Altar
-category: offertory
+
 ---
 
 1. Let us break bread together at the altar,

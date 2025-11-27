@@ -1,7 +1,7 @@
 ---
 id: 406
 title: We Are Your Bread Now
-category: communion
+
 ---
 
 _Chorus:_

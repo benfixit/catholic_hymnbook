@@ -1,7 +1,7 @@
 ---
 id: 634
 title: There Shall Be Showers of Blessing
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 253
 title: My Soul Give Thanks To the Lord
-category: communion
+
 ---
 
 _Chorus:_

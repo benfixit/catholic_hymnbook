@@ -1,7 +1,7 @@
 ---
 id: 487
 title: O Strength and Stay
-category: entrance
+
 ---
 
 1. O Strength and Stay upholding all creation,

@@ -1,7 +1,7 @@
 ---
 id: 117
 title: Good Christian Men, Rejoice
-category: entrance
+
 ---
 
 1. Good Christian men, rejoice

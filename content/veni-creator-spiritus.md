@@ -1,7 +1,6 @@
 ---
-id: 653
-title: Veni Creator Spiritus
-category: entrance
+id: 401
+title: Veni Creator Spiritus (Come Holy Ghost Creator Come)
 ---
 
 1. Veni, Creator Spiritus,

@@ -1,7 +1,7 @@
 ---
 id: 69
 title: Come Praise the Lord
-category: entrance
+
 ---
 
 1. Come, praise the Lord, you children of the Lord,

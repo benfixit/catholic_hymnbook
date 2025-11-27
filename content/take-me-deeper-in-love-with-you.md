@@ -1,7 +1,7 @@
 ---
 id: 363
 title: Take Me Deeper in Love with You
-category: communion
+
 ---
 
 _Chorus:_

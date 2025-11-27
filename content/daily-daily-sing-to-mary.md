@@ -1,7 +1,7 @@
 ---
 id: 77
 title: Daily, Daily, Sing to Mary
-category: entrance
+
 ---
 
 1. Daily, daily, sing to Mary

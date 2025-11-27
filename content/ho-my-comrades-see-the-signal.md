@@ -1,7 +1,6 @@
 ---
-id: 250
+id: 154
 title: Ho! My Comrades, See the Signal
-category: entrance
 ---
 
 _Chorus:_

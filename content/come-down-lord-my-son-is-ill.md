@@ -1,7 +1,7 @@
 ---
 id: 63
 title: Come Down Lord, My Son is Ill
-category: entrance
+
 ---
 
 1. Come down Lord, my son is ill;

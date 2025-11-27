@@ -1,7 +1,7 @@
 ---
 id: 257
 title: Holy, Holy Name of Jesus
-category: entrance
+
 ---
 
 1. Holy, holy Name of Jesus,

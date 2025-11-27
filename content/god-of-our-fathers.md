@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: God of Our Fathers
-category: entrance
+
 ---
 
 1. God of our fathers, whose almighty hand

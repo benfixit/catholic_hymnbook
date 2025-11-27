@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Great Saint in Heaven
-category: entrance
+
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 272
 title: O Give Thanks to the Lord for He is Good
-category: communion
+
 ---
 
 1. O give thanks to the Lord for He is good,

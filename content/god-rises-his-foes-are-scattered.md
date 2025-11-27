@@ -1,7 +1,7 @@
 ---
 id: 115
 title: God Rises, His Foes are Scattered
-category: entrance
+
 ---
 
 1. God rises, his foes are scattered

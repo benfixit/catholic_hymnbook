@@ -1,7 +1,7 @@
 ---
 id: 357
 title: Lo, How a Rose E'er Blooming
-category: entrance
+
 ---
 
 1. Lo, how a rose e'er blooming

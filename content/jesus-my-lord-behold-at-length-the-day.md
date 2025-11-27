@@ -1,7 +1,7 @@
 ---
-id: 317
+id: 196
 title: Jesus, My Lord, Behold At Length the Day
-category: entrance
+
 ---
 
 _Chorus:_

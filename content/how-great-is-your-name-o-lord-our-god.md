@@ -1,7 +1,6 @@
 ---
-id: 264
+id: 164
 title: How Great Is Your Name O Lord, Our God
-category: entrance
 ---
 
 _Chorus:_

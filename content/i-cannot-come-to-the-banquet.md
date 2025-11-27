@@ -1,7 +1,7 @@
 ---
 id: 273
 title: I Cannot Come to the Banquet
-category: entrance
+
 ---
 
 _Chorus:_

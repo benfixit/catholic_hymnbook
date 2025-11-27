@@ -1,7 +1,6 @@
 ---
 id: 74
 title: Come to Me Beloved
-category: entrance
 ---
 
 1. Come to me, Beloved

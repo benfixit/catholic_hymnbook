@@ -1,7 +1,7 @@
 ---
 id: 612
 title: The Glory of These Forty Days
-category: entrance
+
 ---
 
 1. The glory of these forty days

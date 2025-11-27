@@ -1,7 +1,7 @@
 ---
 id: 574
 title: Songs of Thankfulness and Praise
-category: entrance
+
 ---
 
 1. Songs of thankfulness and praise,

@@ -1,7 +1,6 @@
 ---
-id: 300
+id: 189
 title: Into Your Sanctuary
-category: entrance
 ---
 
 _Chorus:_

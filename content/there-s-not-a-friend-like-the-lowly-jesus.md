@@ -1,7 +1,7 @@
 ---
 id: 388
 title: There's Not A Friend Like the Lowly Jesus
-category: recessional
+
 ---
 
 _Chorus:_

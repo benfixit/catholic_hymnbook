@@ -1,7 +1,7 @@
 ---
 id: 36
 title: Ave Maria! O Maiden, O Mother
-category: entrance
+
 ---
 
 1. Ave Maria! O Maiden, O Mother,

@@ -1,7 +1,6 @@
 ---
 id: 643
 title: Through the Red Sea
-category: entrance
 ---
 
 1. Through the Red Sea brought at last,

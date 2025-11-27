@@ -1,7 +1,7 @@
 ---
 id: 700
 title: Whosoever Heareth
-category: entrance
+
 ---
 
 _Chorus:_

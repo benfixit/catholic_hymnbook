@@ -1,7 +1,6 @@
 ---
-id: 644
+id: 392
 title: Thy Kingdom Come
-category: entrance
 ---
 
 1. Thy kingdom come; yea, bid it come,

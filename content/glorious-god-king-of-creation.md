@@ -1,7 +1,7 @@
 ---
 id: 99
 title: Glorious God King of Creation
-category: recessional
+
 ---
 
 1. Glorious God, King of creation,

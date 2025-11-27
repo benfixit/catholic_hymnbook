@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, Ye Thankful People, Come
-category: entrance
 ---
 
 1. Come, ye thankful people, come,

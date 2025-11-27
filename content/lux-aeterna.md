@@ -1,7 +1,6 @@
 ---
-id: 376
+id: 231
 title: Lux Aeterna
-category: entrance
 ---
 
 1. Lux aeterna luceat eis Domine,

@@ -1,7 +1,7 @@
 ---
 id: 496
 title: Of How Much More Value
-category: entrance
+
 ---
 
 _Chorus:_

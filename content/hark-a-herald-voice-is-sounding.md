@@ -1,7 +1,7 @@
 ---
-id: 229
+id: 138
 title: Hark! A Herald Voice is Sounding
-category: entrance
+
 ---
 
 1. Hark! a herald voice is sounding:

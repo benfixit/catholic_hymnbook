@@ -1,7 +1,7 @@
 ---
 id: 545
 title: Round the Lord in Glory Seated
-category: entrance
+
 ---
 
 _Chorus:_

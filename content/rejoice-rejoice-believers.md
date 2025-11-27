@@ -1,7 +1,7 @@
 ---
 id: 539
 title: Rejoice, Rejoice, Believers
-category: entrance
+
 ---
 
 1. Rejoice! rejoice, believers,

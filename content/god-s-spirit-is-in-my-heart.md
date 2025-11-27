@@ -1,7 +1,7 @@
 ---
 id: 116
 title: God's Spirit Is In My Heart
-category: entrance
+
 ---
 
 1. God's Spirit is in my heart,

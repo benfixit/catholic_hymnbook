@@ -1,7 +1,6 @@
 ---
-id: 562
+id: 343
 title: Sing A New Song to the Lord of the World
-category: entrance
 ---
 
 1. Sing a new song to the Lord of the world.

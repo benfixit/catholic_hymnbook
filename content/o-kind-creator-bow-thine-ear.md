@@ -1,7 +1,7 @@
 ---
 id: 455
 title: O Kind Creator, Bow Thine Ear
-category: entrance
+
 ---
 
 1. O kind Creator, bow thine ear

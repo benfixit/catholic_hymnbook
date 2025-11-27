@@ -1,7 +1,7 @@
 ---
 id: 293
 title: O Sacrament Most Holy
-category: communion
+
 ---
 
 1. O Sacrament most Holy,

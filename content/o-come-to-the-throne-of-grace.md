@@ -1,7 +1,7 @@
 ---
 id: 431
 title: O Come to the Throne of Grace
-category: entrance
+
 ---
 
 _Chorus:_

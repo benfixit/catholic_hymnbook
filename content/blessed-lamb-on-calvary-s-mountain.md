@@ -1,7 +1,7 @@
 ---
 id: 48
 title: Blessed Lamb! On Calvary's Mountain
-category: entrance
+
 ---
 
 1. Blessed Lamb! on Calvary's mountain

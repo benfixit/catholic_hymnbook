@@ -1,7 +1,7 @@
 ---
 id: 600
 title: The Advent of Our King
-category: entrance
+
 ---
 
 1. The advent of our King

@@ -1,7 +1,7 @@
 ---
 id: 87
 title: Enter Rejoice and Come In
-category: entrance
+
 ---
 
 1. Enter, rejoice, and come in.

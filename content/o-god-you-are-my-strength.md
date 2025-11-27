@@ -1,7 +1,6 @@
 ---
-id: 443
+id: 276
 title: O God You are My Strength
-category: entrance
 ---
 
 1. O God, You are my strength,

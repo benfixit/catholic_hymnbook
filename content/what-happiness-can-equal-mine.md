@@ -1,7 +1,7 @@
 ---
 id: 424
 title: What Happiness Can Equal Mine
-category: communion
+
 ---
 
 1. What happiness can equal mine?

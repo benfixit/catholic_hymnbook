@@ -1,7 +1,7 @@
 ---
 id: 420
 title: O Blessed Saint Joseph
-category: entrance
+
 ---
 
 1. O blessed St Joseph

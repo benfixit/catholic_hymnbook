@@ -1,7 +1,7 @@
 ---
 id: 639
 title: There's a Wideness in God's Mercy
-category: entrance
+
 ---
 
 1. There's a wideness in God's mercy

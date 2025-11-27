@@ -1,7 +1,7 @@
 ---
 id: 290
 title: Immaculate Mary
-category: entrance
+
 ---
 
 _Chorus:_

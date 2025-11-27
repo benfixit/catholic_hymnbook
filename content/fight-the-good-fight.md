@@ -1,7 +1,7 @@
 ---
 id: 93
 title: Fight the Good Fight
-category: recessional
+
 ---
 
 1. Fight the good fight with all thy might.

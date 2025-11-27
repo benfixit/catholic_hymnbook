@@ -1,7 +1,7 @@
 ---
 id: 131
 title: Hail Queen of the Heavens
-category: entrance
+
 ---
 
 1. Hail Queen of the Heavens, Hail Mistress of earth

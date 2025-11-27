@@ -1,7 +1,7 @@
 ---
 id: 678
 title: What A Friend We Have in Jesus
-category: entrance
+
 ---
 
 1. What a friend we have in Jesus

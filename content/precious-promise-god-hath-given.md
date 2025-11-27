@@ -1,7 +1,7 @@
 ---
 id: 534
 title: Precious Promise God Hath Given
-category: entrance
+
 ---
 
 _Chorus:_

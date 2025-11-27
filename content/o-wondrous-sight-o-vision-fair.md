@@ -1,7 +1,7 @@
 ---
 id: 492
 title: O Wondrous Sight! O Vision Fair
-category: entrance
+
 ---
 
 1. O wondrous sight! O vision fair

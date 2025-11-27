@@ -1,7 +1,7 @@
 ---
 id: 626
 title: The Spirit Lives to Set Us Free
-category: entrance
+
 ---
 
 _Chorus:_

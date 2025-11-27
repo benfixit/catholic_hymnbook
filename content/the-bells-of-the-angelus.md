@@ -1,7 +1,7 @@
 ---
 id: 602
 title: The Bells of the Angelus
-category: entrance
+
 ---
 
 _Chorus:_

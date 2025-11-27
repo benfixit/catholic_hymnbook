@@ -1,7 +1,7 @@
 ---
 id: 508
 title: One Thought Only Have We
-category: entrance
+
 ---
 
 _Chorus:_

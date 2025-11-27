@@ -1,7 +1,6 @@
 ---
 id: 646
 title: To God Be the Glory Great Things He Hath Done
-category: entrance
 ---
 
 _Chorus:_

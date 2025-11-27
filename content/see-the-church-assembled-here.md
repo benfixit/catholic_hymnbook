@@ -1,7 +1,6 @@
 ---
-id: 552
+id: 337
 title: See the Church Assembled Here
-category: entrance
 ---
 
 1. See the Church assembled here,

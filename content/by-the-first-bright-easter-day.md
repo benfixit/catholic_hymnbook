@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: By the First Bright Easter Day
-category: entrance
+
 ---
 
 _Chorus:_

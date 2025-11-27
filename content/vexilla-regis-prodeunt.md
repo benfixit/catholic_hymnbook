@@ -1,7 +1,6 @@
 ---
-id: 655
+id: 403
 title: Vexilla Regis Prodeunt
-category: entrance
 ---
 
 1. Vexilla Regis Produent

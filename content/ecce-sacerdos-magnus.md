@@ -1,7 +1,7 @@
 ---
 id: 86
 title: Ecce Sacerdos Magnus
-category: entrance
+
 ---
 
 Ecce Sacerdos Magnus

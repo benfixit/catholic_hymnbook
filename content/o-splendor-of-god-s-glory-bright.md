@@ -1,7 +1,7 @@
 ---
 id: 485
 title: O Splendor of God's Glory Bright
-category: entrance
+
 ---
 
 1. O splendor of God's glory bright,

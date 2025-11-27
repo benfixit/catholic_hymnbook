@@ -1,7 +1,7 @@
 ---
 id: 553
 title: See the Conqueror Mounts in Triumph
-category: entrance
+
 ---
 
 1. See the Conqueror mounts in triumph,

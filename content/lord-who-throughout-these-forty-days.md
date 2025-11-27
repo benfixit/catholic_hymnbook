@@ -1,7 +1,7 @@
 ---
 id: 370
 title: Lord, Who Throughout These Forty Days
-category: entrance
+
 ---
 
 1. Lord, who throughout these forty days

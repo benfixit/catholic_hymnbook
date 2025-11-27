@@ -1,7 +1,7 @@
 ---
 id: 24
 title: Anima Christi
-category: entrance
+
 ---
 
 Anima Christi, sanctifica me,

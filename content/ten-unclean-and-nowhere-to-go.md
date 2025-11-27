@@ -1,7 +1,7 @@
 ---
 id: 598
 title: Ten Unclean and Nowhere to Go
-category: entrance
+
 ---
 
 _Chorus:_

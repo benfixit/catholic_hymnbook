@@ -1,7 +1,7 @@
 ---
 id: 307
 title: Jesus Christ Is Risen Today
-category: entrance
+
 ---
 
 1. Jesus Christ is ris'n today,

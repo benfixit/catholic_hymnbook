@@ -1,7 +1,7 @@
 ---
 id: 305
 title: Jerusalem, My Happy Home
-category: entrance
+
 ---
 
 1. Jerusalem, my happy home,

@@ -1,7 +1,7 @@
 ---
 id: 49
 title: Blessed Saviour Thee I Love
-category: communion
+
 ---
 
 1. Blessed Savior, Thee I love

@@ -1,7 +1,7 @@
 ---
 id: 377
 title: Magnificat- God Fills Me With Joy
-category: entrance
+
 ---
 
 _Chorus:_

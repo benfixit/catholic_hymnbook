@@ -1,7 +1,7 @@
 ---
 id: 405
 title: My Song Is Love Unknown
-category: entrance
+
 ---
 
 1. My song is love unknown,

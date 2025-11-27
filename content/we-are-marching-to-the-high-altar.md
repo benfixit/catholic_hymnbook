@@ -1,7 +1,6 @@
 ---
-id: 660
+id: 404
 title: We Are Marching to the High Altar
-category: entrance
 ---
 
 _Chorus:_

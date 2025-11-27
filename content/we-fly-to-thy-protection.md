@@ -1,7 +1,7 @@
 ---
 id: 664
 title: We Fly to Thy Protection
-category: entrance
+
 ---
 
 1. We fly to thy protection

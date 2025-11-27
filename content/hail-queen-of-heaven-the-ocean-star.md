@@ -1,7 +1,7 @@
 ---
 id: 130
 title: Hail Queen Of Heaven, the Ocean Star
-category: entrance
+
 ---
 
 1. Hail, Queen of heaven, the ocean star,

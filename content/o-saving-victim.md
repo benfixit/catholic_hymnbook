@@ -1,7 +1,7 @@
 ---
 id: 484
 title: O Saving Victim
-category: entrance
+
 ---
 
 1. O saving Victim, op'ning wide

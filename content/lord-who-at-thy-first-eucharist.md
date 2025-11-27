@@ -1,7 +1,7 @@
 ---
 id: 372
 title: Lord, Who at Thy First Eucharist
-category: entrance
+
 ---
 
 1. Lord, who at thy first Eucharist did pray

@@ -1,7 +1,7 @@
 ---
 id: 14
 title: All that I am
-category: offertory
+
 ---
 
 1. All that I am, all that I do,

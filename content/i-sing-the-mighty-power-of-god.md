@@ -1,7 +1,7 @@
 ---
 id: 279
 title: I Sing the Mighty Power of God
-category: entrance
+
 ---
 
 1. I sing the mighty pow'r of God,

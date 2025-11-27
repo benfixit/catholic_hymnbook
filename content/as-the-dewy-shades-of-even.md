@@ -1,7 +1,7 @@
 ---
 id: 30
 title: As The Dewy Shades of Even
-category: entrance
+
 ---
 
 1. As the dewy shades of even,

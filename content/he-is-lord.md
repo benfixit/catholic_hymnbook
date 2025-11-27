@@ -1,7 +1,7 @@
 ---
-id: 240
+id: 145
 title: He is Lord
-category: entrance
+
 ---
 
 _Chorus:_

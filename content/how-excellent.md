@@ -1,7 +1,7 @@
 ---
 id: 262
 title: How Excellent
-category: entrance
+
 ---
 
 1. How excellent, how excellent

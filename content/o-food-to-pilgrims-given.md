@@ -1,7 +1,7 @@
 ---
 id: 439
 title: O Food to Pilgrims Given
-category: entrance
+
 ---
 
 1. O Food to pilgrims given,

@@ -1,7 +1,7 @@
 ---
 id: 0000
 title: Fairest Lord Jesus
-category: entrance
+
 ---
 
 1. Fairest Lord Jesus,

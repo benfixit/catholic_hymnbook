@@ -1,7 +1,7 @@
 ---
 id: 274
 title: I Come to thee Once More My Lord
-category: entrance
+
 ---
 
 1. I come to Thee once more, my God,

@@ -1,7 +1,6 @@
 ---
-id: 516
+id: 312
 title: Parce Domine
-category: entrance
 ---
 
 1. Parce, Domine, parce populo tuo:

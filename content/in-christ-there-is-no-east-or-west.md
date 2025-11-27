@@ -1,7 +1,7 @@
 ---
 id: 186
 title: In Christ There Is No East or West
-category: communion
+
 ---
 
 1. In Christ there is no East or West,

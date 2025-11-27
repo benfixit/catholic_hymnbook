@@ -1,7 +1,7 @@
 ---
 id: 378
 title: The Lord is My Shepherd
-category: communion
+
 ---
 
 _Chorus:_

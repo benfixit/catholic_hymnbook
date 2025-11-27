@@ -1,7 +1,7 @@
 ---
 id: 125
 title: Guide Me O Thou Great Redeemer
-category: communion
+
 ---
 
 _Chorus:_

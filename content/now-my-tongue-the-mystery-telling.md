@@ -1,7 +1,7 @@
 ---
 id: 417
 title: Now, My Tongue, the Mystery Telling
-category: entrance
+
 ---
 
 1. Now, my tongue, the myst'ry telling,

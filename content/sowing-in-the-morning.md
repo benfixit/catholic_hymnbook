@@ -1,7 +1,7 @@
 ---
 id: 353
 title: Sowing in the Morning
-category: offertory
+
 ---
 
 _Chorus:_

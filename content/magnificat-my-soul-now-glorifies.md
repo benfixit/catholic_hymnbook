@@ -1,7 +1,7 @@
 ---
 id: 379
 title: Magnificat- My Soul Now Glorifies
-category: entrance
+
 ---
 
 1. My soul now glorifies

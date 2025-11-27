@@ -1,7 +1,7 @@
 ---
 id: 389
 title: May Angels Guide You and Bring You into Paradise
-category: entrance
+
 ---
 
 1. May angels guide you and bring you into paradise:

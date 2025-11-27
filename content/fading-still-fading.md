@@ -1,7 +1,7 @@
 ---
 id: 89
 title: Fading Still Fading
-category: entrance
+
 ---
 
 1. Fading, still fading, the last beam is shining;

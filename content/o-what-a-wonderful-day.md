@@ -1,7 +1,7 @@
 ---
 id: 297
 title: O What A Wonderful Day
-category: recessional
+
 ---
 
 _Chorus:_

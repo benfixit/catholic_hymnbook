@@ -1,7 +1,7 @@
 ---
-id: 641
+id: 390
 title: This Is My Will, My One Command
-category: entrance
+
 ---
 
 1. This is My will, My one command,

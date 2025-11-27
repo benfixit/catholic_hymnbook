@@ -1,7 +1,7 @@
 ---
 id: 41
 title: Beautiful Saviour
-category: entrance
+
 ---
 
 1. Beautiful Savior, King of creation,

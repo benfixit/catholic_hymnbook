@@ -1,7 +1,7 @@
 ---
 id: 254
 title: Holy Queen! We Bend Before Thee
-category: entrance
+
 ---
 
 _Chorus:_

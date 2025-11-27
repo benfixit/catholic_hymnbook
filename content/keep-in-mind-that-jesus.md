@@ -1,7 +1,7 @@
 ---
-id: 329
+id: 205
 title: Keep In Mind That Jesus
-category: entrance
+
 ---
 
 _Chorus:_

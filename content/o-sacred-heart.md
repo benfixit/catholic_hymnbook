@@ -1,7 +1,7 @@
 ---
 id: 477
 title: O Sacred Heart
-category: entrance
+
 ---
 
 1. O Sacred Heart,

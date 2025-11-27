@@ -1,7 +1,6 @@
 ---
 id: 72
 title: Come, Thou Almighty King
-category: entrance
 ---
 
 1. Come, thou Almighty King,

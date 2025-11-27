@@ -1,7 +1,7 @@
 ---
 id: 346
 title: Light of All Days
-category: entrance
+
 ---
 
 1. Light of all days that were and be,

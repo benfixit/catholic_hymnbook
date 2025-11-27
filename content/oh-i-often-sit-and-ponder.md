@@ -1,7 +1,7 @@
 ---
 id: 500
 title: Oh! I Often Sit and Ponder
-category: entrance
+
 ---
 
 _Chorus:_

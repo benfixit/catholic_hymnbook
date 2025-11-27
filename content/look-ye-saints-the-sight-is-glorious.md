@@ -1,7 +1,7 @@
 ---
 id: 361
 title: Look, Ye Saints! The Sight Is Glorious
-category: entrance
+
 ---
 
 1. Look, ye saints! the sight is glorious:

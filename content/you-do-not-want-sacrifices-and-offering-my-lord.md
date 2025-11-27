@@ -1,7 +1,6 @@
 ---
 id: 443
 title: You Do Not Want Sacrifices and Offering My Lord
-category: communion
 ---
 
 _Chorus:_

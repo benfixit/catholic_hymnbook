@@ -1,7 +1,6 @@
 ---
-id: 615
+id: 375
 title: The Heavens Proclaim the Glory of God
-category: entrance
 ---
 
 _Chorus:_

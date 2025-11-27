@@ -1,7 +1,7 @@
 ---
 id: 1006
 title: Bless Me, Befriend Me
-category: entrance
+
 ---
 
 1. Bless me, befriend me, sweet angel, I pray;

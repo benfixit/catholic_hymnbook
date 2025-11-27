@@ -1,7 +1,7 @@
 ---
 id: 526
 title: Praise We Our God With Joy
-category: entrance
+
 ---
 
 1. Praise we our God with joy

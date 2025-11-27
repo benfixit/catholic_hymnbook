@@ -1,7 +1,6 @@
 ---
 id: 157
 title: Holy, Holy is the Lord
-category: communion
 ---
 
 _Chorus:_

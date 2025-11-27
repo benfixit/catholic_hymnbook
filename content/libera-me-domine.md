@@ -1,7 +1,6 @@
 ---
-id: 344
+id: 218
 title: Libera Me Domine
-category: entrance
 ---
 
 1. Libera me, Dómine,

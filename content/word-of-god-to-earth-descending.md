@@ -1,7 +1,7 @@
 ---
 id: 701
 title: Word of God to Earth Descending
-category: entrance
+
 ---
 
 1. Word of God to earch descending,

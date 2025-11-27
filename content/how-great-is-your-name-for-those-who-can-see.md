@@ -1,7 +1,6 @@
 ---
-id: 265
+id: 163
 title: How Great Is Your Name for Those Who Can See
-category: entrance
 ---
 
 1. How great is Your name, for those who can see

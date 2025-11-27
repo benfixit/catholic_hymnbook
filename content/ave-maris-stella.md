@@ -1,7 +1,7 @@
 ---
 id: 37
 title: Ave Maris Stella
-category: entrance
+
 ---
 
 1. Ave maris stella,

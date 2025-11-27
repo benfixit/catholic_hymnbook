@@ -1,7 +1,7 @@
 ---
 id: 441
 title: You Are My People, I Am Your God
-category: communion
+
 ---
 
 _Chorus:_

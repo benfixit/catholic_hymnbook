@@ -1,7 +1,7 @@
 ---
 id: 381
 title: Magnificat- My Soul Proclaims the Lord My God
-category: entrance
+
 ---
 
 1. My soul proclaims the Lord my God;

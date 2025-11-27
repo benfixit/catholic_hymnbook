@@ -1,7 +1,7 @@
 ---
 id: 338
 title: Let Thy Blood in Mercy Poured
-category: entrance
+
 ---
 
 _Chorus:_

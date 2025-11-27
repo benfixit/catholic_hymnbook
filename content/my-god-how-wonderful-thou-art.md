@@ -1,7 +1,7 @@
 ---
 id: 400
 title: My God, How Wonderful Thou Art
-category: entrance
+
 ---
 
 1. My God, how wonderful Thou art,

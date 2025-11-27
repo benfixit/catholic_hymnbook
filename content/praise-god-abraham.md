@@ -1,7 +1,7 @@
 ---
 id: 317
 title: Praise God Abraham
-category: recessional
+
 ---
 
 1. Praise God of Abraham

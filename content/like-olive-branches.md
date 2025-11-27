@@ -1,7 +1,7 @@
 ---
 id: 349
 title: Like Olive Branches
-category: entrance
+
 ---
 
 _Chorus:_

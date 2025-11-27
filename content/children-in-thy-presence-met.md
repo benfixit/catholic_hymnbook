@@ -1,7 +1,7 @@
 ---
 id: 55
 title: Children in Thy Presence Met
-category: entrance
+
 ---
 
 1. Children in Thy presence met,
