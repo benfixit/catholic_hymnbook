@@ -1,7 +1,7 @@
 ---
-id: 591
+id: 364
 title: Take My Hands and Make them as Your Own
-category: entrance
+category: offertory
 ---
 
 1. Take my hands and make them as your own

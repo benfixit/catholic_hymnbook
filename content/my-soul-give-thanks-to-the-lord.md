@@ -1,7 +1,7 @@
 ---
-id: 407
+id: 253
 title: My Soul Give Thanks To the Lord
-category: entrance
+category: communion
 ---
 
 _Chorus:_

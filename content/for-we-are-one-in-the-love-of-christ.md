@@ -1,7 +1,7 @@
 ---
 id: 96
 title: For We Are One in the Love of Christ
-category: entrance
+category: communion
 ---
 
 _Refrain:_

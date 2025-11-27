@@ -1,7 +1,7 @@
 ---
-id: 458
+id: 285
 title: O Listen To A Wondrous Story
-category: entrance
+category: communion
 ---
 
 _Chorus:_

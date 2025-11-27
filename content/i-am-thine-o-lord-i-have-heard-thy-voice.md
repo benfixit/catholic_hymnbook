@@ -1,7 +1,7 @@
 ---
-id: 284
+id: 170
 title: I am Thine O Lord I Have Heard Thy Voice
-category: entrance
+category: communion
 ---
 
 _Chorus:_

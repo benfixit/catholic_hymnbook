@@ -1,7 +1,7 @@
 ---
-id: 685
+id: 426
 title: Whatsoever You Do To the Least of My Brothers
-category: entrance
+category: communion
 ---
 
 _Chorus:_

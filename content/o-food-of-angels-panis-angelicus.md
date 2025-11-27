@@ -1,7 +1,7 @@
 ---
-id: 438
+id: 271
 title: O Food of Angels (Panis Angelicus)
-category: entrance
+category: communion
 ---
 
 1. O food of angels, now food for men

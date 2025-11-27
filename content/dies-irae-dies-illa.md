@@ -1,7 +1,6 @@
 ---
 id: 83
-title: Dies Irae Dies Illa
-subtitle: (Sequence - Misa pro defunctis - Mass for the dead)
+title: Dies Irae Dies Illa (Sequence - Misa pro defunctis - Mass for the dead)
 category: entrance
 ---
 

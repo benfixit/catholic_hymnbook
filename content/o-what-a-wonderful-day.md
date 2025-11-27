@@ -1,7 +1,7 @@
 ---
-id: 490
+id: 297
 title: O What A Wonderful Day
-category: entrance
+category: recessional
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
-id: 665
+id: 409
 title: We Gather Together
-category: entrance
+category: offertory
 ---
 
 1. We gather together

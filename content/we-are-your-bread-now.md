@@ -1,7 +1,7 @@
 ---
-id: 662
+id: 406
 title: We Are Your Bread Now
-category: entrance
+category: communion
 ---
 
 _Chorus:_

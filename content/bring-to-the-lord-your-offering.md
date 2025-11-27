@@ -1,8 +1,7 @@
 ---
 id: 54
-title: Bring to the Lord Your Offering
-subtitle: (Psalm 29)
-category: entrance
+title: Bring to the Lord Your Offering (Psalm 29)
+category: offertory
 ---
 
 _Antiphon:_

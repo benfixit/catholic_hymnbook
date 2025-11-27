@@ -1,7 +1,7 @@
 ---
-id: 347
+id: 219
 title: Light of Christ
-category: entrance
+category: recessional
 ---
 
 _Chorus:_

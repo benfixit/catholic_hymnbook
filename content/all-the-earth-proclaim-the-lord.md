@@ -1,7 +1,6 @@
 ---
 id: 15
-title: All the earth proclaim the Lord
-subtitle: (Psalm 100)
+title: All the earth proclaim the Lord (Psalm 100)
 category: entrance
 ---
 

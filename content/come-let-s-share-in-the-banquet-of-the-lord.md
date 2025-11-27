@@ -1,7 +1,7 @@
 ---
 id: 67
 title: Come Let's Share in the Banquet of the Lord
-category: entrance
+category: communion
 ---
 
 1. Come, let's share in the banquet of the Lord,

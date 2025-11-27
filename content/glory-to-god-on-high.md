@@ -1,7 +1,7 @@
 ---
 id: 104
 title: Glory to God on High
-category: entrance
+category: communion
 ---
 
 _Refrain:_

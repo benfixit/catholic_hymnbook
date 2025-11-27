@@ -1,7 +1,6 @@
 ---
 id: 82
-title: Deliver Me O Lord
-subtitle: (Libera Me Domine)
+title: Deliver Me O Lord (Libera Me Domine)
 category: entrance
 ---
 

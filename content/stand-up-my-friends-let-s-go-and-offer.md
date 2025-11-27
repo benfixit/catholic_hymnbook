@@ -1,7 +1,7 @@
 ---
-id: 581
+id: 356
 title: Stand Up My Friends Let's Go and Offer
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

@@ -1,7 +1,7 @@
 ---
 id: 59
 title: Christ is My Rock
-category: entrance
+category: communion
 ---
 
 _Refrain:_

@@ -1,7 +1,7 @@
 ---
-id: 588
+id: 360
 title: Sweet Sacrament Divine
-category: entrance
+category: communion
 ---
 
 1. Sweet Sacrament divine,

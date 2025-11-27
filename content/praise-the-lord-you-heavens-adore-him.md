@@ -1,7 +1,7 @@
 ---
-id: 528
+id: 321
 title: Praise the Lord! You Heavens Adore Him
-category: entrance
+category: recessional
 ---
 
 1. Praise the Lord! you heav'ns adore Him;

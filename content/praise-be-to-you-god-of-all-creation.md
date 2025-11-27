@@ -1,7 +1,7 @@
 ---
-id: 521
+id: 316
 title: Praise Be to You God of All Creation
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

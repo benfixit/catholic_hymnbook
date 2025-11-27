@@ -1,7 +1,7 @@
 ---
-id: 335
+id: 211
 title: Lead Us, Heavenly Father
-category: entrance
+category: recessional
 ---
 
 1. Lead us, heavenly Father, lead us

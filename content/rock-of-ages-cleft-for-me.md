@@ -1,7 +1,7 @@
 ---
-id: 543
+id: 330
 title: Rock of Ages Cleft for Me
-category: entrance
+category: communion
 ---
 
 1. Rock of Ages, cleft for me,

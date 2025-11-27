@@ -1,7 +1,7 @@
 ---
-id: 268
-title: Humbly Let Us Voice Our Homage
-category: entrance
+id: 167
+title: Humbly Let Us Voice Our Homage (Tantum Ergo)
+category: communion
 ---
 
 1. Humbly let us voice our homage
@@ -17,4 +17,3 @@ Praised be God, almighty Father;
 Praised be Christ, His Son, our Lord;
 Praised be God the Holy Spirit;
 Triune Godhead be adored! Amen.
-

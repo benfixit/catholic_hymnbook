@@ -1,7 +1,7 @@
 ---
-id: 711
+id: 441
 title: You Are My People, I Am Your God
-category: entrance
+category: communion
 ---
 
 _Chorus:_

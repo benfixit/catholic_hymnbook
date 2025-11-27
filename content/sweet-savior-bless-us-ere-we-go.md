@@ -1,7 +1,7 @@
 ---
-id: 589
+id: 361
 title: Sweet Savior, Bless Us Ere We Go
-category: entrance
+category: recessional
 ---
 
 _Chorus:_

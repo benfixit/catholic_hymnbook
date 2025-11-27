@@ -1,7 +1,7 @@
 ---
-id: 693
+id: 432
 title: When Upon Life's Billows You Are Tempest Tossed
-category: entrance
+category: recessional
 ---
 
 _Chorus:_

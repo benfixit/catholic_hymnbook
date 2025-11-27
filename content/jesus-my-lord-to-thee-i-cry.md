@@ -1,7 +1,7 @@
 ---
-id: 320
+id: 198
 title: Jesus, My Lord, to Thee I Cry
-category: entrance
+category: communion
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 71
-title: Come Sound His Praise Abroad
-subtitle: (Psalm 95)
+title: Come Sound His Praise Abroad (Psalm 95)
 category: entrance
 ---
 

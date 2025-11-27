@@ -1,7 +1,7 @@
 ---
-id: 368
+id: 226
 title: Lord, Accept the Gifts We Offer
-category: entrance
+category: offertory
 ---
 
 1. Lord, accept the gifts we offer

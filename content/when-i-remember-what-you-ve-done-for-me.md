@@ -1,7 +1,7 @@
 ---
-id: 688
+id: 429
 title: When I Remember What You've Done for Me
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

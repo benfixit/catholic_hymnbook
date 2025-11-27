@@ -19,7 +19,6 @@ const data = files.map(file => {
         content,
         id: data.id,
         title: data.title,
-        subtitle: data.subtitle,
         category: data.category
     }
 });

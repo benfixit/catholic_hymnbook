@@ -1,7 +1,7 @@
 ---
 id: 85
 title: Ecce Panis Angelorium
-category: entrance
+category: communion
 ---
 
 1. Ecce Panis Angelorum,

@@ -1,7 +1,7 @@
 ---
-id: 427
+id: 267
 title: O Come Thou Wisdom Whose Decree
-category: entrance
+category: advent
 ---
 
 _Chorus:_

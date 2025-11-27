@@ -1,7 +1,7 @@
 ---
-id: 677
+id: 421
 title: What A Blessed Hope Is Mine
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

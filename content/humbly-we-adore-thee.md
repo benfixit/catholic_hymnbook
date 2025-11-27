@@ -1,7 +1,7 @@
 ---
-id: 269
+id: 168
 title: Humbly We Adore Thee
-category: entrance
+category: communion
 ---
 
 _Chorus:_

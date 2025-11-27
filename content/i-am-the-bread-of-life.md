@@ -1,7 +1,7 @@
 ---
-id: 270
+id: 169
 title: I Am the Bread of Life
-category: entrance
+category: communion
 ---
 
 _Chorus:_

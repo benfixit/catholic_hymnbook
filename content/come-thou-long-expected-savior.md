@@ -1,7 +1,7 @@
 ---
 id: 73
 title: Come Thou Long Expected Savior
-category: entrance
+category: advent
 ---
 
 1. Come Thou long expected Saviour,

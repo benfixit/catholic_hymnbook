@@ -1,7 +1,7 @@
 ---
-id: 603
+id: 370
 title: The Church Is Where Men Are
-category: entrance
+category: communion
 ---
 
 _Chorus:_

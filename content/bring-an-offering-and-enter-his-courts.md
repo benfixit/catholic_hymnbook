@@ -1,8 +1,7 @@
 ---
 id: 53
-title: Bring an Offering and Enter His Courts
-subtitle: (Psalm 96)
-category: entrance
+title: Bring an Offering and Enter His Courts (Psalm 96)
+category: offertory
 ---
 
 _Antiphon:_

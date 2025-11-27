@@ -1,7 +1,6 @@
 ---
 id: 7
-title: Agnus Dei
-subtitle: Misa pro defunctis - Mass for the dead
+title: Agnus Dei (Misa pro defunctis - Mass for the dead)
 category: entrance
 ---
 Agnus Dei, qui tollis peccata mundi,

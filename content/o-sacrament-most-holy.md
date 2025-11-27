@@ -1,7 +1,7 @@
 ---
-id: 474
+id: 293
 title: O Sacrament Most Holy
-category: entrance
+category: communion
 ---
 
 1. O Sacrament most Holy,

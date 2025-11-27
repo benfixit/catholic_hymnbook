@@ -1,7 +1,7 @@
 ---
-id: 527
+id: 320
 title: Praise the Lord in Heaven
-category: entrance
+category: recessional
 ---
 
 1. Praise the Lord in Heaven,

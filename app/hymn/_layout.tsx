@@ -20,10 +20,7 @@ const HymnLayout = () => {
         return <Redirect href={`/+not-found`} />
     }
 
-    let title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
-    if (selectedHymn.subtitle) {
-        title += ` ${selectedHymn.subtitle}`;
-    }
+    const title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
 
     return (
         <>

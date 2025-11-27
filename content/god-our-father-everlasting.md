@@ -1,7 +1,7 @@
 ---
 id: 112
 title: God Our Father Everlasting
-category: entrance
+category: offertory
 ---
 
 1. God our Father everlasting,

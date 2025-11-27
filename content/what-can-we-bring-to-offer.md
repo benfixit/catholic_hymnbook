@@ -1,7 +1,7 @@
 ---
-id: 679
+id: 422
 title: What Can We Bring to Offer
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

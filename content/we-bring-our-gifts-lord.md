@@ -1,7 +1,7 @@
 ---
-id: 663
+id: 407
 title: We Bring Our Gifts Lord
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

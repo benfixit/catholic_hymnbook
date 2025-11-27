@@ -1,3 +1,4 @@
 5. Share on Whatsapp
 7. Make the title bar break long text to the next line
-8. Support old and new number
+8. Support old and new number: Add search by hymn number
+9. Add badge to show current category

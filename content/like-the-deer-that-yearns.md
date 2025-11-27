@@ -1,7 +1,7 @@
 ---
-id: 352
+id: 222
 title: Like the Deer That Yearns
-category: entrance
+category: communion
 ---
 
 _Chorus:_

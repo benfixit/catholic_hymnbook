@@ -1,7 +1,7 @@
 ---
 id: 105
 title: Go Prophet Go
-category: entrance
+category: recessional
 ---
 
 1. Go, Prophet, go! Go Prophet, go!

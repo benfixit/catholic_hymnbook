@@ -1,7 +1,7 @@
 ---
-id: 258
+id: 157
 title: Holy, Holy is the Lord
-category: entrance
+category: communion
 ---
 
 _Chorus:_

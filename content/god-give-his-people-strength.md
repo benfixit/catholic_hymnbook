@@ -1,7 +1,7 @@
 ---
 id: 108
 title: God Give His People Strength
-category: entrance
+category: communion
 ---
 
 1. God gives His people strength.

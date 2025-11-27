@@ -1,7 +1,6 @@
 ---
 id: 118
-title: Gradual/Tract
-subtitle: (Misa pro defunctis - Mass for the dead)
+title: Gradual/Tract (Misa pro defunctis - Mass for the dead)
 category: entrance
 ---
 

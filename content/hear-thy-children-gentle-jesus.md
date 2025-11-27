@@ -1,7 +1,7 @@
 ---
-id: 242
+id: 148
 title: Hear Thy Children, Gentle Jesus
-category: entrance
+category: communion
 ---
 
 1. Hear thy children, gentle Jesus,

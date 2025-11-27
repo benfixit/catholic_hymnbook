@@ -1,7 +1,7 @@
 ---
-id: 687
+id: 428
 title: When I Look At the Work of Your Hands
-category: entrance
+category: recessional
 ---
 
 _Chorus:_

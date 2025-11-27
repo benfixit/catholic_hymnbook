@@ -1,7 +1,6 @@
 ---
 id: 65
-title: Come, Holy Ghost, Creator Come
-subtitle: (Veni Creator Spiritus)
+title: Come, Holy Ghost, Creator Come (Veni Creator Spiritus)
 category: entrance
 ---
 

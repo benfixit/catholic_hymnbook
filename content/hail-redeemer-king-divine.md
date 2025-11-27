@@ -1,8 +1,13 @@
 ---
-id: 215
+id: 132
 title: Hail Redeemer King Divine
 category: entrance
 ---
+
+1. Hail Redeemer, King divine,
+Priest and Lamb, the throne is Thine;
+King whose reign shall never cease,
+Prince of everlasting peace!
 
 _Chorus:_
 _Angels, saints and nations sing:_
@@ -10,10 +15,6 @@ _"Praise be Jesus Christ our King;_
 _Lord of life, earth, sky and sea,_
 _King of love on Calvary."_
 
-1. Hail Redeemer, King divine,
-Priest and Lamb, the throne is Thine;
-King whose reign shall never cease,
-Prince of everlasting peace!
 
 2. King, whose name creation thrills,
 Rule our minds, our hearts, our wills;

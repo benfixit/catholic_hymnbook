@@ -1,7 +1,7 @@
 ---
-id: 651
+id: 399
 title: Turn Up Christians
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

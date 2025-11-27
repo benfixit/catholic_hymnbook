@@ -1,7 +1,7 @@
 ---
-id: 398
+id: 249
 title: My God Loves Me
-category: entrance
+category: recessional
 ---
 
 1. My God loves me.

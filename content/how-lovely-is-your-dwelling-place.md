@@ -1,7 +1,7 @@
 ---
-id: 266
+id: 165
 title: How Lovely Is Your Dwelling Place
-category: entrance
+category: communion
 ---
 
 _Chorus:_

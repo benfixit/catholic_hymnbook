@@ -1,7 +1,7 @@
 ---
-id: 575
+id: 350
 title: Sons of God Hear His Holy Word
-category: entrance
+category: communion
 ---
 
 _Chorus:_

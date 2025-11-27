@@ -1,7 +1,7 @@
 ---
-id: 505
+id: 305
 title: Once More, My Soul
-category: entrance
+category: communion
 ---
 
 _Chorus:_

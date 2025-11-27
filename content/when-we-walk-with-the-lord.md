@@ -1,7 +1,7 @@
 ---
-id: 694
+id: 433
 title: When We Walk With the Lord
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

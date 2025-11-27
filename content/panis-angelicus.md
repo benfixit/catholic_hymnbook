@@ -1,6 +1,6 @@
 ---
-id: 515
-title: Panis Angelicus
+id: 311
+title: Panis Angelicus (O Food of Angels)
 category: entrance
 ---
 

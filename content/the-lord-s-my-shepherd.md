@@ -1,7 +1,7 @@
 ---
-id: 622
+id: 380
 title: The Lord's My Shepherd
-category: entrance
+category: communion
 ---
 
 1. The Lord's my shepherd, I'll not want,

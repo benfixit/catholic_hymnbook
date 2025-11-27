@@ -1,7 +1,7 @@
 ---
-id: 321
+id: 200
 title: Jesus, Thou Art Coming
-category: entrance
+category: communion
 ---
 
 1. Jesus, thou art coming,

@@ -1,7 +1,7 @@
 ---
-id: 668
+id: 412
 title: We Offer Thee the Holy Mass
-category: entrance
+category: offertory
 ---
 
 1. We offer Thee the Holy Mass

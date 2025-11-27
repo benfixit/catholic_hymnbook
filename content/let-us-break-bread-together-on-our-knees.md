@@ -1,7 +1,7 @@
 ---
 id: 341
 title: Let Us Break Bread Together On Our Knees
-category: entrance
+category: offertory
 ---
 
 1. Let us break bread together on our knees,

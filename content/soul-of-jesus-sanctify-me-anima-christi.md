@@ -1,7 +1,7 @@
 ---
-id: 576
+id: 351
 title: Soul of Jesus Sanctify Me (Anima Christi)
-category: entrance
+category: communion
 ---
 
 1. Soul of Jesus, sanctify me.

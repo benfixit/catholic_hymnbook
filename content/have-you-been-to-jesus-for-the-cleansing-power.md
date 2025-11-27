@@ -1,7 +1,7 @@
 ---
-id: 237
+id: 143
 title: Have You Been to Jesus for the Cleansing Power?
-category: entrance
+category: communion
 ---
 
 _Chorus:_

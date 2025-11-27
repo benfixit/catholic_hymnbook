@@ -1,7 +1,7 @@
 ---
-id: 453
+id: 282
 title: O Jesus We Adore Thee
-category: entrance
+category: communion
 ---
 
 _Chorus:_

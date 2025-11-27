@@ -1,7 +1,7 @@
 ---
-id: 670
+id: 414
 title: We Plough The Fields and Scatter
-category: entrance
+category: offertory
 ---
 
 _Chorus:_

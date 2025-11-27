@@ -1,7 +1,7 @@
 ---
-id: 416
+id: 260
 title: Now the Day is Over
-category: entrance
+category: recessional
 ---
 
 1. Now the day is over,
