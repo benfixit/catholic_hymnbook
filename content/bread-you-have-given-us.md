@@ -1,7 +1,7 @@
 ---
 id: 52
 title: Bread You Have Given Us
-category: entrance
+category: communion
 ---
 
 _Refrain:_

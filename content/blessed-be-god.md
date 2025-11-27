@@ -1,7 +1,7 @@
 ---
 id: 47
 title: Blessed Be God
-category: entrance
+category: recessional
 ---
 
 Blessed be God. Amen

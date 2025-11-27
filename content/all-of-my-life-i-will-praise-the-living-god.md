@@ -1,7 +1,7 @@
 ---
 id: 12
 title: All of My Life I Will Praise the Living God
-category: entrance
+category: recessional
 ---
 
 _Refrain:_

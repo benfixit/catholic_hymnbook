@@ -1,44 +1,70 @@
 import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
+import { router, UnknownOutputParams, useGlobalSearchParams } from 'expo-router';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem, DrawerItemList } from '@react-navigation/drawer';
 import { Ionicons } from '@react-native-vector-icons/ionicons';
 import HymnProvider from '@/store/HymnProvider';
 import { ThemeProvider } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
+import { Category } from '@/typings';
 
-const CustomDrawerContent = (props: DrawerContentComponentProps) => {
+const activeTintColor='#3478F6';
+const activeBackgroundColor='#E3EEFD';
+
+export default function RootLayout() {
+  const customDrawerContent = (props: DrawerContentComponentProps) => {
+    const params: UnknownOutputParams & { category: Category} = useGlobalSearchParams();
   return (
     <DrawerContentScrollView {...props}>
       <DrawerItemList {...props} />
       <View style={styles.hr} />
-      {categories.map(item => (
-        <DrawerItem key={item.id} label={item.title} onPress={() => console.log("Here")} /> // set the category context or pass a route param
-      ))}
+      <DrawerItem 
+        activeTintColor={activeTintColor} 
+        activeBackgroundColor={activeBackgroundColor}
+        focused={!params.category}
+        label={"All"} 
+        onPress={() => {
+          router.push('/');
+        }} 
+      />
+      {categories.map(item => {
+        return (
+          <DrawerItem 
+            activeTintColor={activeTintColor} 
+            activeBackgroundColor={activeBackgroundColor}
+            focused={params.category === item.slug}
+            key={item.id} 
+            label={item.title} 
+            onPress={() => {
+              router.push({ pathname: "/", params: { category: item.slug } });
+            }} 
+          />
+        );
+      })}
     </DrawerContentScrollView>
   );
 }
 
-export default function RootLayout() {
   return (
     <ThemeProvider>
       <HymnProvider>
-        <Drawer 
-          drawerContent={CustomDrawerContent} 
+        <Drawer
+          drawerContent={customDrawerContent} 
           screenOptions={{
             headerStyle: {
               backgroundColor: "#0078d7"
             },
             headerTintColor: "#ffffff",
-            
           }}
           >
-          <Drawer.Screen 
+          <Drawer.Screen
             name='index' options={{ 
               title: "Catholic Hymnbook (Nigeria)", 
-              drawerLabel: "Home", 
-              drawerIcon: ({ color, size}) => <Ionicons name='home' color={color} size={size} />
+              drawerItemStyle: {
+                display: "none"
+              }
             }}
           />
           <Drawer.Screen 
@@ -63,24 +89,7 @@ export default function RootLayout() {
             }}
           />
         </Drawer>
-        {/* <Stack screenOptions={{
-          headerStyle: {
-            backgroundColor: "#0078d7"
-          },
-          headerTintColor: Colors["dark"].tint,
-          headerTitleStyle: {
-            fontWeight: 600,
-            color: Colors["dark"].text
-          },
-          headerBackButtonDisplayMode: "minimal",
-          headerBackIcon: {
-            type: "image",
-            source: require("@/assets/images/back-icon.png"),
-          },
-          headerRight: () => <Right />
-        }}>
-        </Stack>
-        <StatusBar style="auto" /> */}
+        <StatusBar style='light' />
       </HymnProvider>
     </ThemeProvider>
   );

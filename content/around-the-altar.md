@@ -1,7 +1,7 @@
 ---
 id: 28
 title: Around the Altar
-category: entrance
+category: communion
 ---
 
 _Refrain_

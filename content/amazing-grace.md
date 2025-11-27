@@ -1,7 +1,7 @@
 ---
 id: 21
 title: Amazing Grace
-category: entrance
+category: communion
 ---
 
 1. Amazing grace! how sweet the sound!

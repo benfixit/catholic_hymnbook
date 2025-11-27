@@ -1,35 +1,46 @@
-//@ts-nocheck
+import { UnknownOutputParams, useLocalSearchParams, useRouter } from "expo-router";
+import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
+import { Text, View, StyleSheet, FlatList, Pressable, StatusBar } from "react-native";
+import debounce from 'debounce';
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import SearchBox from "@/components/Search";
 import { useHymns } from "@/store/HymnProvider";
 import { useTheme } from "@/store/ThemeProvider";
-import { Link, useRouter } from "expo-router";
-import { useMemo, useState } from "react";
-import { Text, View, StyleSheet, FlatList, Pressable, StatusBar } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { Category, ColorsType, HymnType } from "@/typings";
+import { searchFilterCallback } from "@/utils";
 
 export default function Index() {
     const { hymns, setHymn } = useHymns();
-    const { colors, theme } = useTheme();
+    const { colors } = useTheme();
     const [filteredHymns, setFilteredHymns] = useState(hymns);
-    const styles = useMemo(() => makeStyles(colors), [colors])    
+    const [searchTerm, setSearchTerm] = useState("");
+    const styles = useMemo(() => makeStyles(colors), [colors]);
+    const params: UnknownOutputParams & { category: Category } = useLocalSearchParams();
 
-    const onSearch = (searchTerm) => {
-        const newHymns = hymns.filter(hymn => {
-            return hymn.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            hymn.subtitle?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            hymn.content.toLowerCase().includes(searchTerm.toLowerCase());
-        });
+    useEffect(() => {
+        let data = hymns;
 
-        setFilteredHymns(newHymns);
+        if (params.category) {
+            data = data.filter((hymn) => hymn.category === params.category);
+        }
+
+        data = data.filter(hymn => searchFilterCallback(hymn, searchTerm));
+
+        setFilteredHymns(data)
+
+    }, [params.category, searchTerm]);
+
+    const onSearch = (searchTerm: string) => {
+        setSearchTerm(searchTerm);
     }
 
-    const renderItem = (item, setHymn) => {
+    const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<HymnType>>) => {
         const router = useRouter();
 
         return (
             <Pressable onPress={() => {
                 setHymn(item)
-                router.push({ pathname: `/hymn/${item.id}` });
+                router.push(`/hymn/[${item.id}]`);
             }} style={({ pressed }) => [{ backgroundColor: pressed ? 'rgb(210, 230, 255)' : 'white'}, styles.pressable]}>
                 <View style={styles.view}>
                     {/* <Text style={styles.text}>{item.id}. {item.title}</Text> */}
@@ -42,15 +53,15 @@ export default function Index() {
     return (
         <SafeAreaProvider>
             <SafeAreaView style={styles.container}>
-                <SearchBox onSearch={onSearch} />
+                <SearchBox onSearch={debounce(onSearch, 300)} />
                 <FlatList showsVerticalScrollIndicator={false} renderItem={({item}) => renderItem(item, setHymn)} data={filteredHymns} keyExtractor={(item) => item.slug} />
             </SafeAreaView>
         </SafeAreaProvider>
     );
 }
 
-const makeStyles = (colors) => {
-    const styles = StyleSheet.create({
+const makeStyles = (colors: ColorsType) => {
+    return StyleSheet.create({
         container: {
             backgroundColor: colors.background,
             flex: 1,
@@ -72,6 +83,4 @@ const makeStyles = (colors) => {
             fontSize: 16,
         }
     });
-
-    return styles;
 }

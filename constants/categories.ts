@@ -1,32 +1,34 @@
-export const categories = [
+import { Category, CategoryType } from "@/typings";
+
+export const categories: Array<CategoryType> = [
     {
         id: 1,
         title: "Entrance Hymns",
-        slug: "entrance"
+        slug: Category.ENTRANCE
     },
     {
         id: 2,
         title: "Offertory Hymns",
-        slug: "offertory"
+        slug: Category.OFFERTORY
     },
     {
         id: 3,
-        title: "Communal Hymns",
-        slug: "communal"
+        title: "Communion Hymns",
+        slug: Category.COMMUNION
     },
     {
         id: 4,
-        title: "Reccessional Hymns",
-        slug: "reccessional"
+        title: "Recessional Hymns",
+        slug: Category.RECESSIONAL
     },   
     {
         id: 5,
         title: "Advent Hymns",
-        slug: "advent"
+        slug: Category.ADVENT
     },
     {
         id: 6,
         title: "Christmas Hymns",
-        slug: "christmas"
+        slug: Category.CHRISTMAS
     }
 ];

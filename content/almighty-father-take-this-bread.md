@@ -1,7 +1,7 @@
 ---
 id: 19
 title: Almighty Father take this bread
-category: entrance
+category: offertory
 ---
 
 1. Almighty Father take this bread

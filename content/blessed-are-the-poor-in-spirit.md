@@ -1,7 +1,7 @@
 ---
 id: 45
 title: Blessed Are the Poor in Spirit
-category: entrance
+category: communion
 ---
 
 1. Blessed are the poor in spirit;

@@ -1,7 +1,7 @@
 ---
 id: 57
 title: Christ Be With Me
-category: entrance
+category: recessional
 ---
 
 Christ be with me, Christ within me,

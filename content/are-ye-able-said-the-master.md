@@ -1,7 +1,7 @@
 ---
 id: 25
 title: Are Ye Able? Said the Master
-category: entrance
+category: communion
 ---
 
 1. "Are ye able," said the Master
