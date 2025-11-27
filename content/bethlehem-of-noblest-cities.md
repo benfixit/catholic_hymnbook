@@ -1,7 +1,6 @@
 ---
 id: 44
 title: Bethlehem! of Noblest Cities
-
 ---
 
 1. Bethlehem! of noblest cities

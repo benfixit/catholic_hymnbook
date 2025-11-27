@@ -1,7 +1,6 @@
 ---
-id: 377
-title: Magnificat- God Fills Me With Joy
-
+id: 232
+title: "Magnificat: God Fills Me With Joy"
 ---
 
 _Chorus:_

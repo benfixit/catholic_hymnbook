@@ -1,7 +1,6 @@
 ---
 id: 82
 title: Deliver Me O Lord (Libera Me Domine)
-
 ---
 
 1. Deliver me, O Lord,

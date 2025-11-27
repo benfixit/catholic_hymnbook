@@ -1,7 +1,6 @@
 ---
 id: 50
 title: Blessed Saviour We Adore Thee
-
 ---
 
 1. Blessèd Saviour, we adore thee;

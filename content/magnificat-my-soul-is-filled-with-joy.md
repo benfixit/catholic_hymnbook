@@ -1,7 +1,6 @@
 ---
-id: 378
-title: Magnificat- My Soul Is Filled With Joy
-
+id: 233
+title: "Magnificat: My Soul Is Filled With Joy"
 ---
 
 _Chorus:_

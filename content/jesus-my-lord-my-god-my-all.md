@@ -1,7 +1,6 @@
 ---
-id: 319
+id: 197
 title: Jesus, My Lord, My God, My All
-
 ---
 
 _Chorus:_

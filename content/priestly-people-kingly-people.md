@@ -1,7 +1,6 @@
 ---
-id: 535
+id: 326
 title: Priestly People Kingly People
-
 ---
 
 _Chorus:_

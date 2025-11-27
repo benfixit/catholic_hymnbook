@@ -1,7 +1,6 @@
 ---
-id: 328
+id: 204
 title: Just As I Am
-
 ---
 
 1. Just as I am, without one plea,

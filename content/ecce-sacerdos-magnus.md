@@ -1,7 +1,6 @@
 ---
 id: 86
 title: Ecce Sacerdos Magnus
-
 ---
 
 Ecce Sacerdos Magnus

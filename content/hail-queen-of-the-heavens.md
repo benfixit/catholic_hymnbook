@@ -1,7 +1,6 @@
 ---
 id: 131
 title: Hail Queen of the Heavens
-
 ---
 
 1. Hail Queen of the Heavens, Hail Mistress of earth

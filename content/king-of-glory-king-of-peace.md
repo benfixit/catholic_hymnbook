@@ -1,7 +1,6 @@
 ---
-id: 331
+id: 207
 title: King of Glory King of Peace
-
 ---
 
 1. King of glory, King of peace

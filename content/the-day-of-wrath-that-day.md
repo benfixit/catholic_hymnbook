@@ -1,7 +1,6 @@
 ---
-id: 607
-title: The Day of Wrath that Day
-
+id: 372
+title: The Day of Wrath that Day (Dies irae dies illa)
 ---
 
 1. The day of wrath, that day

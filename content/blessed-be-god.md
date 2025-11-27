@@ -1,7 +1,6 @@
 ---
 id: 47
 title: Blessed Be God
-
 ---
 
 Blessed be God. Amen

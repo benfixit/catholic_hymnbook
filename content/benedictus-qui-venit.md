@@ -1,7 +1,6 @@
 ---
 id: 43
 title: Benedictus Qui Venit
-
 ---
 
 1. Benedictus qui venit,

@@ -1,7 +1,6 @@
 ---
-id: 381
-title: Magnificat- My Soul Proclaims the Lord My God
-
+id: 236
+title: "Magnificat: My Soul Proclaims the Lord My God"
 ---
 
 1. My soul proclaims the Lord my God;

@@ -1,7 +1,6 @@
 ---
 id: 45
 title: Blessed Are the Poor in Spirit
-
 ---
 
 1. Blessed are the poor in spirit;

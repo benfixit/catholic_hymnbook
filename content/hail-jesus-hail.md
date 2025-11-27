@@ -1,7 +1,6 @@
 ---
 id: 128
 title: Hail, Jesus, Hail!
-
 ---
 
 1. Hail, Jesus! Hail! who for my sake

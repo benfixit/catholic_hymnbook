@@ -10,7 +10,7 @@ export type CategoryType = {
     id: number,
     slug: Category,
     title: string,
-    hymns: Set<HymnType["id"]>
+    hymns: Array<HymnType["id"]>
 }
 
 export type ColorsType = Record<string, string>

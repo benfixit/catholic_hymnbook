@@ -1,7 +1,6 @@
 ---
 id: 20
 title: Although the way be lonely
-
 ---
 
 1. Although the way be lonely,

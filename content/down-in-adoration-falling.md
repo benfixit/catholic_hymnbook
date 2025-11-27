@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Down in Adoration Falling
-
 ---
 
 1. Down in adoration falling,

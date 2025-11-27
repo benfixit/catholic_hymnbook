@@ -1,7 +1,6 @@
 ---
-id: 388
+id: 242
 title: Mary, Let Perpetual Succor
-
 ---
 
 _Chorus:_

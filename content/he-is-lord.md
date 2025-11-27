@@ -1,7 +1,6 @@
 ---
 id: 145
 title: He is Lord
-
 ---
 
 _Chorus:_

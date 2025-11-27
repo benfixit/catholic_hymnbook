@@ -1,7 +1,6 @@
 ---
 id: 27
 title: Arise Come to Your God
-
 ---
 
 _Antiphon 1:_

@@ -1,7 +1,6 @@
 ---
 id: 118
 title: Gradual/Tract (Misa pro defunctis - Mass for the dead)
-
 ---
 
 1. V. Requiem aeternam dona eis, Domine,

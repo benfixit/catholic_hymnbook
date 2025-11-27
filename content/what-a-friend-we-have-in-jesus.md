@@ -1,7 +1,6 @@
 ---
-id: 678
+id: 422
 title: What A Friend We Have in Jesus
-
 ---
 
 1. What a friend we have in Jesus

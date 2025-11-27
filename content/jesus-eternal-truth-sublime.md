@@ -1,7 +1,6 @@
 ---
-id: 308
+id: 192
 title: Jesus Eternal Truth Sublime
-
 ---
 
 1. Jesus eternal truth sublime,

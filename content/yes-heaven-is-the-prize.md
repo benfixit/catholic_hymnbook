@@ -1,7 +1,6 @@
 ---
-id: 709
+id: 439
 title: Yes Heaven Is the Prize
-
 ---
 
 _Chorus:_

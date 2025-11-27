@@ -1,7 +1,6 @@
 ---
-id: 379
-title: Magnificat- My Soul Now Glorifies
-
+id: 234
+title: "Magnificat: My Soul Now Glorifies"
 ---
 
 1. My soul now glorifies

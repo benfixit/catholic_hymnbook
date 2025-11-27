@@ -1,7 +1,6 @@
 ---
 id: 49
 title: Blessed Saviour Thee I Love
-
 ---
 
 1. Blessed Savior, Thee I love

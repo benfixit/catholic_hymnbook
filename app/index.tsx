@@ -23,8 +23,9 @@ export default function Index() {
 
         if (params.category) {
             const category = categories.find(category => category.slug === params.category);
+            const idsSet = new Set(category?.hymns);
 
-            data = data.filter((hymn) => category?.hymns.has(hymn.id));
+            data = data.filter((hymn) => idsSet.has(hymn.id));
         }
 
         data = data.filter(hymn => searchFilterCallback(hymn, searchTerm));

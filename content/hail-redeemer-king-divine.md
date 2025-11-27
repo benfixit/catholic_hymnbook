@@ -1,7 +1,6 @@
 ---
 id: 132
 title: Hail Redeemer King Divine
-
 ---
 
 1. Hail Redeemer, King divine,

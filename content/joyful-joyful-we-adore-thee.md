@@ -1,7 +1,6 @@
 ---
-id: 326
+id: 0000
 title: Joyful, Joyful, We Adore Thee
-
 ---
 
 1. Joyful, joyful we adore thee,

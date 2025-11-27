@@ -1,7 +1,6 @@
 ---
 id: 219
 title: Light of Christ
-
 ---
 
 _Chorus:_

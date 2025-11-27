@@ -1,7 +1,6 @@
 ---
-id: 710
+id: 440
 title: Yes I Shall Arise and Return to My Father
-
 ---
 
 _Chorus:_

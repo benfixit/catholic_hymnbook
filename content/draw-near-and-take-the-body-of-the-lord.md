@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Draw Near and Take the Body of the Lord
-
 ---
 
 1. Draw near and take the body of the Lord,

@@ -1,7 +1,6 @@
 ---
-id: 508
+id: 306
 title: One Thought Only Have We
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 46
 title: Blessed Assurance
-
 ---
 
 1. Blessed assurance, Jesus is mine;

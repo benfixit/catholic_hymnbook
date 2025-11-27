@@ -1,7 +1,6 @@
 ---
 id: 345
 title: Lift Up Your Heads
-
 ---
 
 1. Lift up your heads, ye mighty gates;

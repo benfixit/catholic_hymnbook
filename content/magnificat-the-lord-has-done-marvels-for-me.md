@@ -1,7 +1,6 @@
 ---
-id: 382
-title: Magnificat- The Lord Has Done Marvels for Me
-
+id: 237
+title: "Magnificat: The Lord Has Done Marvels for Me"
 ---
 
 _Chorus:_

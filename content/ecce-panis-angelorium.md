@@ -1,7 +1,6 @@
 ---
 id: 85
 title: Ecce Panis Angelorium
-
 ---
 
 1. Ecce Panis Angelorum,
