@@ -1,5 +1,3 @@
 5. Share on Whatsapp
-6. Style the status bar
 7. Make the title bar break long text to the next line
 8. Support old and new number
-9. Active hymn

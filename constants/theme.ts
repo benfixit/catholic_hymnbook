@@ -5,6 +5,8 @@
 
 import { Platform } from 'react-native';
 
+export const THEME_STORAGE_KEY = "theme_store"
+
 export const DARK_THEME = 'dark';
 export const LIGHT_THEME = 'light';
 

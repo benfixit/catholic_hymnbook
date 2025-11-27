@@ -1,6 +1,6 @@
 import { UnknownOutputParams, useLocalSearchParams, useRouter } from "expo-router";
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
-import { Text, View, StyleSheet, FlatList, Pressable, StatusBar } from "react-native";
+import { Text, View, StyleSheet, FlatList, Pressable } from "react-native";
 import debounce from 'debounce';
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import SearchBox from "@/components/Search";

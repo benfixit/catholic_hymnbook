@@ -21,7 +21,20 @@ export enum Category {
     COMMUNION = "communion",
     RECESSIONAL = "recessional",
     ADVENT = "advent",
-    CHRISTMAS = "christmas"
+    CHRISTMAS = "christmas",
+    LENT = "lent",
+    EASTER = "easter_pentecost",
+    LATIN = "latin",
+    FUNERAL = "funeral",
+    MASS_DEAD = "mass_dead",
+    ORDINATION = "ordination_priesthood",
+    OUR_LORD = "our_lord",
+    BVM = "bvm",
+    GENERAL = "general",
+    BENEDICTION = "benediction",
+    RECOLLECTION = "recollection",
+    THANKSGIVING = "thanksgiving",
+    PSALMS = "psalms"
 }
 
 export type ThemeType = "light" | "dark"

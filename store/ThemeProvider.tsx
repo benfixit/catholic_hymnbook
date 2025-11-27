@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { useState, useEffect, createContext, ReactNode } from 'react';
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
-import { Colors, LIGHT_THEME } from '@/constants/theme';
+import { Colors, LIGHT_THEME, THEME_STORAGE_KEY } from '@/constants/theme';
 import { ThemeType } from '@/typings';
-
-const STORAGE_KEY = "theme_store"
 
 type Props = {
   colors: Record<string, string>;
@@ -16,7 +14,7 @@ const ThemeContext = createContext<Props>({ colors: {}, theme: LIGHT_THEME, togg
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
     const [theme, setTheme] = useState<ThemeType>(LIGHT_THEME);
-    const { getItem, setItem } = useAsyncStorage(STORAGE_KEY);
+    const { getItem, setItem } = useAsyncStorage(THEME_STORAGE_KEY);
 
     // if it is automatic, use the system value
     const colors = Colors[theme];

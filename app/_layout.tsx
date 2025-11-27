@@ -16,36 +16,36 @@ const activeBackgroundColor='#E3EEFD';
 export default function RootLayout() {
   const customDrawerContent = (props: DrawerContentComponentProps) => {
     const params: UnknownOutputParams & { category: Category} = useGlobalSearchParams();
-  return (
-    <DrawerContentScrollView {...props}>
-      <DrawerItemList {...props} />
-      <View style={styles.hr} />
-      <DrawerItem 
-        activeTintColor={activeTintColor} 
-        activeBackgroundColor={activeBackgroundColor}
-        focused={!params.category}
-        label={"All"} 
-        onPress={() => {
-          router.push('/');
-        }} 
-      />
-      {categories.map(item => {
-        return (
-          <DrawerItem 
-            activeTintColor={activeTintColor} 
-            activeBackgroundColor={activeBackgroundColor}
-            focused={params.category === item.slug}
-            key={item.id} 
-            label={item.title} 
-            onPress={() => {
-              router.push({ pathname: "/", params: { category: item.slug } });
-            }} 
-          />
-        );
-      })}
-    </DrawerContentScrollView>
-  );
-}
+    return (
+      <DrawerContentScrollView {...props}>
+        <DrawerItemList {...props} />
+        <View style={styles.hr} />
+        <DrawerItem 
+          activeTintColor={activeTintColor} 
+          activeBackgroundColor={activeBackgroundColor}
+          focused={!params.category}
+          label={"All"} 
+          onPress={() => {
+            router.push('/');
+          }} 
+        />
+        {categories.map(item => {
+          return (
+            <DrawerItem 
+              activeTintColor={activeTintColor} 
+              activeBackgroundColor={activeBackgroundColor}
+              focused={params.category === item.slug}
+              key={item.id} 
+              label={item.title} 
+              onPress={() => {
+                router.push({ pathname: "/", params: { category: item.slug } });
+              }} 
+            />
+          );
+        })}
+      </DrawerContentScrollView>
+    );
+  }
 
   return (
     <ThemeProvider>
