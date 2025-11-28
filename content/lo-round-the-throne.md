@@ -1,7 +1,6 @@
 ---
-id: 354
+id: 0000
 title: Lo! Round the Throne
-
 ---
 
 1. Lo! Round the throne, a glorious band,

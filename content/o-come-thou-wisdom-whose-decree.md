@@ -1,7 +1,6 @@
 ---
 id: 267
 title: O Come Thou Wisdom Whose Decree
-
 ---
 
 _Chorus:_

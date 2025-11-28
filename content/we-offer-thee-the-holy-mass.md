@@ -1,7 +1,6 @@
 ---
 id: 412
 title: We Offer Thee the Holy Mass
-
 ---
 
 1. We offer Thee the Holy Mass

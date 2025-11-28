@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Glorious Things of Thee Are Spoken
-
 ---
 
 1. Glorious things of thee are spoken,

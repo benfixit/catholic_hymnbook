@@ -1,7 +1,6 @@
 ---
 id: 225
 title: Look Beyond The Bread You Eat
-
 ---
 
 _Chorus:_

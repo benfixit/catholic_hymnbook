@@ -1,7 +1,6 @@
 ---
-id: 468
+id: 0000
 title: O Praise Ye the Lord
-
 ---
 
 1. O praise ye the Lord! prepare a new song;

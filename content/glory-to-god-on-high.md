@@ -1,7 +1,6 @@
 ---
 id: 104
 title: Glory to God on High
-
 ---
 
 _Refrain:_

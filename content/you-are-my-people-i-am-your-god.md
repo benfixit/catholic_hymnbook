@@ -1,7 +1,6 @@
 ---
 id: 441
 title: You Are My People, I Am Your God
-
 ---
 
 _Chorus:_

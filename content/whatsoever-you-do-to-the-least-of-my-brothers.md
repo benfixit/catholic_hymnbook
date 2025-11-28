@@ -1,7 +1,6 @@
 ---
 id: 426
 title: Whatsoever You Do To the Least of My Brothers
-
 ---
 
 _Chorus:_

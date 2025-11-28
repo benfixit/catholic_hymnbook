@@ -1,7 +1,6 @@
 ---
-id: 486
+id: 0000
 title: O Star, for Those Whose Pure Light
-
 ---
 
 1. O star, for whose pure light the heav'n makes room,

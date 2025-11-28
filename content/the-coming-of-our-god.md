@@ -1,7 +1,6 @@
 ---
 id: 371
 title: The Coming of Our God
-
 ---
 
 1. The coming of our God

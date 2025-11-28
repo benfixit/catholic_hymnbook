@@ -1,7 +1,6 @@
 ---
 id: 370
 title: The Church Is Where Men Are
-
 ---
 
 _Chorus:_

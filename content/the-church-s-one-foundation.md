@@ -1,7 +1,6 @@
 ---
-id: 604
+id: 0000
 title: The Church's One Foundation
-
 ---
 
 1. The Church's one foundation

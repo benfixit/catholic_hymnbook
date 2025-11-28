@@ -1,7 +1,6 @@
 ---
-id: 436
+id: 0000
 title: O Day of Rest and Gladness
-
 ---
 
 1. O day of rest and gladness,

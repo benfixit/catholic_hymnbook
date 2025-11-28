@@ -1,7 +1,6 @@
 ---
-id: 479
+id: 0000
 title: O Sacred Heart, What Shall I Render Thee
-
 ---
 
 _Chorus:_

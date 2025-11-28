@@ -1,7 +1,6 @@
 ---
 id: 226
 title: Lord, Accept the Gifts We Offer
-
 ---
 
 1. Lord, accept the gifts we offer

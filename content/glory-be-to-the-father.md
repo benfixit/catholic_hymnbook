@@ -1,7 +1,6 @@
 ---
 id: 101
 title: Glory Be to the Father
-
 ---
 
 1. Glory be to the Father,

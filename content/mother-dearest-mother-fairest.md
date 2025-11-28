@@ -1,7 +1,6 @@
 ---
-id: 393
+id: 0000
 title: Mother Dearest, Mother Fairest
-
 ---
 
 _Chorus:_

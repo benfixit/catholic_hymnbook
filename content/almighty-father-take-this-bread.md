@@ -1,7 +1,6 @@
 ---
 id: 19
 title: Almighty Father take this bread
-
 ---
 
 1. Almighty Father take this bread

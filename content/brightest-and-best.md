@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Brightest and Best
-
 ---
 
 1. Brightest and best of the stars of the morning,

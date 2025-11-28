@@ -1,7 +1,6 @@
 ---
-id: 219
+id: 0000
 title: Hail to the Lord's Anointed
-
 ---
 
 1. Hail to the Lord's Anointed,

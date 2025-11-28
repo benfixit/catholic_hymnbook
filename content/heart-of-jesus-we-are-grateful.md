@@ -1,7 +1,6 @@
 ---
-id: 245
+id: 0000
 title: Heart of Jesus, We Are Grateful
-
 ---
 
 _Chorus:_

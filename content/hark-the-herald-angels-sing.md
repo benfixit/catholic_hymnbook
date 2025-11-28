@@ -1,7 +1,6 @@
 ---
 id: 141
 title: Hark! The Herald Angels Sing
-
 ---
 
 _Chorus:_

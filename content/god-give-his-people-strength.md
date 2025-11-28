@@ -1,7 +1,6 @@
 ---
 id: 108
 title: God Give His People Strength
-
 ---
 
 1. God gives His people strength.

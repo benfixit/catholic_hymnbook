@@ -1,7 +1,6 @@
 ---
-id: 253
+id: 0000
 title: Holy Light on Earth's Horizon
-
 ---
 
 1. Holy light on earth's horizon,

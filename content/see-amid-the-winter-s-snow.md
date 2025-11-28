@@ -1,7 +1,6 @@
 ---
 id: 336
 title: See, Amid the Winter's Snow
-
 ---
 
 _Chorus:_

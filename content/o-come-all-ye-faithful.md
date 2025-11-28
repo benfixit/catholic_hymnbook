@@ -1,7 +1,6 @@
 ---
 id: 265
 title: O Come, All Ye Faithful
-
 ---
 
 _Chorus:_

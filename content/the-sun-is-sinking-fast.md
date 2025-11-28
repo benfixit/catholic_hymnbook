@@ -1,7 +1,6 @@
 ---
-id: 629
+id: 0000
 title: The Sun Is Sinking Fast
-
 ---
 
 1. The sun is sinking fast,

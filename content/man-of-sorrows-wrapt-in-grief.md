@@ -1,7 +1,6 @@
 ---
 id: 240
 title: Man of Sorrows Wrapt in Grief
-
 ---
 
 1. Man of sorrows wrapt in grief,

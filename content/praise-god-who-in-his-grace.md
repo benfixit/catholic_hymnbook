@@ -1,7 +1,6 @@
 ---
-id: 523
+id: 0000
 title: Praise God! Who in His Grace
-
 ---
 
 1. Praise God! Praise God! Who in his grace,

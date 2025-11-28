@@ -1,7 +1,6 @@
 ---
 id: 153
 title: His Yoke is Easy
-
 ---
 
 _Chorus:_

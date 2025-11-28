@@ -1,7 +1,6 @@
 ---
-id: 235
+id: 0000
 title: Hark! The Sound of Holy Voices
-
 ---
 
 1. Hark! The sound of holy voices,

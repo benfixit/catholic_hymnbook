@@ -1,7 +1,6 @@
 ---
-id: 595
+id: 0000
 title: Tantum Ergo
-
 ---
 
 1. Tantum ergo Sacraméntum

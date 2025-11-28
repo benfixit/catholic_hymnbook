@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: By the Blood That Flowed From Thee
-
 ---
 
 _Chorus:_

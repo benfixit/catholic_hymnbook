@@ -1,7 +1,6 @@
 ---
-id: 454
+id: 0000
 title: O Jesus, King Most Wonderful
-
 ---
 
 1. O Jesus, King most wonderful;

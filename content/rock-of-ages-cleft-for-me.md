@@ -1,7 +1,6 @@
 ---
 id: 330
 title: Rock of Ages Cleft for Me
-
 ---
 
 1. Rock of Ages, cleft for me,

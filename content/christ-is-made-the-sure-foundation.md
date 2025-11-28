@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Christ Is Made the Sure Foundation
-
 ---
 
 1. Christ is made the sure foundation,

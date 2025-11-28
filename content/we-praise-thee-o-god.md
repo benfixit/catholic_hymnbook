@@ -1,7 +1,6 @@
 ---
 id: 415
 title: We Praise Thee O God
-
 ---
 
 _Chorus:_

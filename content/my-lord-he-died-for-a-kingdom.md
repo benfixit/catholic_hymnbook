@@ -1,7 +1,6 @@
 ---
 id: 251
 title: My Lord He Died for A Kingdom
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 26
 title: Arise and shine
-
 ---
 
 1. Arise and shine for the Lord is coming, (3ce)

@@ -1,7 +1,6 @@
 ---
 id: 424
 title: What Happiness Can Equal Mine
-
 ---
 
 1. What happiness can equal mine?

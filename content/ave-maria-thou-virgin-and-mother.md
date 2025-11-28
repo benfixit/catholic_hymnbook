@@ -1,7 +1,6 @@
 ---
-id: 1001
+id: 0000
 title: Ave Maria! Thou Virgin and Mother
-
 ---
 
 1. Ave Maria! thou Virgin and Mother,

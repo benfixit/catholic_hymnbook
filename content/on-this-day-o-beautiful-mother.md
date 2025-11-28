@@ -1,7 +1,6 @@
 ---
-id: 502
+id: 0000
 title: On This Day, O Beautiful Mother
-
 ---
 
 _Chorus:_

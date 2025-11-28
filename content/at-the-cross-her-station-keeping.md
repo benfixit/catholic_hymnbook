@@ -1,7 +1,6 @@
 ---
-id: 1000
+id: 0000
 title: At the Cross Her Station Keeping
-
 ---
 
 1. At the cross her station keeping,

@@ -1,7 +1,6 @@
 ---
 id: 24
 title: Anima Christi
-
 ---
 
 Anima Christi, sanctifica me,

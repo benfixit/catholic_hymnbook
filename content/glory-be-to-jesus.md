@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Glory Be to Jesus
-
 ---
 
 1. Glory be to Jesus,

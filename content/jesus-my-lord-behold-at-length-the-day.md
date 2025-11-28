@@ -1,7 +1,6 @@
 ---
 id: 196
 title: Jesus, My Lord, Behold At Length the Day
-
 ---
 
 _Chorus:_

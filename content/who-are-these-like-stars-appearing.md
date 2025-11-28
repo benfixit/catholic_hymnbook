@@ -1,7 +1,6 @@
 ---
-id: 698
+id: 0000
 title: Who Are These Like Stars Appearing
-
 ---
 
 1. Who are these like stars appearing,

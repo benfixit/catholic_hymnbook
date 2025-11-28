@@ -1,7 +1,6 @@
 ---
 id: 351
 title: Soul of Jesus Sanctify Me (Anima Christi)
-
 ---
 
 1. Soul of Jesus, sanctify me.

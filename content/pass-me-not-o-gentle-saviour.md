@@ -1,7 +1,6 @@
 ---
 id: 313
 title: Pass Me Not O Gentle Saviour
-
 ---
 
 _Chorus:_

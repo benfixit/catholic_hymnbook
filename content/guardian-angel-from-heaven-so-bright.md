@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Guardian Angel! From Heaven So Bright
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 13
-title: All people that on earth do dwell
-
+title: All people that on earth do dwell (Psalm 100)
 ---
 
 1. All peo­ple that on earth do dwell,

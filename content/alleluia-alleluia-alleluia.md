@@ -1,7 +1,6 @@
 ---
 id: 18
 title: Alleluia! Alleluia! Alleluia!
-
 ---
 
 1. Alleluia, Alleluia, Alleluia,

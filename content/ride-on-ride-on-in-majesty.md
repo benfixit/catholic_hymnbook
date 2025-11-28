@@ -1,7 +1,6 @@
 ---
-id: 542
+id: 0000
 title: Ride On, Ride On in Majesty
-
 ---
 
 1. Ride on, ride on in majesty!

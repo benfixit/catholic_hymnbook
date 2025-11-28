@@ -1,7 +1,6 @@
 ---
-id: 332
+id: 0000
 title: King of Kings Is He Anointed
-
 ---
 
 1. King of kings is he anointed;

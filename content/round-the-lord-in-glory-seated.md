@@ -1,7 +1,6 @@
 ---
-id: 545
+id: 0000
 title: Round the Lord in Glory Seated
-
 ---
 
 _Chorus:_

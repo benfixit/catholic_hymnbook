@@ -1,7 +1,6 @@
 ---
 id: 245
 title: Must I Go and Empty Handed
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 361
 title: Sweet Savior, Bless Us Ere We Go
-
 ---
 
 _Chorus:_

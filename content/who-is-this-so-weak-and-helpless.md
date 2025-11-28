@@ -1,7 +1,6 @@
 ---
-id: 699
+id: 0000
 title: Who Is This, So Weak and Helpless
-
 ---
 
 1. Who is this, so weak and helpless,

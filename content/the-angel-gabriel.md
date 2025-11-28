@@ -1,7 +1,6 @@
 ---
-id: 601
+id: 0000
 title: The Angel Gabriel
-
 ---
 
 _Chorus:_

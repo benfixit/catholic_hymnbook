@@ -1,7 +1,6 @@
 ---
-id: 550
+id: 0000
 title: Savior of the Nations, Come
-
 ---
 
 1. Savior of the nations, come;

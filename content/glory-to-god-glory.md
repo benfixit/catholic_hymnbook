@@ -1,7 +1,6 @@
 ---
 id: 102
 title: Glory to God Glory
-
 ---
 
 _Refrain:_

@@ -1,7 +1,6 @@
 ---
 id: 409
 title: We Gather Together
-
 ---
 
 1. We gather together

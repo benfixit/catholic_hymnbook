@@ -1,5 +1,5 @@
 ---
-id: 1006
+id: 0000
 title: Bless Me, Befriend Me
 ---
 

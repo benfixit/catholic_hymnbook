@@ -1,7 +1,6 @@
 ---
 id: 305
 title: Once More, My Soul
-
 ---
 
 _Chorus:_

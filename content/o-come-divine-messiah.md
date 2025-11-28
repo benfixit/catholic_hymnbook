@@ -1,7 +1,6 @@
 ---
-id: 433
+id: 0000
 title: O Come, Divine Messiah
-
 ---
 
 _Chorus:_

@@ -1,5 +1,5 @@
 ---
-id: 1004
+id: 0000
 title: Beautiful Savior, Mightiest in Mercy
 ---
 

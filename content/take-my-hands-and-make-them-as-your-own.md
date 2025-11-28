@@ -1,7 +1,6 @@
 ---
 id: 364
 title: Take My Hands and Make them as Your Own
-
 ---
 
 1. Take my hands and make them as your own

@@ -1,7 +1,6 @@
 ---
 id: 273
 title: O God of Love
-
 ---
 
 1. O God of love, O King of peace,

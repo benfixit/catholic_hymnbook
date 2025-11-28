@@ -1,7 +1,6 @@
 ---
-id: 356
+id: 0000
 title: Lo, He Comes With Clouds Descending
-
 ---
 
 1. Lo! He comes with clouds descending,

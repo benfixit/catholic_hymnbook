@@ -1,7 +1,6 @@
 ---
 id: 353
 title: Sowing in the Morning
-
 ---
 
 _Chorus:_

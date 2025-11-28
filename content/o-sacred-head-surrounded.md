@@ -1,7 +1,6 @@
 ---
-id: 475
+id: 0000
 title: O Sacred Head, Surrounded
-
 ---
 
 1. O Sacred Head, surrounded,

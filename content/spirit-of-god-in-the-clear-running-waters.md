@@ -1,7 +1,6 @@
 ---
 id: 354
 title: Spirit of God in the Clear Running Waters
-
 ---
 
 _Chorus:_

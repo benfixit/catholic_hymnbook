@@ -1,7 +1,6 @@
 ---
-id: 633
+id: 0000
 title: There Is a Green Hill Far Away
-
 ---
 
 1. There is a green hill far away,

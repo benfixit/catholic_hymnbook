@@ -1,7 +1,6 @@
 ---
 id: 360
 title: Sweet Sacrament Divine
-
 ---
 
 1. Sweet Sacrament divine,

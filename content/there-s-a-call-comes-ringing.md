@@ -1,7 +1,6 @@
 ---
 id: 387
 title: There's A Call Comes Ringing
-
 ---
 
 _Chorus:_

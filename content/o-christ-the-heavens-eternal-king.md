@@ -1,7 +1,6 @@
 ---
-id: 425
+id: 0000
 title: O Christ, the Heavens' Eternal King
-
 ---
 
 1. O Christ, the heav'ns' eternal King,

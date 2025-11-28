@@ -1,7 +1,6 @@
 ---
-id: 434
+id: 0000
 title: O Come, Little Children
-
 ---
 
 1. O, come, little children, O, come, one and all,

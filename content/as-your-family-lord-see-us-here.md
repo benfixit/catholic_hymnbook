@@ -1,7 +1,6 @@
 ---
 id: 32
 title: As Your Family Lord, See Us Here
-
 ---
 
 1. As Your family Lord, see us here,

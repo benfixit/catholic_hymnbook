@@ -1,7 +1,6 @@
 ---
-id: 563
+id: 0000
 title: Sing Praise to God Who Reigns Above
-
 ---
 
 1. Sing praise to God who reigns above,

@@ -1,7 +1,6 @@
 ---
 id: 148
 title: Hear Thy Children, Gentle Jesus
-
 ---
 
 1. Hear thy children, gentle Jesus,

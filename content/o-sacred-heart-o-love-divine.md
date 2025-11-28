@@ -1,7 +1,6 @@
 ---
-id: 478
+id: 0000
 title: O Sacred Heart, O Love Divine
-
 ---
 
 _Chorus:_

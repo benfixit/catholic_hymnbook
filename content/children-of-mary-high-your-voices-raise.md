@@ -1,7 +1,6 @@
 ---
 id: 56
 title: Children of Mary High Your Voices Raise
-
 ---
 
 1. Children of Mary, high your voices raise,

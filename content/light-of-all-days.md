@@ -1,5 +1,5 @@
 ---
-id: 346
+id: 0000
 title: Light of All Days
 ---
 

@@ -1,7 +1,6 @@
 ---
-id: 484
+id: 0000
 title: O Saving Victim
-
 ---
 
 1. O saving Victim, op'ning wide

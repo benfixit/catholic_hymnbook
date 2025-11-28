@@ -1,7 +1,6 @@
 ---
 id: 17
 title: All you who seek a comfort sure
-
 ---
 
 1. All ye who seek a comfort sure

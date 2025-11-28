@@ -1,7 +1,6 @@
 ---
-id: 358
+id: 0000
 title: Long Live the Pope!
-
 ---
 
 1. Long live the Pope! His praises sound

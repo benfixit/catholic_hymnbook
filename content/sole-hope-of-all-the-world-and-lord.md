@@ -1,7 +1,6 @@
 ---
 id: 349
 title: Sole Hope of All the World and Lord
-
 ---
 
 1. Sole hope of all the world and Lord,

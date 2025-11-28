@@ -1,7 +1,6 @@
 ---
 id: 339
 title: See the Paraclete Descending
-
 ---
 
 _Chorus:_

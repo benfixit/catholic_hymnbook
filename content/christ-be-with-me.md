@@ -1,7 +1,6 @@
 ---
 id: 57
 title: Christ Be With Me
-
 ---
 
 Christ be with me, Christ within me,

@@ -1,7 +1,6 @@
 ---
-id: 404
+id: 0000
 title: My Shepherd Is the Lord (Psalm 23)
-
 ---
 
 _Chorus:_

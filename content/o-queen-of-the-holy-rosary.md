@@ -1,7 +1,6 @@
 ---
-id: 472
+id: 0000
 title: O Queen of the Holy Rosary
-
 ---
 
 1. O Queen of the Holy Rosary!

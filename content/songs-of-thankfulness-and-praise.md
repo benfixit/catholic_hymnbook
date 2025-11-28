@@ -1,7 +1,6 @@
 ---
-id: 574
+id: 0000
 title: Songs of Thankfulness and Praise
-
 ---
 
 1. Songs of thankfulness and praise,

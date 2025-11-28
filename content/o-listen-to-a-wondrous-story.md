@@ -1,7 +1,6 @@
 ---
 id: 285
 title: O Listen To A Wondrous Story
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
-id: 374
+id: 0000
 title: Love Divine, All Loves Excelling
-
 ---
 
 1. Love divine, all loves excelling,

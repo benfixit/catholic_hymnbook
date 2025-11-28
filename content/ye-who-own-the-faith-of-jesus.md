@@ -1,7 +1,6 @@
 ---
-id: 708
+id: 0000
 title: Ye Who Own the Faith of Jesus
-
 ---
 
 _Chorus:_

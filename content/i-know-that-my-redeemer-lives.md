@@ -1,7 +1,6 @@
 ---
-id: 276
+id: 0000
 title: I Know That My Redeemer Lives
-
 ---
 
 1. I know that my Redeemer lives!

@@ -1,7 +1,6 @@
 ---
 id: 433
 title: When We Walk With the Lord
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 35
 title: Attende, Domine
-
 ---
 
 _Refrain:_

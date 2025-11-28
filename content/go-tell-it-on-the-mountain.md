@@ -1,7 +1,6 @@
 ---
 id: 106
 title: Go Tell It on the Mountain
-
 ---
 
 _Refrain:_

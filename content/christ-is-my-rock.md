@@ -1,7 +1,6 @@
 ---
 id: 59
 title: Christ is My Rock
-
 ---
 
 _Refrain:_

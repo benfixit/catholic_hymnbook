@@ -1,7 +1,6 @@
 ---
 id: 111
 title: God of Mercy and Compassion
-
 ---
 
 1. God of mercy and compassion,

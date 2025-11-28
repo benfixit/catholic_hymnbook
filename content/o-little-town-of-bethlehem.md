@@ -1,7 +1,6 @@
 ---
 id: 286
 title: O Little Town of Bethlehem
-
 ---
 
 1. O little town of Bethlehem,

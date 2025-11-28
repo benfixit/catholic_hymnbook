@@ -1,7 +1,6 @@
 ---
-id: 357
+id: 0000
 title: Lo, How a Rose E'er Blooming
-
 ---
 
 1. Lo, how a rose e'er blooming

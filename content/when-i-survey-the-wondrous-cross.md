@@ -1,7 +1,6 @@
 ---
 id: 430
 title: When I Survey the Wondrous Cross
-
 ---
 
 1. When I survey the wondrous cross

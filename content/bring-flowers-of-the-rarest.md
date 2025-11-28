@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Bring Flowers of the Rarest
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
-id: 424
+id: 0000
 title: O Christ, Our Hope
-
 ---
 
 1. O Christ, our hope, our hearts' desire,

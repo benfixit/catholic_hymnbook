@@ -1,7 +1,6 @@
 ---
 id: 230
 title: Low In The Grave He Lay
-
 ---
 
 _Chorus:_

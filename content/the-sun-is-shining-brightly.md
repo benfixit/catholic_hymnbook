@@ -1,7 +1,6 @@
 ---
-id: 628
+id: 0000
 title: The Sun Is Shining Brightly
-
 ---
 
 _Chorus:_

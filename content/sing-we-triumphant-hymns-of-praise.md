@@ -1,7 +1,6 @@
 ---
-id: 566
+id: 0000
 title: Sing We Triumphant Hymns of Praise
-
 ---
 
 _Chorus:_

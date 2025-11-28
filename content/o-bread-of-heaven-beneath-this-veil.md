@@ -1,7 +1,6 @@
 ---
 id: 263
 title: O Bread of Heaven Beneath This Veil
-
 ---
 
 1. O Bread of Heaven, beneath this veil

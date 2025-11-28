@@ -1,7 +1,6 @@
 ---
 id: 147
 title: Hear, O Thou Bounteous Maker
-
 ---
 
 1. Hear, O thou bounteous Maker hear

@@ -1,7 +1,6 @@
 ---
 id: 205
 title: Keep In Mind That Jesus
-
 ---
 
 _Chorus:_

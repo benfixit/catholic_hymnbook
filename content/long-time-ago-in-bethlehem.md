@@ -1,7 +1,6 @@
 ---
 id: 224
 title: Long Time Ago In Bethlehem
-
 ---
 
 _Chorus:_

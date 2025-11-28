@@ -1,7 +1,6 @@
 ---
 id: 411
 title: We Long to See Thee So
-
 ---
 
 _Chorus:_

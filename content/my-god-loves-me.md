@@ -1,7 +1,6 @@
 ---
 id: 249
 title: My God Loves Me
-
 ---
 
 1. My God loves me.

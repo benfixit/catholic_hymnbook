@@ -1,7 +1,6 @@
 ---
 id: 369
 title: Thank You For Giving Me the Morning
-
 ---
 
 1. Thank you for giving me the morning.

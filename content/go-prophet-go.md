@@ -1,7 +1,6 @@
 ---
 id: 105
 title: Go Prophet Go
-
 ---
 
 1. Go, Prophet, go! Go Prophet, go!

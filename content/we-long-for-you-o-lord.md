@@ -1,7 +1,6 @@
 ---
 id: 410
 title: We Long for You O Lord
-
 ---
 
 _Chorus:_

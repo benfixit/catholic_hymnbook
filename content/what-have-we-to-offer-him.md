@@ -1,7 +1,6 @@
 ---
 id: 425
 title: What Have We To Offer Him
-
 ---
 
 1. What have we to offer Him

@@ -1,7 +1,6 @@
 ---
 id: 434
 title: Where Two Or Three Are Gathered
-
 ---
 
 _Chorus:_

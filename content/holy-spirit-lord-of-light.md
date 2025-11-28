@@ -1,7 +1,6 @@
 ---
 id: 159
 title: Holy Spirit, Lord of Light (Veni Sancte Spiritus)
-
 ---
 
 1. Holy Spirit, Lord of Light,

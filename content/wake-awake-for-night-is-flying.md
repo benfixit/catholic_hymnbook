@@ -1,7 +1,6 @@
 ---
-id: 658
+id: 0000
 title: Wake, Awake, for Night Is Flying
-
 ---
 
 1. "Wake, awake, for night is flying,"

@@ -1,7 +1,6 @@
 ---
-id: 701
+id: 0000
 title: Word of God to Earth Descending
-
 ---
 
 1. Word of God to earch descending,

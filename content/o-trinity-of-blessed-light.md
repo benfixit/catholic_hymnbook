@@ -1,7 +1,6 @@
 ---
-id: 489
+id: 0000
 title: O Trinity of Blessed Light
-
 ---
 
 1. O Trinity of blessed light,

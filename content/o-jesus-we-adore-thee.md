@@ -1,7 +1,6 @@
 ---
 id: 282
 title: O Jesus We Adore Thee
-
 ---
 
 _Chorus:_

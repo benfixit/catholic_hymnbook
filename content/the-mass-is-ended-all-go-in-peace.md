@@ -1,7 +1,6 @@
 ---
 id: 381
 title: The Mass Is Ended, All Go In Peace
-
 ---
 
 1. The Mass is ended, all go in peace,

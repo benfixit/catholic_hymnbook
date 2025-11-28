@@ -1,7 +1,6 @@
 ---
 id: 60
 title: Christ Our Pasch Has Been Slain, Alleluia
-
 ---
 
 _Refrain:_

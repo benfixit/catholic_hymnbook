@@ -1,7 +1,6 @@
 ---
 id: 321
 title: Praise the Lord! You Heavens Adore Him
-
 ---
 
 1. Praise the Lord! you heav'ns adore Him;

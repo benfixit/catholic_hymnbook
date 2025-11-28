@@ -1,7 +1,6 @@
 ---
 id: 100
 title: Glory Be to Jesus Who In Bitter Pains
-
 ---
 
 1. Glory be to Jesus,

@@ -1,7 +1,6 @@
 ---
-id: 683
+id: 0000
 title: What Star Is This
-
 ---
 
 1. What star is this, with beams so bright,

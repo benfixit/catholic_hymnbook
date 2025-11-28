@@ -1,7 +1,6 @@
 ---
 id: 317
 title: Praise God Abraham
-
 ---
 
 1. Praise God of Abraham

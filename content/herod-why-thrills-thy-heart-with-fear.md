@@ -1,7 +1,6 @@
 ---
 id: 152
 title: Herod Why Thrills Thy Heart with Fear?
-
 ---
 
 1. Herod, why thrills thy heart with fear?

@@ -1,7 +1,6 @@
 ---
 id: 257
 title: New Praises Be Given
-
 ---
 
 1. New praises be given

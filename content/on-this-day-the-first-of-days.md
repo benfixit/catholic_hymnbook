@@ -1,7 +1,6 @@
 ---
-id: 503
+id: 0000
 title: On This Day, the First of Days
-
 ---
 
 1. On this day, the first of days,

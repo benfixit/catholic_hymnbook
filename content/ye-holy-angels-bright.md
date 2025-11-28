@@ -1,7 +1,6 @@
 ---
-id: 704
+id: 0000
 title: Ye Holy Angels Bright
-
 ---
 
 1. Ye holy angels bright,

@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Hail, Queen of Heaven
-
 ---
 
 1. Hail Queen of heav'n, the ocean star,

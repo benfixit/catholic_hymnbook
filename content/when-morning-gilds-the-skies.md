@@ -1,7 +1,6 @@
 ---
-id: 691
+id: 0000
 title: When Morning Gilds the Skies
-
 ---
 
 1. When morning gilds the skies,

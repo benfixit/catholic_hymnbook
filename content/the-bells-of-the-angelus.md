@@ -1,7 +1,6 @@
 ---
-id: 602
+id: 0000
 title: The Bells of the Angelus
-
 ---
 
 _Chorus:_

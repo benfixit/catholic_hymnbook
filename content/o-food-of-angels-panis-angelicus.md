@@ -1,7 +1,6 @@
 ---
 id: 271
 title: O Food of Angels (Panis Angelicus)
-
 ---
 
 1. O food of angels, now food for men

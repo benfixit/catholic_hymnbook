@@ -1,7 +1,6 @@
 ---
 id: 149
 title: Hear Us O Lord (Attende Domine)
-
 ---
 
 _Chorus:_

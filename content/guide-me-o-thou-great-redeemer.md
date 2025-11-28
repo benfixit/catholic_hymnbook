@@ -1,7 +1,6 @@
 ---
 id: 125
 title: Guide Me O Thou Great Redeemer
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 256
 title: Nearer My God To Thee
-
 ---
 
 1. Nearer, my God, to Thee,

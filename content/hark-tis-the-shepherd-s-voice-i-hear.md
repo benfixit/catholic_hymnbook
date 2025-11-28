@@ -1,19 +1,18 @@
 ---
-id: 227
+id: 142
 title: Hark! 'Tis the Shepherd's Voice I Hear
-
 ---
+
+1. Hark! 'tis the Shepherd's voice I hear
+Out in the desert dark and drear,
+Calling the sheep who've gone astray
+Far from the Shepherd's fold away.
 
 _Chorus:_
 _Bring them in, bring them in,_
 _Bring them in from the fields of sin;_
 _Bring them in, bring them in,_
 _Bring the wandering ones to Jesus._
-
-1. Hark! 'tis the Shepherd's voice I hear
-Out in the desert dark and drear,
-Calling the sheep who've gone astray
-Far from the Shepherd's fold away.
 
 2. Who'll go and help this Shepherd kind,
 Help Him the wand'ring ones to find?

@@ -1,7 +1,6 @@
 ---
-id: 571
+id: 0000
 title: Sing, My Soul, His Wondrous Love
-
 ---
 
 1. Sing, my soul, his wondrous love,

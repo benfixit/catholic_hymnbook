@@ -1,7 +1,6 @@
 ---
 id: 309
 title: Our Lord is Risen From the Dead
-
 ---
 
 _Chorus:_

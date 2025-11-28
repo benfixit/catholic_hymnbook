@@ -1,7 +1,6 @@
 ---
 id: 114
 title: God Rest You Merry, Gentlemen
-
 ---
 
 1. God rest you mery, gentlemen,

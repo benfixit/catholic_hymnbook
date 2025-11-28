@@ -1,7 +1,6 @@
 ---
-id: 322
+id: 0000
 title: Jesus, the Very Thought of Thee
-
 ---
 
 1. Jesus, the very thought of thee

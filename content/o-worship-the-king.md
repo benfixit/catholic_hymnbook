@@ -1,7 +1,6 @@
 ---
-id: 494
+id: 0000
 title: O Worship the King
-
 ---
 
 1. O worship the King, all glorious above!

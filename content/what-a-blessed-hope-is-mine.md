@@ -1,7 +1,6 @@
 ---
 id: 421
 title: What A Blessed Hope Is Mine
-
 ---
 
 _Chorus:_

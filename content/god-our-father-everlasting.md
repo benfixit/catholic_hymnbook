@@ -1,7 +1,6 @@
 ---
 id: 112
 title: God Our Father Everlasting
-
 ---
 
 1. God our Father everlasting,

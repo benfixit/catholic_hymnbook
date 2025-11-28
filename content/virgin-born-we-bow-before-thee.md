@@ -1,7 +1,6 @@
 ---
-id: 657
+id: 0000
 title: Virgin-Born, We Bow Before Thee
-
 ---
 
 1. Virgin-born, we bow before thee;

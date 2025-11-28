@@ -1,7 +1,6 @@
 ---
-id: 1009
+id: 0000
 title: Bread of the World
-
 ---
 
 1. Bread of the world, in mercy broken,

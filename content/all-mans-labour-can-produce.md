@@ -1,7 +1,6 @@
 ---
 id: 11
 title: All man's labour can produce
-
 ---
 
 1. All man's labour can produce,

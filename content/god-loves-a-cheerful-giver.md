@@ -1,7 +1,6 @@
 ---
 id: 110
 title: God Loves a Cheerful Giver
-
 ---
 
 _Refrain:_

@@ -1,7 +1,6 @@
 ---
 id: 212
 title: Let All Mortal Flesh Keep Silence
-
 ---
 
 1. Let all mortal flesh keep silence,

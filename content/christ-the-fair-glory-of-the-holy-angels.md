@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Christ, the Fair Glory of the Holy Angels
-
 ---
 
 1. Christ, the fair glory of the holy angels,

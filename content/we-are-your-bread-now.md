@@ -1,7 +1,6 @@
 ---
 id: 406
 title: We Are Your Bread Now
-
 ---
 
 _Chorus:_

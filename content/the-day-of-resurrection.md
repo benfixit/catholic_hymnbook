@@ -1,7 +1,6 @@
 ---
-id: 606
+id: 0000
 title: The Day of Resurrection
-
 ---
 
 1. The day of Resurrection;

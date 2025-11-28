@@ -1,7 +1,6 @@
 ---
-id: 684
+id: 0000
 title: Whate'er Our God Ordains Is Right
-
 ---
 
 1. Whate'er our God ordains is right;

@@ -1,7 +1,6 @@
 ---
-id: 315
+id: 0000
 title: Jesus, Jesus, Come to Me
-
 ---
 
 1. Jesus, Jesus, come to me,

@@ -1,7 +1,6 @@
 ---
 id: 200
 title: Jesus, Thou Art Coming
-
 ---
 
 1. Jesus, thou art coming,

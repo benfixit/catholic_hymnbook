@@ -1,7 +1,6 @@
 ---
 id: 304
 title: Once in Royal David's City
-
 ---
 
 1. Once in royal David's city

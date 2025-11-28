@@ -1,7 +1,6 @@
 ---
 id: 284
 title: O King of Might and Splendour
-
 ---
 
 1. O King of might and splendour,

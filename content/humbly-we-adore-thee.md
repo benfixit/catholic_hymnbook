@@ -1,7 +1,6 @@
 ---
 id: 168
 title: Humbly We Adore Thee
-
 ---
 
 _Chorus:_

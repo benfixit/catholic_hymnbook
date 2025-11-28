@@ -1,7 +1,6 @@
 ---
 id: 266
 title: O Come and Mourn With Me A While
-
 ---
 
 1. O come and mourn with me a while;

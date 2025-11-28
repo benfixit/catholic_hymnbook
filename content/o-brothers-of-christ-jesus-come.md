@@ -1,7 +1,6 @@
 ---
 id: 264
 title: O Brothers of Christ Jesus Come
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 342
 title: Silent Night
-
 ---
 
 1. Silent night, holy night,

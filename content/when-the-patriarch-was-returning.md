@@ -1,7 +1,6 @@
 ---
-id: 695
+id: 000
 title: When the Patriarch Was Returning
-
 ---
 
 1. When the Patriach was returning,

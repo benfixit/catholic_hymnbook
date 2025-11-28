@@ -1,7 +1,6 @@
 ---
 id: 280
 title: O Holy Night
-
 ---
 
 1. O holy night, the stars are brightly shining;

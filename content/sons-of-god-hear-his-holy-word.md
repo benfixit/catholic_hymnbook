@@ -1,7 +1,6 @@
 ---
 id: 350
 title: Sons of God Hear His Holy Word
-
 ---
 
 _Chorus:_

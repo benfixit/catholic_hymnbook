@@ -1,7 +1,6 @@
 ---
-id: 392
+id: 0000
 title: Mother Dear, O Pray for Me
-
 ---
 
 _Chorus:_

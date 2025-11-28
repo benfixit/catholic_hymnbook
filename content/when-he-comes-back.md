@@ -1,7 +1,6 @@
 ---
 id: 427
 title: When He Comes Back
-
 ---
 
 _Chorus:_

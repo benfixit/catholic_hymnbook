@@ -1,7 +1,6 @@
 ---
-id: 539
+id: 0000
 title: Rejoice, Rejoice, Believers
-
 ---
 
 1. Rejoice! rejoice, believers,

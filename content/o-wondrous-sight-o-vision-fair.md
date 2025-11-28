@@ -1,7 +1,6 @@
 ---
-id: 492
+id: 0000
 title: O Wondrous Sight! O Vision Fair
-
 ---
 
 1. O wondrous sight! O vision fair

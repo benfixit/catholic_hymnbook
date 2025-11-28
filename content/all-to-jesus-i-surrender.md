@@ -1,7 +1,6 @@
 ---
 id: 16
 title: All to Jesus I surrender
-
 ---
 
 1. All to Jesus I surrender,

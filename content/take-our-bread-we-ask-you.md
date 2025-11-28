@@ -1,7 +1,6 @@
 ---
 id: 365
 title: Take Our Bread We Ask You
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 227
 title: Lord Dismiss Us With Your Blessing
-
 ---
 
 1. Lord, dismiss us with Your blessing;

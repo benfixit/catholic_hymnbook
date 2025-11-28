@@ -1,7 +1,6 @@
 ---
 id: 133
 title: Hail This Joyful Day's Return
-
 ---
 
 1. Hail, this joyful day's return;

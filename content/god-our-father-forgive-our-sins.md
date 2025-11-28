@@ -1,7 +1,6 @@
 ---
 id: 113
 title: God Our Father Forgive Our Sins
-
 ---
 
 1. God our Father, forgive our sins,

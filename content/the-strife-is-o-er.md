@@ -1,7 +1,6 @@
 ---
-id: 627
+id: 0000
 title: The Strife Is O'er
-
 ---
 
 _Chorus:_

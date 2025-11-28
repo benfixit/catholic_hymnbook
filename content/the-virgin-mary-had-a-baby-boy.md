@@ -1,7 +1,6 @@
 ---
 id: 383
 title: The Virgin Mary Had A Baby Boy
-
 ---
 
 _Chorus:_

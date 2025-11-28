@@ -1,7 +1,6 @@
 ---
-id: 659
+id: 0000
 title: Watchman, Tell Us of the Night
-
 ---
 
 1. Watchman, tell us of the night,

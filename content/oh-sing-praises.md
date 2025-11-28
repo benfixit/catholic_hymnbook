@@ -1,7 +1,6 @@
 ---
 id: 299
 title: Oh Sing Praises
-
 ---
 
 _Chorus:_

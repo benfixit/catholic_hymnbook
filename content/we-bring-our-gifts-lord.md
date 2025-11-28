@@ -1,7 +1,6 @@
 ---
 id: 407
 title: We Bring Our Gifts Lord
-
 ---
 
 _Chorus:_

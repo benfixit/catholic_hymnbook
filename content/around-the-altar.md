@@ -1,7 +1,6 @@
 ---
 id: 28
 title: Around the Altar
-
 ---
 
 _Refrain_

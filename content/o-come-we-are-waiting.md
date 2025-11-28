@@ -1,7 +1,6 @@
 ---
 id: 269
 title: O Come We are Waiting
-
 ---
 
 _Chorus:_

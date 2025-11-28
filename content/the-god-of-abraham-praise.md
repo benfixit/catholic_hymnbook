@@ -1,7 +1,6 @@
 ---
-id: 613
+id: 0000
 title: The God of Abraham Praise
-
 ---
 
 1. The God of Abraham praise,

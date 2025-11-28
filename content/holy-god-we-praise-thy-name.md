@@ -1,7 +1,6 @@
 ---
-id: 251
+id: 0000
 title: Holy God, We Praise Thy Name
-
 ---
 
 1. Holy God, we praise thy name;

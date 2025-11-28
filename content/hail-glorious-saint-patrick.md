@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Hail Glorious Saint Patrick
-
 ---
 
 1. Hail, glorious Saint Patrick, dear saint of our isle!

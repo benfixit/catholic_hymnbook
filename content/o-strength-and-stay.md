@@ -1,7 +1,6 @@
 ---
-id: 487
+id: 0000
 title: O Strength and Stay
-
 ---
 
 1. O Strength and Stay upholding all creation,

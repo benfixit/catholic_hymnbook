@@ -1,7 +1,6 @@
 ---
 id: 260
 title: Now the Day is Over
-
 ---
 
 1. Now the day is over,

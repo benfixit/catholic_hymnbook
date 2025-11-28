@@ -1,7 +1,6 @@
 ---
-id: 567
+id: 0000
 title: Sing With All the Saints in Glory
-
 ---
 
 1. Sing with all saints in glory,

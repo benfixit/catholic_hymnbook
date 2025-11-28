@@ -1,7 +1,6 @@
 ---
-id: 520
+id: 0000
 title: Pilgrims of Hope
-
 ---
 
 _Chorus:_

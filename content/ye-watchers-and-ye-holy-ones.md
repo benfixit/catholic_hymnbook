@@ -1,7 +1,6 @@
 ---
-id: 706
+id: 0000
 title: Ye Watchers and Ye Holy Ones
-
 ---
 
 _Chorus:_

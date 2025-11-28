@@ -1,7 +1,6 @@
 ---
-id: 374
+id: 0000
 title: The First Noël
-
 ---
 
 _Chorus:_

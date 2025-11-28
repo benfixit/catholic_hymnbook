@@ -1,7 +1,6 @@
 ---
-id: 612
+id: 0000
 title: The Glory of These Forty Days
-
 ---
 
 1. The glory of these forty days

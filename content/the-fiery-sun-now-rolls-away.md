@@ -1,7 +1,6 @@
 ---
-id: 609
+id: 0000
 title: The Fiery Sun Now Rolls Away
-
 ---
 
 1. The fiery sun now rolls away,

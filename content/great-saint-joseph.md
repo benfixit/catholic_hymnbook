@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Great Saint Joseph
-
 ---
 
 1. Great Saint Joseph, son of David,

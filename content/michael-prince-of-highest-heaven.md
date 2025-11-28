@@ -1,7 +1,6 @@
 ---
-id: 390
+id: 0000
 title: Michael, Prince of Highest Heaven
-
 ---
 
 _Chorus:_

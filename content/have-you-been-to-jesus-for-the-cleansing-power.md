@@ -1,7 +1,6 @@
 ---
 id: 143
 title: Have You Been to Jesus for the Cleansing Power?
-
 ---
 
 _Chorus:_

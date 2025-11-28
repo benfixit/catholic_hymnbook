@@ -1,7 +1,6 @@
 ---
 id: 418
 title: We Three Kings of Orient Are
-
 ---
 
 _Chorus:_

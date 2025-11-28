@@ -1,7 +1,6 @@
 ---
 id: 414
 title: We Plough The Fields and Scatter
-
 ---
 
 _Chorus:_

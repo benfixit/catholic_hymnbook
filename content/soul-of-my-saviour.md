@@ -1,7 +1,6 @@
 ---
 id: 352
 title: Soul of My Saviour
-
 ---
 
 1. Soul of my saviour, sanctify my breast;

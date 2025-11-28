@@ -1,7 +1,6 @@
 ---
 id: 109
 title: God Is Love
-
 ---
 
 _Refrain:_

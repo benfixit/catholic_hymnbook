@@ -1,7 +1,6 @@
 ---
-id: 365
+id: 0000
 title: Lord Jesus, Think on Me
-
 ---
 
 1. Lord Jesus, think on me,

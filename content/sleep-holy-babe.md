@@ -1,7 +1,6 @@
 ---
 id: 348
 title: Sleep Holy Babe
-
 ---
 
 1. Sleep! Holy Babe!

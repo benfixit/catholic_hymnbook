@@ -1,7 +1,6 @@
 ---
-id: 618
+id: 0000
 title: The King of Love
-
 ---
 
 1. The King of love my shepherd is,

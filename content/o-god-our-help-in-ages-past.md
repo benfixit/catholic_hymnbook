@@ -1,7 +1,6 @@
 ---
 id: 274
 title: O God, Our Help in Ages Past
-
 ---
 
 1. O God, our help in ages past,

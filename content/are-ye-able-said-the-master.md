@@ -1,7 +1,6 @@
 ---
 id: 25
 title: Are Ye Able? Said the Master
-
 ---
 
 1. "Are ye able," said the Master

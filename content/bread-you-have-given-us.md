@@ -1,7 +1,6 @@
 ---
 id: 52
 title: Bread You Have Given Us
-
 ---
 
 _Refrain:_

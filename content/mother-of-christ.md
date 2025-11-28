@@ -1,7 +1,6 @@
 ---
-id: 394
+id: 0000
 title: Mother of Christ
-
 ---
 
 1. Mother of Christ, Mother of Christ,

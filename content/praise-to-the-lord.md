@@ -1,7 +1,6 @@
 ---
-id: 531
+id: 0000
 title: Praise to the Lord
-
 ---
 
 1. Praise to the Lord, the Almighty, the King of creation;

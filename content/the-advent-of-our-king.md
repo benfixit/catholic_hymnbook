@@ -1,7 +1,6 @@
 ---
-id: 600
+id: 0000
 title: The Advent of Our King
-
 ---
 
 1. The advent of our King

@@ -1,7 +1,6 @@
 ---
-id: 263
+id: 0000
 title: How Firm a Foundation
-
 ---
 
 1. How firm a foundation, ye saints of the Lord,

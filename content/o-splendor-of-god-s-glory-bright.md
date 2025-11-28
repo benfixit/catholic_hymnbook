@@ -1,7 +1,6 @@
 ---
-id: 485
+id: 0000
 title: O Splendor of God's Glory Bright
-
 ---
 
 1. O splendor of God's glory bright,

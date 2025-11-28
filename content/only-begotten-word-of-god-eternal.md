@@ -1,7 +1,6 @@
 ---
-id: 509
+id: 0000
 title: Only-Begotten, Word of God Eternal
-
 ---
 
 1. Only begotten, Word of God eternal,

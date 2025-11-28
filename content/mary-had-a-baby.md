@@ -1,7 +1,6 @@
 ---
 id: 241
 title: Mary Had a Baby
-
 ---
 
 1. Mary had a baby, yes, my Lord,
