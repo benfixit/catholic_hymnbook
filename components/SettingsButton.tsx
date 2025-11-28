@@ -18,7 +18,7 @@ const SettingsButton = (props: Props) => {
             <Text>{title}</Text>
         </View>
         <View>
-            {isActive ? <Ionicons name='checkmark-circle-outline' size={16} color={'#0078d7'} /> : <Ionicons name='ellipse-outline' size={16} />}
+            {isActive ? <Ionicons name='checkmark-circle' size={16} color={'#0078d7'} /> : <Ionicons name='ellipse-outline' size={16} />}
         </View>
         </Pressable>
     );

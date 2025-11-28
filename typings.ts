@@ -2,8 +2,7 @@ export type HymnType = {
     id: number,
     slug: string,
     title: string,
-    content: string,
-    category: Category
+    content: string
 }
 
 export type CategoryType = {

@@ -22,8 +22,8 @@ export default function SettingsScreen() {
           <View style={styles.container}>
             <Text style={styles.themeTitle}>Theme</Text>
             <View style={styles.themeGroup}>
-              <SettingsButton title='Dark' icon='moon-outline' isActive={theme === DARK_THEME} onPress={() => toggleTheme(DARK_THEME)} />
-              <SettingsButton title='Light' icon='sunny-outline' isActive={theme === LIGHT_THEME} onPress={() => toggleTheme(LIGHT_THEME)} />
+              <SettingsButton title='Dark' icon='moon' isActive={theme === DARK_THEME} onPress={() => toggleTheme(DARK_THEME)} />
+              <SettingsButton title='Light' icon='sunny' isActive={theme === LIGHT_THEME} onPress={() => toggleTheme(LIGHT_THEME)} />
             </View>
           </View>
         </ScrollView>

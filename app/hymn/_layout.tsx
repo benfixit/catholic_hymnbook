@@ -1,7 +1,7 @@
 import { Redirect, router, Slot, Stack } from "expo-router";
 import { Pressable, StyleSheet, Alert, Share } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
-import { Button, HeaderBackButton } from "@react-navigation/elements";
+import { HeaderBackButton } from "@react-navigation/elements";
 import { useHymns } from "@/store/HymnProvider";
 
 const HymnLayout = () => {
@@ -9,23 +9,12 @@ const HymnLayout = () => {
 
     const handleShare = async () => {
         try {
-            // console.log("selected hymn ::: ", selectedHymn);
-            const result = await Share.share({
-                message: selectedHymn?.content as string
-            });
+            const message = `
+                CHB ${selectedHymn?.id} \n
+                ${selectedHymn?.content}
+            `;
 
-            if (result.action === Share.sharedAction) {
-                if (result.activityType) {
-                    console.log("result ::: ", result.activityType, result.action)
-                // shared with activity type of result.activityType
-                } else {
-                // shared
-                console.log("only result action ::: ", result.action)
-                }
-            } else if (result.action === Share.dismissedAction) {
-                // dismissed
-                console.log("only result dismissed ::: ", result.action)
-            }
+            await Share.share({ message });
 
         } catch (error: any) {
             Alert.alert(error.message)
@@ -34,13 +23,13 @@ const HymnLayout = () => {
 
     const HeaderLeft = () => {
         return <HeaderBackButton 
-                    backImage={() => <Ionicons name="arrow-back-outline" size={24} style={styles.backButton} />} onPress={() => router.back()}></HeaderBackButton>
+                    backImage={() => <Ionicons name="arrow-back" size={24} style={styles.icon} />} onPress={() => router.back()}></HeaderBackButton>
     }
 
     const HeaderRight = () => {
         return (
             <Pressable>
-                <Ionicons name="share-social-outline" size={24} style={styles.shareIcon} onPress={handleShare} />
+                <Ionicons name="share-social" size={24} style={styles.icon} onPress={handleShare} />
             </Pressable>
         )
     }
@@ -53,7 +42,7 @@ const HymnLayout = () => {
 
     return (
         <>
-            <Stack.Screen options={{ title, headerLeft: () => <HeaderLeft />, headerRight: () => <HeaderRight /> }} />,
+            <Stack.Screen options={{ title, headerLeft: () => <HeaderLeft />, headerRight: () => <HeaderRight /> }} />
             <Slot />
         </>
 
@@ -61,11 +50,7 @@ const HymnLayout = () => {
 }
 
 const styles = StyleSheet.create({
-    backButton: {
-        color: "#ffffff",
-        padding: 12,
-    },
-    shareIcon: {
+    icon: {
         color: "#ffffff",
         padding: 12,
     }
