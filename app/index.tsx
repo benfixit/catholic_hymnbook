@@ -21,6 +21,10 @@ export default function Index() {
     useEffect(() => {
         let data = hymns;
 
+        // remove hymns with 0 as id - They are extra hymns
+        data = data.filter(hymn => hymn.id.toString() !== "0");
+
+        // filter by category
         if (params.category) {
             const category = categories.find(category => category.slug === params.category);
             const idsSet = new Set(category?.hymns);
@@ -28,6 +32,7 @@ export default function Index() {
             data = data.filter((hymn) => idsSet.has(hymn.id));
         }
 
+        // filter by search term
         data = data.filter(hymn => searchFilterCallback(hymn, searchTerm));
 
         setFilteredHymns(data)
