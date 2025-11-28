@@ -1,7 +1,6 @@
 ---
-id: 526
+id: 324
 title: Praise We Our God With Joy
-
 ---
 
 1. Praise we our God with joy

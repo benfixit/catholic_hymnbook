@@ -1,7 +1,6 @@
 ---
 id: 428
-title: When I Look At the Work of Your Hands
-
+title: When I Look At the Work of Your Hands (Psalm 8)
 ---
 
 _Chorus:_

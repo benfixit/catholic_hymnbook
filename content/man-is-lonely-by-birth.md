@@ -1,7 +1,6 @@
 ---
-id: 385
+id: 239
 title: Man is Lonely By Birth
-
 ---
 
 1. Man is lonely by birth,

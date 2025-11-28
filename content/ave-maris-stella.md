@@ -1,7 +1,6 @@
 ---
 id: 37
 title: Ave Maris Stella
-
 ---
 
 1. Ave maris stella,

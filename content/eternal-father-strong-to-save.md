@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Eternal Father, Strong to Save
-
 ---
 
 1. Eternal Father, strong to save,

@@ -1,7 +1,6 @@
 ---
 id: 78
 title: Day is Dying in the West
-
 ---
 
 1. Day is dying in the west,

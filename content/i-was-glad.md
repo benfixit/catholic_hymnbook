@@ -1,6 +1,6 @@
 ---
 id: 179
-title: I Was Glad
+title: I Was Glad (Psalm 122)
 ---
 
 1. I was glad, I was glad, when they said unto me:

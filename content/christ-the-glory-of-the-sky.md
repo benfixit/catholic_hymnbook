@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Christ, the Glory of the Sky
-
 ---
 
 1. Christ, the glory of the sky,

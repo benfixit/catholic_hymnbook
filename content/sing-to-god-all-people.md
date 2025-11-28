@@ -1,6 +1,6 @@
 ---
 id: 346
-title: Sing to God All People
+title: Sing to God All People (Psalm 100)
 ---
 
 1. Sing to God all people

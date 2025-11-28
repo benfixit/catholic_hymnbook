@@ -1,7 +1,6 @@
 ---
 id: 66
 title: Come Let Us Sing Songs of Glory
-
 ---
 
 1. Come, let us sing songs of glory,

@@ -1,7 +1,6 @@
 ---
-id: 399
+id: 246
 title: My God, Accept My Heart This Day
-
 ---
 
 1. My God, accept my heart this day,

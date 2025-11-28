@@ -1,7 +1,6 @@
 ---
 id: 363
 title: Take Me Deeper in Love with You
-
 ---
 
 _Chorus:_

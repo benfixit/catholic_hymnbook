@@ -1,7 +1,6 @@
 ---
-id: 303
+id: 190
 title: It's A Long Road to Freedom
-
 ---
 
 _Chorus:_

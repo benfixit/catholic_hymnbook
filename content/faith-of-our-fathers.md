@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Faith of Our Fathers
-
 ---
 
 _Chorus:_

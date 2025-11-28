@@ -1,7 +1,6 @@
 ---
 id: 64
 title: Come God's Children Let Us Sing, Alleluia!
-
 ---
 
 1. Come God's children let us sing, Alleluia,

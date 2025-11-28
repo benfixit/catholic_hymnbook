@@ -1,7 +1,6 @@
 ---
-id: 534
+id: 325
 title: Precious Promise God Hath Given
-
 ---
 
 _Chorus:_

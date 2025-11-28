@@ -1,7 +1,6 @@
 ---
 id: 53
 title: Bring an Offering and Enter His Courts (Psalm 96)
-
 ---
 
 _Antiphon:_

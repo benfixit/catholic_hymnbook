@@ -1,7 +1,6 @@
 ---
-id: 310
+id: 195
 title: Jesus Keep Me Near the Cross
-
 ---
 
 _Chorus:_

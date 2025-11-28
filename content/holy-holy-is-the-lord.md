@@ -1,6 +1,6 @@
 ---
 id: 157
-title: Holy, Holy is the Lord
+title: Holy, Holy is the Lord (Psalm 99)
 ---
 
 _Chorus:_

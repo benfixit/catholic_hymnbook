@@ -1,7 +1,6 @@
 ---
 id: 165
-title: How Lovely Is Your Dwelling Place
-
+title: How Lovely Is Your Dwelling Place (Psalm 84)
 ---
 
 _Chorus:_

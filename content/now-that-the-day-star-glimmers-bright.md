@@ -1,7 +1,6 @@
 ---
-id: 415
+id: 259
 title: Now That the Day-Star Glimmers Bright
-
 ---
 
 1. Now that the daystar glimmers bright,

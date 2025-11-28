@@ -1,7 +1,6 @@
 ---
-id: 383
+id: 238
 title: Magnify, Glorify, Extol and Exalt the Lord
-
 ---
 
 1. Magnify, glorify, extol and exalt the Lord;

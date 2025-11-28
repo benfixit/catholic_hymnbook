@@ -1,7 +1,6 @@
 ---
 id: 95
 title: Firmly I Believe and Truly
-
 ---
 
 1. Firmly I believe and truly

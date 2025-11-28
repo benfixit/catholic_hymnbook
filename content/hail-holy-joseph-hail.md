@@ -1,7 +1,6 @@
 ---
 id: 126
 title: Hail Holy Joseph Hail!
-
 ---
 
 1. Hail, holy Joseph, hail!

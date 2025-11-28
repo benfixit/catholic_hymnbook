@@ -1,7 +1,6 @@
 ---
 id: 40
 title: Away in a Manger
-
 ---
 
 1. Away in a manger, no crib for a bed,

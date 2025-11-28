@@ -1,7 +1,6 @@
 ---
 id: 62
 title: Christmas Comes to Bless the Earth
-
 ---
 
 1. Christmas comes to bless the earth,

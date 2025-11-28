@@ -1,6 +1,6 @@
 ---
 id: 355
-title: Stand Up and Sing to the Lord
+title: Stand Up and Sing to the Lord (Psalm 148)
 ---
 
 _Chorus:_

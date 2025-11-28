@@ -1,7 +1,6 @@
 ---
 id: 253
-title: My Soul Give Thanks To the Lord
-
+title: My Soul Give Thanks To the Lord (Psalm 102)
 ---
 
 _Chorus:_

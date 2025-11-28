@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Forty Days and Forty Nights
-
 ---
 
 1. Forty days and forty nights

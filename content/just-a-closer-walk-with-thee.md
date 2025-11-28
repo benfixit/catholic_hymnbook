@@ -1,7 +1,6 @@
 ---
-id: 327
+id: 203
 title: Just A Closer Walk With Thee
-
 ---
 
 _Chorus:_

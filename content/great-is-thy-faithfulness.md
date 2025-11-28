@@ -1,7 +1,6 @@
 ---
 id: 122
 title: Great is Thy Faithfulness
-
 ---
 
 _Chorus:_

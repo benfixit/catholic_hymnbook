@@ -1,6 +1,6 @@
 ---
 id: 416
-title: We Shall Go Up With Joy
+title: We Shall Go Up With Joy (Psalm 122)
 ---
 
 _Chorus:_

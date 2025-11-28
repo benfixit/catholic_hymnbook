@@ -1,7 +1,6 @@
 ---
-id: 496
+id: 298
 title: Of How Much More Value
-
 ---
 
 _Chorus:_

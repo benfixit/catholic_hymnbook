@@ -1,7 +1,6 @@
 ---
 id: 332
 title: Said Judas to Mary
-
 ---
 
 1. Said Judas to Mary, "Now what will you do

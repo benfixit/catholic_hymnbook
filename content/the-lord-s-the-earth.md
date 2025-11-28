@@ -1,6 +1,6 @@
 ---
 id: 379
-title: The Lord's the Earth
+title: The Lord's the Earth (Psalm 24)
 ---
 
 _Chorus:_

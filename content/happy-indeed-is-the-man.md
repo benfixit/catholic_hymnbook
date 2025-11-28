@@ -1,6 +1,6 @@
 ---
 id: 135
-title: Happy Indeed is the Man
+title: Happy Indeed is the Man (Psalm 1)
 ---
 
 _Chorus:_

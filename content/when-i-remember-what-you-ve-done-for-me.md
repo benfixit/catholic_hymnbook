@@ -1,7 +1,6 @@
 ---
 id: 429
 title: When I Remember What You've Done for Me
-
 ---
 
 _Chorus:_

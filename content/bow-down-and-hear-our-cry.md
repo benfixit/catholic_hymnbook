@@ -1,7 +1,6 @@
 ---
 id: 51
 title: Bow Down and Hear Our Cry
-
 ---
 
 1. Bow down and hear our cry,

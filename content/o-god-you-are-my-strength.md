@@ -1,6 +1,6 @@
 ---
 id: 276
-title: O God You are My Strength
+title: O God You are My Strength (Psalm 43)
 ---
 
 1. O God, You are my strength,

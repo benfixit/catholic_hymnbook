@@ -1,7 +1,6 @@
 ---
 id: 297
 title: O What A Wonderful Day
-
 ---
 
 _Chorus:_

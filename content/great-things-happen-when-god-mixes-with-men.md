@@ -1,7 +1,6 @@
 ---
 id: 123
 title: Great Things Happen When God Mixes With Men
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: For the Beauty of the Earth
-
 ---
 
 1. For the beauty of the earth,

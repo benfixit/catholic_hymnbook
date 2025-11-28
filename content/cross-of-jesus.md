@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Cross of Jesus
-
 ---
 
 1. Cross of Jesus, cross of sorrow,

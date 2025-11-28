@@ -1,7 +1,6 @@
 ---
 id: 175
 title: I Need Thee Every Hour
-
 ---
 
 _Chorus:_

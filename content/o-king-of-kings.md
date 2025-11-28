@@ -1,7 +1,6 @@
 ---
-id: 456
+id: 283
 title: O King of Kings
-
 ---
 
 _Chorus:_

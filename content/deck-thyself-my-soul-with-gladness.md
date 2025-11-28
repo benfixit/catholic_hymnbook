@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Deck Thyself, My Soul, With Gladness
-
 ---
 
 1. Deck thyself, my soul, with gladness,

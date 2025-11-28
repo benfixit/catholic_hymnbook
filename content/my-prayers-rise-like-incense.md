@@ -1,7 +1,6 @@
 ---
-id: 403
-title: My Prayers Rise Like Incense
-
+id: 252
+title: My Prayers Rise Like Incense (Psalm 140)
 ---
 
 _Chorus:_

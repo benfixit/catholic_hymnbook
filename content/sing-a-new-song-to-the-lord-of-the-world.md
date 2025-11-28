@@ -1,6 +1,6 @@
 ---
 id: 343
-title: Sing A New Song to the Lord of the World
+title: Sing A New Song to the Lord of the World (Psalm 96)
 ---
 
 1. Sing a new song to the Lord of the world.

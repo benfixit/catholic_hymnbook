@@ -1,7 +1,6 @@
 ---
 id: 1008
 title: Blest Guardian of All Virgin Souls
-
 ---
 
 1. Blest guardian of all virgin souls!

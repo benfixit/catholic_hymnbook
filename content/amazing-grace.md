@@ -1,7 +1,6 @@
 ---
 id: 21
-title: Amazing Grace
-
+title: Amazing Grace (Psalm 100)
 ---
 
 1. Amazing grace! how sweet the sound!

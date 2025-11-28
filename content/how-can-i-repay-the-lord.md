@@ -1,7 +1,6 @@
 ---
-id: 261
-title: How Can I Repay the Lord
-
+id: 161
+title: How Can I Repay the Lord (Psalm 115)
 ---
 
 _Chorus:_

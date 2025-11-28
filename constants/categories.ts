@@ -167,7 +167,7 @@ export const categories: Array<CategoryType> = [
     },   
     {
         id: 19,
-        title: "Paslms",
+        title: "Psalms",
         slug: Category.PSALMS,
         hymns: [
             135, 428, 164, 375, 378, 380, 379, 219, 54, 222, 276, 165, 71, 

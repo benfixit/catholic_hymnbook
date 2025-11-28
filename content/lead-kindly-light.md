@@ -1,7 +1,6 @@
 ---
-id: 336
+id: 210
 title: Lead, Kindly Light
-
 ---
 
 1. Lead, kindly Light, amid th'en-circling gloom,

@@ -1,7 +1,6 @@
 ---
 id: 432
 title: When Upon Life's Billows You Are Tempest Tossed
-
 ---
 
 _Chorus:_

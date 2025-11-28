@@ -1,7 +1,6 @@
 ---
 id: 211
 title: Lead Us, Heavenly Father
-
 ---
 
 1. Lead us, heavenly Father, lead us

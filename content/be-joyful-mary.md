@@ -1,7 +1,6 @@
 ---
 id: 1002
 title: Be Joyful, Mary
-
 ---
 
 _Chorus:_

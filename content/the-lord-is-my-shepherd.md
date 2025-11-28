@@ -1,7 +1,6 @@
 ---
 id: 378
-title: The Lord is My Shepherd
-
+title: The Lord is My Shepherd (Psalm 23)
 ---
 
 _Chorus:_

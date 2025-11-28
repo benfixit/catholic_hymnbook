@@ -1,7 +1,6 @@
 ---
 id: 39
 title: Ave Verum Corpus Natum
-
 ---
 
 1. Ave verum Corpus natum

@@ -1,7 +1,6 @@
 ---
 id: 92
 title: Fields Full of Flowers
-
 ---
 
 1. Fields full of flowers and woods full of pine,

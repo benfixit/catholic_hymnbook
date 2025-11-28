@@ -1,7 +1,6 @@
 ---
 id: 320
-title: Praise the Lord in Heaven
-
+title: Praise the Lord in Heaven (Psalm 150)
 ---
 
 1. Praise the Lord in Heaven,

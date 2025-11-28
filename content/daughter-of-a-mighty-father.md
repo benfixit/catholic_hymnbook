@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Daughter of a Mighty Father
-
 ---
 
 _Chorus:_

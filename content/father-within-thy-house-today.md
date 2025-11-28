@@ -1,7 +1,6 @@
 ---
 id: 91
 title: Father Within thy House Today
-
 ---
 
 1. Father, within Thy House today

@@ -1,7 +1,6 @@
 ---
 id: 29
 title: As I Kneel Before You
-
 ---
 
 1. As I kneel before you,

@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Fairest Lord Jesus
-
 ---
 
 1. Fairest Lord Jesus,

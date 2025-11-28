@@ -1,7 +1,6 @@
 ---
 id: 1003
 title: Be Thou My Vision
-
 ---
 
 1. Be thou my vision, O Lord of my heart;

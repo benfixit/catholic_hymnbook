@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Comfort, Comfort Ye My People
-
 ---
 
 1. Comfort, comfort ye my people,

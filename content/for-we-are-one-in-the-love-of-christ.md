@@ -1,7 +1,6 @@
 ---
 id: 96
 title: For We Are One in the Love of Christ
-
 ---
 
 _Refrain:_

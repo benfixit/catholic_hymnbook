@@ -1,7 +1,6 @@
 ---
 id: 98
 title: Full in the Panting Heart of Rome
-
 ---
 
 1. Full in the panting heart of Rome,

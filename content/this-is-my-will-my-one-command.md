@@ -1,7 +1,6 @@
 ---
 id: 390
 title: This Is My Will, My One Command
-
 ---
 
 1. This is My will, My one command,

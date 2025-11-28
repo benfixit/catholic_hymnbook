@@ -1,6 +1,6 @@
 ---
 id: 164
-title: How Great Is Your Name O Lord, Our God
+title: How Great Is Your Name O Lord, Our God (Psalm 8)
 ---
 
 _Chorus:_

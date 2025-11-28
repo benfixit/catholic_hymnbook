@@ -1,7 +1,6 @@
 ---
 id: 71
 title: Come Sound His Praise Abroad (Psalm 95)
-
 ---
 
 1. Come, sound his praise abroad,

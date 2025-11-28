@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: For All the Saints
-
 ---
 
 _Chorus:_

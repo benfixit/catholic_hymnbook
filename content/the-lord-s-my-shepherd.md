@@ -1,7 +1,6 @@
 ---
 id: 380
-title: The Lord's My Shepherd
-
+title: The Lord's My Shepherd (Psalm 23)
 ---
 
 1. The Lord's my shepherd, I'll not want,

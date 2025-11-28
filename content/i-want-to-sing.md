@@ -1,6 +1,6 @@
 ---
 id: 178
-title: I Want to Sing
+title: I Want to Sing (Psalm 108)
 ---
 
 _Chorus:_

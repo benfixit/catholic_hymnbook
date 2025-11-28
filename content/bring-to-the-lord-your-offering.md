@@ -1,7 +1,6 @@
 ---
 id: 54
 title: Bring to the Lord Your Offering (Psalm 29)
-
 ---
 
 _Antiphon:_

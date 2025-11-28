@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Creator of the Stars of Night
-
 ---
 
 1. Creator of the stars of night,

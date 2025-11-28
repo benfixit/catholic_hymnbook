@@ -1,7 +1,6 @@
 ---
-id: 676
+id: 420
 title: We're Going with Jesus
-
 ---
 
 1. We're going with Jesus, walking together

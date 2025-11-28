@@ -1,7 +1,6 @@
 ---
 id: 303
 title: On a Hill Far Away Stood the Old Rugged Cross
-
 ---
 
 _Chorus:_

@@ -1,7 +1,6 @@
 ---
 id: 120
 title: Great and Glorious Saint Patrick
-
 ---
 
 _Refrain:_

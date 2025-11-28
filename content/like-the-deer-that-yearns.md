@@ -1,7 +1,6 @@
 ---
 id: 222
-title: Like the Deer That Yearns
-
+title: Like the Deer That Yearns (Psalm 42)
 ---
 
 _Chorus:_

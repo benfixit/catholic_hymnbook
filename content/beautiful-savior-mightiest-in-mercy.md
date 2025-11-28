@@ -1,7 +1,6 @@
 ---
 id: 1004
 title: Beautiful Savior, Mightiest in Mercy
-
 ---
 
 1. Beautiful Savior,

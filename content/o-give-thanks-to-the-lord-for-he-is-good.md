@@ -1,7 +1,6 @@
 ---
 id: 272
-title: O Give Thanks to the Lord for He is Good
-
+title: O Give Thanks to the Lord for He is Good (Psalm 136)
 ---
 
 1. O give thanks to the Lord for He is good,

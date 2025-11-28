@@ -1,7 +1,6 @@
 ---
-id: 400
+id: 247
 title: My God, How Wonderful Thou Art
-
 ---
 
 1. My God, how wonderful Thou art,

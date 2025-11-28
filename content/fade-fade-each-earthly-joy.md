@@ -1,7 +1,6 @@
 ---
 id: 88
 title: Fade, Fade Each Earthly Joy
-
 ---
 
 1. Fade, fade, each earthly joy,

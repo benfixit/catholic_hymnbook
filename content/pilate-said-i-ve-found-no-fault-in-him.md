@@ -1,7 +1,6 @@
 ---
 id: 315
 title: Pilate Said I've Found No Fault in Him
-
 ---
 
 _Chorus:_

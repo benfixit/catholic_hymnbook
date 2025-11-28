@@ -1,6 +1,6 @@
 ---
 id: 27
-title: Arise Come to Your God
+title: Arise Come to Your God (Psalm 100)
 ---
 
 _Antiphon 1:_

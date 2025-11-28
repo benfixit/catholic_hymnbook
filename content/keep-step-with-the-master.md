@@ -1,14 +1,7 @@
 ---
-id: 330
+id: 206
 title: Keep Step With the Master
-
 ---
-
-_Chorus:_
-_Keeping step go bravely forward,_
-_And thy courage will renew;_
-_Daily walk with Christ your Saviour,_
-_He will lead you all the journey through._
 
 1. Keep step with the Master, whatever betide;
 While dark be the pathway,
@@ -17,6 +10,12 @@ While foes are alluring,
 and danger is near,
 When walking with Jesus,
 You've nothing to fear.
+
+_Chorus:_
+_Keeping step go bravely forward,_
+_And thy courage will renew;_
+_Daily walk with Christ your Saviour,_
+_He will lead you all the journey through._
 
 2. Keep step with the Master, wherever you go;
 Through darkness and shadow,

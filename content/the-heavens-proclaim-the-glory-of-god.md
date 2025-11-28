@@ -1,6 +1,6 @@
 ---
 id: 375
-title: The Heavens Proclaim the Glory of God
+title: The Heavens Proclaim the Glory of God (Psalm 19)
 ---
 
 _Chorus:_

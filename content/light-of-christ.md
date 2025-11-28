@@ -1,6 +1,6 @@
 ---
 id: 219
-title: Light of Christ
+title: Light of Christ (Psalm 27)
 ---
 
 _Chorus:_

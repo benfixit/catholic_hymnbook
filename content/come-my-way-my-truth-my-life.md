@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, My Way, My Truth, My Life
-
 ---
 
 1. Come, my Way, my Truth, my Life:

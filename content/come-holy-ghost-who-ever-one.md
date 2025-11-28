@@ -1,7 +1,6 @@
 ---
 id: 0000
 title: Come, Holy Ghost, Who Ever One
-
 ---
 
 1. Come, Holy Ghost, who ever one

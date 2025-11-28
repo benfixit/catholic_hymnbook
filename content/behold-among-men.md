@@ -1,7 +1,6 @@
 ---
 id: 42
 title: Behold Among Men
-
 ---
 
 _Refrain:_
