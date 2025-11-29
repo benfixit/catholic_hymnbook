@@ -9,6 +9,7 @@ import { useTheme } from "@/store/ThemeProvider";
 import { Category, ColorsType, HymnType } from "@/typings";
 import { searchFilterCallback } from "@/utils";
 import { categories } from "@/constants/categories";
+import { borderBottomColor } from "@/constants/theme";
 
 export default function Index() {
     const { hymns, setHymn } = useHymns();
@@ -83,7 +84,7 @@ const makeStyles = (colors: ColorsType) => {
         pressable: {},
         view: {
             borderBottomWidth: 1,
-            borderBottomColor: "#cdcdcd",
+            borderBottomColor: borderBottomColor,
             backgroundColor: colors.background,
             padding: 24,
         },

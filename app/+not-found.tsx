@@ -1,3 +1,5 @@
+import { mainColor } from '@/constants/theme';
+import Ionicons from '@react-native-vector-icons/ionicons';
 import { Link, Stack } from 'expo-router';
 import { Text, View, StyleSheet } from 'react-native';
 
@@ -8,7 +10,10 @@ export default function NotFoundScreen() {
         <View style={styles.container}>
             <Text>Hymn not found</Text>
             <Link href="/" dismissTo style={styles.link}>
-                <Text>Go to home screen</Text>
+                <Text>
+                  <Ionicons name='home' size={24} color={mainColor} />
+                  Home
+                </Text>
             </Link>
         </View>
     </>
@@ -23,7 +28,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   link: {
-    marginTop: 15,
-    paddingVertical: 15,
+    marginTop: 16,
+    paddingVertical: 16,
   },
 });

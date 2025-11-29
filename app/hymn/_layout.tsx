@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, Alert, Share } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { HeaderBackButton } from "@react-navigation/elements";
 import { useHymns } from "@/store/HymnProvider";
+import { Colors } from "@/constants/theme";
 
 const HymnLayout = () => {
     const { selectedHymn } = useHymns();
@@ -51,7 +52,7 @@ const HymnLayout = () => {
 
 const styles = StyleSheet.create({
     icon: {
-        color: "#ffffff",
+        color: Colors.dark.text,
         padding: 12,
     }
 });

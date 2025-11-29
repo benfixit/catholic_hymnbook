@@ -1,27 +1,21 @@
-//@ts-nocheck
-import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
-import Ionicons from '@react-native-vector-icons/ionicons';
-import { Link, useLocalSearchParams } from 'expo-router';
-import { useEffect, useState } from 'react';
-import { Text, View, StyleSheet, ScrollView, Button, Pressable } from 'react-native';
-import Markdown from "react-native-markdown-display";
+import { Text, View, StyleSheet, ScrollView } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { DARK_THEME, LIGHT_THEME, AUTO_THEME } from '@/constants/theme';
+import { DARK_THEME, LIGHT_THEME, borderBottomColor } from '@/constants/theme';
 import SettingsButton from '@/components/SettingsButton';
-import { ThemeType } from '@/typings';
+import { ColorsType } from '@/typings';
 
 export default function SettingsScreen() {
-    const [isActive, setIsActive] = useState(false);
-    const { theme, toggleTheme, setToSystemTheme } = useTheme();
+    const { colors, theme, toggleTheme } = useTheme();
+    const styles = makeStyles(colors);
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView>
+      <SafeAreaView style={styles.container}>
         <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={styles.container}>
+          <View>
             <Text style={styles.themeTitle}>Theme</Text>
-            <View style={styles.themeGroup}>
+            <View>
               <SettingsButton title='Dark' icon='moon' isActive={theme === DARK_THEME} onPress={() => toggleTheme(DARK_THEME)} />
               <SettingsButton title='Light' icon='sunny' isActive={theme === LIGHT_THEME} onPress={() => toggleTheme(LIGHT_THEME)} />
             </View>
@@ -32,17 +26,20 @@ export default function SettingsScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ColorsType) => StyleSheet.create({
   container: {
-    padding: 16
+    backgroundColor: colors.background,
+    padding: 16,
+    height: "100%"
   },
   themeTitle: {
+    color: colors.text,
     fontWeight: 700
   },
   pressable: {
-    borderColor: "#cdcdcd",
+    borderColor: borderBottomColor,
     borderWidth: 1,
-    backgroundColor: "#ffffff",
+    backgroundColor: colors.background,
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",

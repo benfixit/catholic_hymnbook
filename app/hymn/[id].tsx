@@ -1,15 +1,11 @@
-//@ts-nocheck
 import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
-import { Link, useLocalSearchParams } from 'expo-router';
-import { useEffect, useState } from 'react';
-import { Text, View, StyleSheet, ScrollView } from 'react-native';
+import { ColorsType } from '@/typings';
+import { View, StyleSheet, ScrollView } from 'react-native';
 import Markdown from "react-native-markdown-display";
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HymnScreen() {
-  const [content, setContent] = useState();
-  const { id } = useLocalSearchParams();
   const { selectedHymn } = useHymns();
   const { colors } = useTheme();
   const wrapper = makeStyles(colors);
@@ -21,7 +17,7 @@ export default function HymnScreen() {
         <ScrollView showsVerticalScrollIndicator={false} style={wrapper.scrollView} contentInsetAdjustmentBehavior='automatic'>
           <View style={wrapper.view}>
             <Markdown style={markdown}>
-              {selectedHymn.content}
+              {selectedHymn?.content}
             </Markdown>
           </View>
         </ScrollView>
@@ -30,7 +26,7 @@ export default function HymnScreen() {
   );
 }
 
-const makeMarkdownStyles = (colors) => {
+const makeMarkdownStyles = (colors: ColorsType) => {
   return StyleSheet.create({
     paragraph: {
       color: colors.text,
@@ -57,7 +53,7 @@ const makeMarkdownStyles = (colors) => {
   });
 }
 
-const makeStyles = (colors) => {
+const makeStyles = (colors: ColorsType) => {
   return StyleSheet.create({
     safeArea: {
       backgroundColor: colors.background,

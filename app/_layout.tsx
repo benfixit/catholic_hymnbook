@@ -9,6 +9,7 @@ import HymnProvider from '@/store/HymnProvider';
 import { ThemeProvider } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
 import { Category } from '@/typings';
+import { mainColor, borderBottomColor, Colors } from '@/constants/theme';
 
 const activeTintColor='#3478F6';
 const activeBackgroundColor='#E3EEFD';
@@ -16,6 +17,7 @@ const activeBackgroundColor='#E3EEFD';
 export default function RootLayout() {
   const customDrawerContent = (props: DrawerContentComponentProps) => {
     const params: UnknownOutputParams & { category: Category} = useGlobalSearchParams();
+
     return (
       <DrawerContentScrollView {...props}>
         <DrawerItemList {...props} />
@@ -54,9 +56,9 @@ export default function RootLayout() {
           drawerContent={customDrawerContent} 
           screenOptions={{
             headerStyle: {
-              backgroundColor: "#0078d7"
+              backgroundColor: mainColor
             },
-            headerTintColor: "#ffffff",
+            headerTintColor: Colors.dark.text,
           }}
           >
           <Drawer.Screen
@@ -97,7 +99,7 @@ export default function RootLayout() {
 
 const styles = StyleSheet.create({
   hr: {
-    borderBottomColor: "#cdcdcd",
+    borderBottomColor: borderBottomColor,
     borderBottomWidth: 1,
     marginTop: 16,
     marginBottom: 16

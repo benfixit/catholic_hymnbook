@@ -13,6 +13,9 @@ export const LIGHT_THEME = 'light';
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
+export const borderBottomColor = '#cdcdcd';
+export const mainColor = '#0078d7';
+
 export const Colors = {
   light: {
     text: '#11181C',
