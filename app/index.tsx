@@ -90,7 +90,7 @@ const makeStyles = (colors: ColorsType) => {
         },
         text: {
             color: colors.text,
-            fontSize: 16,
+            fontSize: 14,
         }
     });
 }

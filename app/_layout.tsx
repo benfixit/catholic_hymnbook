@@ -1,29 +1,32 @@
 import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, View } from 'react-native';
+import { Image, StyleSheet, View, Text } from 'react-native';
 import { router, UnknownOutputParams, useGlobalSearchParams } from 'expo-router';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import HymnProvider from '@/store/HymnProvider';
 import { ThemeProvider, useTheme } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
-import { Category } from '@/typings';
+import { Category, ColorsType } from '@/typings';
 import { mainColor, borderBottomColor, Colors } from '@/constants/theme';
 import HeaderRight from '@/components/HeaderRight';
+import { APP_TITLE } from '@/constants/app';
 
 const activeTintColor='#3478F6';
 // const activeBackgroundColor='#E3EEFD';
 
 const InitialLayout = () => {
   const { colors } = useTheme();
+  const styles = makeStyles(colors);
 
   const customDrawerContent = (props: DrawerContentComponentProps) => {
     const params: UnknownOutputParams & { category: Category} = useGlobalSearchParams();
 
     return (
       <DrawerContentScrollView showsVerticalScrollIndicator={false} {...props}>
-        <View style={{ alignItems: 'center' }}>
-          <Image source={require('@/assets/images/icon.png')} style={{ resizeMode: 'contain', width: 120, height: 120 }} />
+        <View style={styles.view}>
+          <Image source={require('@/assets/images/icon.png')} style={styles.image} />
+          <Text style={styles.text}>{APP_TITLE}</Text>
         </View>
         <View style={styles.hr} />
         <DrawerItem 
@@ -68,8 +71,9 @@ const InitialLayout = () => {
           }}
           >
           <Drawer.Screen
-            name='index' options={{ 
-              title: "Catholic Hymnbook (Nigeria)", 
+            name='index' 
+            options={{ 
+              title: APP_TITLE, 
               drawerItemStyle: {
                 display: "none"
               },
@@ -106,7 +110,21 @@ export default function RootLayout() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: ColorsType) => StyleSheet.create({
+  view: {
+    alignItems: 'center',
+    marginBottom: 8
+  },
+  image: { 
+    marginBottom: 16,
+    resizeMode: 'contain', 
+    width: 120, 
+    height: 120 
+  },
+  text: {
+    color: colors.text,
+    fontSize: 14
+  },
   hr: {
     borderBottomColor: borderBottomColor,
     borderBottomWidth: 1,

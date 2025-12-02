@@ -29,8 +29,8 @@ const HymnLayout = () => {
 
     const HeaderRight = () => {
         return (
-            <Pressable>
-                <Ionicons name="share-social" size={24} style={styles.icon} onPress={handleShare} />
+            <Pressable style={styles.pressable}>
+                <Ionicons name="share-social" size={20} style={styles.icon} onPress={handleShare} />
             </Pressable>
         )
     }
@@ -39,11 +39,11 @@ const HymnLayout = () => {
         return <Redirect href={`/+not-found`} />
     }
 
-    const title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
+    const title = `${selectedHymn.title.toUpperCase()}`;
 
     return (
         <>
-            <Stack.Screen options={{ title, headerLeft: () => <HeaderLeft />, headerRight: () => <HeaderRight /> }} />
+            <Stack.Screen options={{ headerTitleStyle: { fontSize: 14 }, title, headerLeft: () => <HeaderLeft />, headerRight: () => <HeaderRight /> }} />
             <Slot />
         </>
 
@@ -51,6 +51,9 @@ const HymnLayout = () => {
 }
 
 const styles = StyleSheet.create({
+    pressable: {
+        marginRight: 8
+    },
     icon: {
         color: Colors.dark.text,
         padding: 12,
