@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState, useEffect, createContext, ReactNode } from 'react';
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
-import { Colors, LIGHT_THEME, THEME_STORAGE_KEY } from '@/constants/theme';
+import { Colors, DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY } from '@/constants/theme';
 import { ThemeType } from '@/typings';
 
 type Props = {
@@ -31,9 +31,11 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
 
 
-    const toggleTheme = async (theme: ThemeType) => {
-      setTheme(theme);
-      setItem(theme);
+    const toggleTheme = async () => {
+      const newTheme = theme === LIGHT_THEME ? DARK_THEME : LIGHT_THEME;
+      
+      setTheme(newTheme);
+      await setItem(newTheme);
     }
 
     return (

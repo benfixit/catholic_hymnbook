@@ -1,5 +1,5 @@
-//@ts-nocheck
 import { useTheme } from "@/store/ThemeProvider";
+import { ColorsType } from "@/typings";
 import React, { useMemo, useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
 
@@ -32,7 +32,7 @@ const SearchBox: React.FC<Props> = ({ onSearch }) => {
     );
 }
 
-const makeStyles = (colors) => StyleSheet.create({
+const makeStyles = (colors: ColorsType) => StyleSheet.create({
     view: {
         paddingHorizontal: 16
     },

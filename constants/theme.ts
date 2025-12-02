@@ -10,7 +10,6 @@ export const THEME_STORAGE_KEY = "theme_store"
 export const DARK_THEME = 'dark';
 export const LIGHT_THEME = 'light';
 
-const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const borderBottomColor = '#cdcdcd';
@@ -21,17 +20,13 @@ export const Colors = {
     text: '#11181C',
     background: '#fff',
     tint: tintColorDark,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    icon: '#687076'
   },
   dark: {
     text: '#ECEDEE',
     background: '#151718',
     tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    icon: '#9BA1A6'
   },
 };
 
