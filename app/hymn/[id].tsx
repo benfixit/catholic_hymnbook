@@ -30,18 +30,18 @@ const makeMarkdownStyles = (colors: ColorsType) => {
   return StyleSheet.create({
     paragraph: {
       color: colors.text,
-      fontSize: 18,
+      fontSize: 16,
       marginBottom: 12,
       marginTop: 12
     },
     ordered_list_icon: {
-      fontSize: 18,
+      fontSize: 16,
       fontWeight: "bold",
       marginBottom: 12,
       marginTop: 12,
     },
     ordered_list_content: {
-      fontSize: 18,
+      fontSize: 16,
       marginBottom: 12,
       marginTop: 12,
     },
@@ -63,9 +63,9 @@ const makeStyles = (colors: ColorsType) => {
       height: "100%"
     },
     view: {
-      padding: 24,
+      padding: 20,
       backgroundColor: colors.background,
-      color: colors.text,
+      color: colors.text
     }
   });
 }

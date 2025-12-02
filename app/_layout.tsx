@@ -73,7 +73,8 @@ const InitialLayout = () => {
           <Drawer.Screen
             name='index' 
             options={{ 
-              title: APP_TITLE, 
+              title: APP_TITLE,
+              headerTitleStyle: { fontSize: 14 },
               drawerItemStyle: {
                 display: "none"
               },

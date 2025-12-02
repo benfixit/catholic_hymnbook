@@ -1,9 +1,10 @@
 import { Redirect, router, Slot, Stack } from "expo-router";
-import { Pressable, StyleSheet, Alert, Share } from "react-native";
+import { Pressable, StyleSheet, Alert, Share, Text, View, Platform } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { HeaderBackButton } from "@react-navigation/elements";
 import { useHymns } from "@/store/HymnProvider";
 import { Colors } from "@/constants/theme";
+import { truncateString } from "@/utils";
 
 const HymnLayout = () => {
     const { selectedHymn } = useHymns();
@@ -39,11 +40,22 @@ const HymnLayout = () => {
         return <Redirect href={`/+not-found`} />
     }
 
-    const title = `${selectedHymn.title.toUpperCase()}`;
+    let title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
+
+    if (Platform.OS === "android") {
+        title = truncateString(`${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`, 40);
+    }
 
     return (
         <>
-            <Stack.Screen options={{ headerTitleStyle: { fontSize: 14 }, title, headerLeft: () => <HeaderLeft />, headerRight: () => <HeaderRight /> }} />
+            <Stack.Screen options={{ 
+                headerLeft: () => <HeaderLeft />, 
+                title,
+                headerRight: () => <HeaderRight />,
+                headerTitleStyle: {
+                    fontSize: 14
+                }
+            }} />
             <Slot />
         </>
 
@@ -52,7 +64,7 @@ const HymnLayout = () => {
 
 const styles = StyleSheet.create({
     pressable: {
-        marginRight: 8
+        marginRight: 8,
     },
     icon: {
         color: Colors.dark.text,
