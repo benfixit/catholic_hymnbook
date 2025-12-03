@@ -1,5 +1,5 @@
 import { Redirect, router, Slot, Stack } from "expo-router";
-import { Pressable, StyleSheet, Alert, Share, Text, View, Platform } from "react-native";
+import { Pressable, StyleSheet, Alert, Share, Platform } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { HeaderBackButton } from "@react-navigation/elements";
 import { useHymns } from "@/store/HymnProvider";
@@ -24,8 +24,10 @@ const HymnLayout = () => {
     }
 
     const HeaderLeft = () => {
-        return <HeaderBackButton 
-                    backImage={() => <Ionicons name="arrow-back" size={24} style={styles.icon} />} onPress={() => router.back()}></HeaderBackButton>
+        return <HeaderBackButton
+                    backImage={() => <Ionicons name="arrow-back" size={24} style={styles.icon} />} 
+                    onPress={() => router.push("/")}
+                    />
     }
 
     const HeaderRight = () => {
