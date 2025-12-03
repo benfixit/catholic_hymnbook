@@ -43,7 +43,7 @@ const HymnLayout = () => {
     let title = `${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`;
 
     if (Platform.OS === "android") {
-        title = truncateString(`${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`, 40);
+        title = truncateString(`${selectedHymn.id}. ${selectedHymn.title.toUpperCase()}`, 36);
     }
 
     return (
