@@ -1,24 +1,29 @@
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useState } from "react";
-import { HymnType, Optional } from "../typings";
+import { Category, HymnType, Nullable, Optional } from "../typings";
 import allHymns from "../assets/hymns/index.json";
 
-type Props = {
+type ValueType = {
     hymns: HymnType[], 
     selectedHymn: Optional<HymnType>, 
-    setHymn: Dispatch<SetStateAction<HymnType>>
+    setHymn: Dispatch<SetStateAction<HymnType>>,
+    category: Nullable<Category>, 
+    setCategory: Dispatch<SetStateAction<Nullable<Category>>>
 };
 
-export const HymnContext = createContext<Props>({
+export const HymnContext = createContext<ValueType>({
     hymns: [],
     selectedHymn: undefined,
-    setHymn: () => {}
+    setHymn: () => {},
+    category: null,
+    setCategory: () => {}
 });
 
 const HymnProvider = ({ children }: { children: ReactNode }) => {
     const [hymn, setHymn] = useState(undefined);
+    const [category, setCategory] = useState(null);
 
     //@ts-ignore
-    return <HymnContext.Provider value={{ hymns: allHymns, selectedHymn: hymn, setHymn }}>
+    return <HymnContext.Provider value={{ hymns: allHymns, selectedHymn: hymn, setHymn, category, setCategory }}>
         {children}
     </HymnContext.Provider>
 }

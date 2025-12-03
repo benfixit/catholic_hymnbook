@@ -4,7 +4,7 @@ import { Image, StyleSheet, View, Text } from 'react-native';
 import { router, UnknownOutputParams, useGlobalSearchParams } from 'expo-router';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
-import HymnProvider from '@/store/HymnProvider';
+import HymnProvider, { useHymns } from '@/store/HymnProvider';
 import { ThemeProvider, useTheme } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
 import { Category, ColorsType } from '@/typings';
@@ -17,10 +17,10 @@ const activeTintColor='#3478F6';
 
 const InitialLayout = () => {
   const { colors } = useTheme();
+  const { category, setCategory } = useHymns();
   const styles = makeStyles(colors);
 
   const customDrawerContent = (props: DrawerContentComponentProps) => {
-    const params: UnknownOutputParams & { category: Category} = useGlobalSearchParams();
 
     return (
       <DrawerContentScrollView showsVerticalScrollIndicator={false} {...props}>
@@ -32,9 +32,10 @@ const InitialLayout = () => {
         <DrawerItem 
           activeTintColor={activeTintColor}
           inactiveTintColor={colors.text}
-          focused={!params.category}
+          focused={!category}
           label={"All"} 
           onPress={() => {
+            setCategory(null);
             router.push('/');
           }} 
         />
@@ -43,11 +44,12 @@ const InitialLayout = () => {
             <DrawerItem 
               activeTintColor={activeTintColor}
               inactiveTintColor={colors.text}
-              focused={params.category === item.slug}
+              focused={category === item.slug}
               key={item.id} 
               label={item.title} 
               onPress={() => {
-                router.push({ pathname: "/", params: { category: item.slug } });
+                setCategory(item.slug);
+                router.push("/");
               }} 
             />
           );

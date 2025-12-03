@@ -12,12 +12,11 @@ import { categories } from "@/constants/categories";
 import { borderBottomColor } from "@/constants/theme";
 
 export default function Index() {
-    const { hymns, setHymn } = useHymns();
+    const { hymns, setHymn, category: categorySlug } = useHymns();
     const { colors } = useTheme();
     const [filteredHymns, setFilteredHymns] = useState(hymns);
     const [searchTerm, setSearchTerm] = useState("");
     const styles = useMemo(() => makeStyles(colors), [colors]);
-    const params: UnknownOutputParams & { category: Category } = useLocalSearchParams();
 
     useEffect(() => {
         let data = hymns;
@@ -26,8 +25,8 @@ export default function Index() {
         data = data.filter(hymn => hymn.id.toString() !== "0");
 
         // filter by category
-        if (params.category) {
-            const category = categories.find(category => category.slug === params.category);
+        if (categorySlug) {
+            const category = categories.find(category => category.slug === categorySlug);
             const idsSet = new Set(category?.hymns);
 
             data = data.filter((hymn) => idsSet.has(hymn.id));
@@ -38,7 +37,7 @@ export default function Index() {
 
         setFilteredHymns(data)
 
-    }, [params.category, searchTerm]);
+    }, [categorySlug, searchTerm]);
 
     const onSearch = (searchTerm: string) => {
         setSearchTerm(searchTerm);
