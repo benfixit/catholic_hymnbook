@@ -1,4 +1,4 @@
-import { UnknownOutputParams, useLocalSearchParams, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
 import { Text, View, StyleSheet, FlatList, Pressable } from "react-native";
 import debounce from 'debounce';
@@ -6,7 +6,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import SearchBox from "@/components/Search";
 import { useHymns } from "@/store/HymnProvider";
 import { useTheme } from "@/store/ThemeProvider";
-import { Category, ColorsType, HymnType } from "@/typings";
+import { ColorsType, HymnType } from "@/typings";
 import { searchFilterCallback } from "@/utils";
 import { categories } from "@/constants/categories";
 import { borderBottomColor } from "@/constants/theme";

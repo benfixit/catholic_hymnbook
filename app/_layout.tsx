@@ -1,13 +1,13 @@
 import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
 import { Image, StyleSheet, View, Text } from 'react-native';
-import { router, UnknownOutputParams, useGlobalSearchParams } from 'expo-router';
+import { router } from 'expo-router';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import HymnProvider, { useHymns } from '@/store/HymnProvider';
 import { ThemeProvider, useTheme } from '@/store/ThemeProvider';
 import { categories } from '@/constants/categories';
-import { Category, ColorsType } from '@/typings';
+import { ColorsType } from '@/typings';
 import { mainColor, borderBottomColor, Colors } from '@/constants/theme';
 import HeaderRight from '@/components/HeaderRight';
 import { APP_TITLE } from '@/constants/app';
