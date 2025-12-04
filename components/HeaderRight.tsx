@@ -12,7 +12,7 @@ const HeaderRight = () => {
 
     return (
         <Pressable style={styles.pressable} onPress={handlePress}>
-            <Ionicons name={theme === LIGHT_THEME ? 'sunny' : 'moon'} color={"white"} size={20} />
+            <Ionicons name={theme === LIGHT_THEME ? 'moon' : 'sunny'} color={"white"} size={20} />
         </Pressable>
     );
 }
