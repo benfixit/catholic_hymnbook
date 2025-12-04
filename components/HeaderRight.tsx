@@ -4,7 +4,7 @@ import Ionicons from "@react-native-vector-icons/ionicons";
 import { Pressable, StyleSheet } from "react-native";
 
 const HeaderRight = () => {
-    const { theme, toggleTheme, colors } = useTheme();
+    const { theme, toggleTheme } = useTheme();
 
     const handlePress = () => {
         toggleTheme();
