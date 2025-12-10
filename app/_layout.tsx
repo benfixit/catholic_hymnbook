@@ -1,7 +1,7 @@
 import { Drawer } from 'expo-router/drawer';
 import { StatusBar } from 'expo-status-bar';
 import { Image, StyleSheet, View, Text } from 'react-native';
-import { router } from 'expo-router';
+import { router, usePathname } from 'expo-router';
 import 'react-native-reanimated';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem } from '@react-navigation/drawer';
 import HymnProvider, { useHymns } from '@/store/HymnProvider';
@@ -11,6 +11,7 @@ import { ColorsType } from '@/typings';
 import { mainColor, borderBottomColor, Colors } from '@/constants/theme';
 import HeaderRight from '@/components/HeaderRight';
 import { APP_TITLE } from '@/constants/app';
+import { useOrientation } from '@/hooks/useOrientation';
 
 const activeTintColor='#3478F6';
 // const activeBackgroundColor='#E3EEFD';
@@ -19,13 +20,15 @@ const InitialLayout = () => {
   const { colors } = useTheme();
   const { category, setCategory } = useHymns();
   const styles = makeStyles(colors);
+  const pathname = usePathname();
+  const orientation = useOrientation();
 
   const customDrawerContent = (props: DrawerContentComponentProps) => {
 
     return (
       <DrawerContentScrollView showsVerticalScrollIndicator={false} {...props}>
         <View style={styles.view}>
-          <Image source={require('@/assets/images/icon.png')} style={styles.image} />
+          <Image source={require('@/assets/images/image.png')} style={styles.image} />
           <Text style={styles.text}>{APP_TITLE}</Text>
         </View>
         <View style={styles.hr} />
@@ -54,9 +57,22 @@ const InitialLayout = () => {
             />
           );
         })}
+        <View style={styles.hr} />
+        <DrawerItem 
+          activeTintColor={activeTintColor}
+          inactiveTintColor={colors.text}
+          focused={pathname === '/about'}
+          label={"About"} 
+          onPress={() => {
+            setCategory(null);
+            router.push('/about');
+          }} 
+        />
       </DrawerContentScrollView>
     );
   }
+
+  const height = orientation === "LANDSCAPE" ? { height: 60 } : {}
 
   return (
     <>
@@ -64,7 +80,8 @@ const InitialLayout = () => {
           drawerContent={customDrawerContent}
           screenOptions={{
             headerStyle: {
-              backgroundColor: mainColor
+              backgroundColor: mainColor,
+              ...height
             },
             headerTintColor: Colors.dark.text,
             drawerStyle: {
@@ -88,6 +105,16 @@ const InitialLayout = () => {
               drawerItemStyle: {
                 display: 'none'
               } 
+            }}
+          />
+          <Drawer.Screen 
+            name='about' options={{ 
+              title: 'About',
+              headerTitleStyle: { fontSize: 14 },
+              drawerItemStyle: {
+                display: 'none'
+              },
+              headerRight: () => <HeaderRight />
             }}
           />
           <Drawer.Screen 

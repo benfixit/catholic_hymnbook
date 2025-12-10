@@ -63,7 +63,13 @@ export default function Index() {
         <SafeAreaProvider>
             <SafeAreaView style={styles.container}>
                 <SearchBox onSearch={debounce(onSearch, 300)} />
-                <FlatList showsVerticalScrollIndicator={false} renderItem={({item}) => renderItem(item, setHymn)} data={filteredHymns} keyExtractor={(item) => item.slug} />
+                <FlatList 
+                    showsVerticalScrollIndicator={false} 
+                    renderItem={({item}) => renderItem(item, setHymn)} 
+                    data={filteredHymns} 
+                    keyExtractor={(item) => item.slug}
+                    keyboardDismissMode="on-drag"
+                />
             </SafeAreaView>
         </SafeAreaProvider>
     );
