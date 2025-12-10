@@ -36,7 +36,9 @@ export enum Category {
     PSALMS = "psalms"
 }
 
-export type ThemeType = "light" | "dark"
+export type ThemeType = "light" | "dark";
+
+export type OrientationType = "PORTRAIT" | "LANDSCAPE";
 
 export type Nullable<T> = T | null;
 

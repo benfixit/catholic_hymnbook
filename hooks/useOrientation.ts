@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Dimensions } from "react-native"
+import { OrientationType } from "@/typings";
 
 const isPortrait = () => {
     const dim = Dimensions.get('screen');
@@ -7,7 +8,7 @@ const isPortrait = () => {
 }
 
 export const useOrientation = () => {
-    const [orientation, setOrientation] = useState(
+    const [orientation, setOrientation] = useState<OrientationType>(
         isPortrait() ? "PORTRAIT" : "LANDSCAPE"
     );
 
