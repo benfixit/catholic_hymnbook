@@ -12,7 +12,7 @@ type Props = {
 
 const ThemeContext = createContext<Props>({ colors: {}, theme: LIGHT_THEME, toggleTheme: () => {} });
 
-export function ThemeProvider({ children }: { children: ReactNode }) {
+export default function ThemeProvider({ children }: { children: ReactNode }) {
     const [theme, setTheme] = useState<ThemeType>(LIGHT_THEME);
     const { getItem, setItem } = useAsyncStorage(THEME_STORAGE_KEY);
 

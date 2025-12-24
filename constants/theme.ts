@@ -18,13 +18,15 @@ export const mainColor = '#0078d7';
 export const Colors = {
   light: {
     text: '#11181C',
-    background: '#fff',
+    background: '#F7F9FB',
+    secondaryBackground: "#ffffff",
     tint: tintColorDark,
     icon: '#687076'
   },
   dark: {
     text: '#ECEDEE',
     background: '#151718',
+    secondaryBackground: "#000000",
     tint: tintColorDark,
     icon: '#9BA1A6'
   },

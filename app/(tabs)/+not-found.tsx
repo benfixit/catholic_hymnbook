@@ -9,12 +9,12 @@ export default function NotFoundScreen() {
         <Stack.Screen />
         <View style={styles.container}>
             <Text>Hymn not found</Text>
-            <Link href="/" dismissTo style={styles.link}>
+            {/* <Link href="/" dismissTo style={styles.link}>
                 <Text>
                   <Ionicons name='home' size={24} color={mainColor} />
                   Home
                 </Text>
-            </Link>
+            </Link> */}
         </View>
     </>
   );

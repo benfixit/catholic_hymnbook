@@ -35,6 +35,8 @@
     "expo-system-ui": "~6.0.8",
     "expo-web-browser": "~15.0.9",
     "gray-matter": "^4.0.3",
+    "i": "^0.3.7",
+    "npm": "^11.7.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-native": "0.81.5",
@@ -44,7 +46,8 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-web": "~0.21.0",
-    "react-native-worklets": "0.5.1"
+    "react-native-worklets": "0.5.1",
+    "romcal": "^3.0.0-dev.119"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
