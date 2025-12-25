@@ -17,7 +17,7 @@ export default function TabScreen() {
     }
 
     return (
-        <Tabs screenOptions={{ headerRight: () => <HeaderRight />}}>
+        <Tabs screenOptions={{ headerRight: () => <HeaderRight /> }}>
             <Tabs.Screen
                 name="index"
                 options={{

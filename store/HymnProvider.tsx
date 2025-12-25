@@ -55,10 +55,12 @@ const HymnProvider = ({ children }: { children: ReactNode }) => {
         await setItem(JSON.stringify(newFavorites));
     }
 
+    // remove hymns with 0 as id - They are extra hymns
+    const hymns = allHymns.filter(hymn => hymn.id.toString() !== "0");
 
     return (
         <HymnContext.Provider value={{ 
-            hymns: allHymns, 
+            hymns, 
             selectedHymn: hymn, 
             setHymn, 
             category, 

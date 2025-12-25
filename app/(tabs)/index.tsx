@@ -21,9 +21,6 @@ export default function Index() {
     useEffect(() => {
         let data = hymns;
 
-        // remove hymns with 0 as id - They are extra hymns
-        data = data.filter(hymn => hymn.id.toString() !== "0");
-
         // filter by category
         if (categorySlug) {
             const category = categories.find(category => category.slug === categorySlug);

@@ -1,20 +1,18 @@
-//@ts-nocheck
 import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
 import { useRouter } from "expo-router";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import { Romcal } from "romcal";
 import { useTheme } from "@/store/ThemeProvider";
-import { ColorsType, HymnType } from "@/typings";
+import { ColorsType, HymnType, Nullable } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { categories } from "@/constants/categories";
 import { useHymns } from "@/store/HymnProvider";
-import { borderBottomColor } from "@/constants/theme";
 
 export default function LiturgyScreen() {
-    const { hymns, setHymn, category: categorySlug } = useHymns();
+    const { hymns, setHymn } = useHymns();
     const { colors } = useTheme();
-    const [calendar, setCalendar] = useState({});
+    const [calendar, setCalendar] = useState<{season: string[]}>({ season: []});
     
     const [filteredHymns, setFilteredHymns] = useState(hymns);
     const styles = useMemo(() => makeStyles(colors), [colors]);
@@ -51,9 +49,10 @@ export default function LiturgyScreen() {
             // remove hymns with 0 as id - They are extra hymns
             data = data.filter(hymn => hymn.id.toString() !== "0");
 
+            console.log("season ::: ", calendar)
             //@ts-ignore
             const season = calendar.season && calendar.season[0].toLowerCase();
-            console.log("season ::: ", season)
+            
 
             // filter by category
             const category = categories.find(category => category.slug === season);
@@ -65,7 +64,7 @@ export default function LiturgyScreen() {
         }
     }, [calendar]);
 
-    const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<HymnType>>) => {
+    const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<Nullable<HymnType>>>) => {
         const router = useRouter();
 
         return (

@@ -1,15 +1,18 @@
 import { Link } from "expo-router";
 import { useMemo } from "react";
 import * as Application from 'expo-application';
-import { Text, StyleSheet, ScrollView, Image } from "react-native";
+import { Text, StyleSheet, ScrollView, Image, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 import { APP_TITLE } from "@/constants/app";
 import { mainColor } from "@/constants/theme";
+import Ionicons from "@react-native-vector-icons/ionicons";
+import { useHymns } from "@/store/HymnProvider";
 
 export default function About() {
     const { colors } = useTheme();
+    const { hymns } = useHymns();
     const styles = useMemo(() => makeStyles(colors), [colors]);
     const appVersion = Application.nativeApplicationVersion; 
 
@@ -17,33 +20,43 @@ export default function About() {
         <SafeAreaProvider>
             <SafeAreaView style={styles.container}>
                 <ScrollView contentContainerStyle={styles.view}>
-                    <Image
-                    source={require('@/assets/images/image.png')} // Local image file
-                    style={styles.image}
-                    />
-                    
-                    {/* App Information */}
-                    <Text style={styles.title}>{APP_TITLE}</Text>
-                    <Text style={styles.version}>Version {appVersion}</Text>
+                    <View style={styles.titleView}>
+                        <Image
+                        source={require('@/assets/images/image.png')} // Local image file
+                        style={styles.image}
+                        />
+                        
+                        {/* App Information */}
+                        <Text style={styles.title}>{APP_TITLE}</Text>
+                        <Text style={styles.version}>Version {appVersion}</Text>
+                    </View>
                     
                     {/* About Section */}
-                    <Text style={styles.heading}>About</Text>
-                    <Text style={styles.paragraph}>
-                        I give all praise and glory to God for giving me the knowldege and strength to build this project.
-                    </Text>
-                    <Text style={styles.paragraph}>
-                        Special thanks to you for using this work to propagate God's word. God bless you.
-                    </Text>
-                    
-                    <Text style={styles.paragraph}>
-                        All the hymns on this project were gotten from the Catholic Hymn Book (Nigeria) and from <Link href={"https://hymns.mariarch.com/"} style={styles.link}>Mariarch Hymns.</Link>
-                    </Text>
+                    <View>
+                        <Text style={styles.heading}>About</Text>
+                        <Text style={styles.paragraph}>
+                            I give all praise and glory to God for giving me the knowldege and strength to build this project.
+                        </Text>
+                        <Text style={styles.paragraph}>
+                            Special thanks to you for using this work to propagate God's word. God bless you.
+                        </Text>
+                        
+                        <Text style={styles.paragraph}>
+                            All the hymns on this project were gotten from the Catholic Hymn Book (Nigeria) and from <Link href={"https://hymns.mariarch.com/"} style={styles.link}>Mariarch Hymns.</Link>
+                        </Text>
+                    </View>
 
-                    {/* Contact Information */}
-                    <Text style={styles.heading}>Contact Information</Text>
-                    <Text style={styles.contactItem}>Email: devemeka2@gmail.com</Text>
-                    <Text style={styles.contactItem}>Website: <Link href={"https://emekainya.com/"} style={styles.link}>Visit my web profile.</Link></Text>
-                    <Text style={styles.contactItem}>© 2025 Chukwuemeka Inya</Text>
+                    <View style={styles.card}>
+                        <Ionicons name="timer-outline" size={24} style={{ marginBottom: 12 }} />
+                        <Text style={{ fontSize: 16, fontWeight: "bold", marginBottom: 12 }}>Classic Roots</Text>
+                        <Text>Over {hymns.length} curated traditional hymns.</Text>
+                    </View>
+
+                    <View style={styles.quoteView}>
+                        <Ionicons name="heart-outline" size={24} color={"#ffffff"} style={{ marginBottom: 16 }} />
+                        <Text style={{ color: "#ffffff", marginBottom: 16 }}>"Sing and make music from your heart to the Lord."</Text>
+                        <Text style={styles.copy}>© 2025 Chukwuemeka Inya</Text>
+                    </View>
                 </ScrollView>
             </SafeAreaView>
         </SafeAreaProvider>
@@ -63,12 +76,17 @@ const makeStyles = (colors: ColorsType) => {
             backgroundColor: colors.background,
             color: colors.text
         },
+        titleView: {
+            display: "flex",
+            alignItems: "center",
+            borderBottomWidth: 1,
+            borderBottomColor: "#dddddd"
+        },
         image: {
-            marginBottom: 16,
             resizeMode: 'contain', 
             width: 120, 
             height: 120,
-            marginLeft: -20
+            marginBottom: 16
         },
         title: {
             fontSize: 24,
@@ -94,10 +112,25 @@ const makeStyles = (colors: ColorsType) => {
             marginBottom: 16,
             color: colors.text,
         },
-        contactItem: {
+        card: {
+            backgroundColor: "#eeeeee",
+            padding: 24,
+            borderRadius: 16,
+            borderWidth: 1,
+            borderColor: "#dddddd",
+            marginBottom: 52
+        },
+        quoteView: {
+            padding: 48,
+            display: "flex",
+            alignItems: "center",
+            backgroundColor: "rgb(181, 26, 32)",
+            borderTopLeftRadius: 52,
+            borderTopRightRadius: 52
+        },
+        copy: {
             fontSize: 14,
-            color: colors.text,
-            marginTop: 5,
+            color: "#ffffff",
         },
         link: {
             color: mainColor
