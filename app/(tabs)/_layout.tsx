@@ -1,9 +1,23 @@
+import { router, Tabs } from "expo-router";
+import { Pressable, StyleSheet } from "react-native";
 import Ionicons from "@react-native-vector-icons/ionicons"
-import { Tabs } from "expo-router";
+import { useTheme } from "@/store/ThemeProvider";
+import { ColorsType } from "@/typings";
 
 export default function TabScreen() {
+    const { colors } = useTheme();
+    const wrapper = makeStyles(colors);
+
+    const HeaderRight = () => {
+        return (
+            <Pressable style={wrapper.pressable}>
+                <Ionicons name="information-circle-outline" size={24} style={wrapper.icon} onPress={() => router.push("/(tabs)/about")} />
+            </Pressable>
+        )
+    }
+
     return (
-        <Tabs>
+        <Tabs screenOptions={{ headerRight: () => <HeaderRight />}}>
             <Tabs.Screen
                 name="index"
                 options={{
@@ -38,4 +52,15 @@ export default function TabScreen() {
             <Tabs.Screen name="+not-found" options={{ href: null }} /> 
         </Tabs>
     );
+}
+
+const makeStyles = (colors: ColorsType) => {
+  return StyleSheet.create({
+    pressable: {
+    },
+    icon: {
+        color: "#000000",
+        padding: 12,
+    }
+  });
 }
