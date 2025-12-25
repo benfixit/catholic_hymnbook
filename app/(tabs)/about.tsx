@@ -6,7 +6,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 import { APP_TITLE } from "@/constants/app";
-import { mainColor } from "@/constants/theme";
+import { linkColor } from "@/constants/theme";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { useHymns } from "@/store/HymnProvider";
 
@@ -124,7 +124,7 @@ const makeStyles = (colors: ColorsType) => {
             padding: 48,
             display: "flex",
             alignItems: "center",
-            backgroundColor: "rgb(181, 26, 32)",
+            backgroundColor: colors.primaryColor,
             borderTopLeftRadius: 52,
             borderTopRightRadius: 52
         },
@@ -133,7 +133,7 @@ const makeStyles = (colors: ColorsType) => {
             color: "#ffffff",
         },
         link: {
-            color: mainColor
+            color: linkColor
         }
     });
 }

@@ -1,6 +1,6 @@
 import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
-import { ColorsType } from '@/typings';
+import { Category, ColorsType } from '@/typings';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import { View, StyleSheet, ScrollView, Text, Pressable, Alert, Share, Platform } from 'react-native';
 import Markdown from "react-native-markdown-display";
@@ -9,6 +9,8 @@ import { Redirect, router, Stack } from "expo-router";
 import { HeaderBackButton } from "@react-navigation/elements";
 import FloatingActionButton from '@/components/FloatingButton';
 import { useTypeFace } from '@/store/TypeFaceProvider';
+import { useEffect, useState } from 'react';
+import { categories } from '@/constants/categories';
 
 export default function HymnScreen() {
   const { selectedHymn, toggleFavorites, favorites } = useHymns();
@@ -16,10 +18,16 @@ export default function HymnScreen() {
   const { fontSize } = useTypeFace();
   const wrapper = makeStyles(colors, fontSize);
   const markdown = makeMarkdownStyles(colors, fontSize);
+  const [hymnCategories, setHymnCategories] = useState<Category[]>([]);
 
   if (!selectedHymn) {
     return;
   }
+
+  useEffect(() => {
+    const data = categories.filter(category => category.hymns.includes(selectedHymn.id)).map(item => item.slug);
+    setHymnCategories(data);
+  }, []);
 
   let caption = `${selectedHymn.title.toUpperCase()}`;
   const isFavorite = favorites.includes(selectedHymn.id);
@@ -82,7 +90,7 @@ export default function HymnScreen() {
             </View>
             <View  style={wrapper.meta}>
               <View  style={wrapper.tags}>
-                {["Advent", "Christmas"].map((item, index) => <Text key={index} style={wrapper.tagItem}>{item}</Text>)}
+                {hymnCategories.map((item, index) => <Text key={index} style={wrapper.tagItem}>{item}</Text>)}
               </View>
               <Pressable style={wrapper.favorite} onPress={() => toggleFavorites(selectedHymn.id)}>
                 <Ionicons style={wrapper.favoriteIcon} name={isFavorite ? "heart" : "heart-outline"} size={24} />
@@ -163,13 +171,14 @@ const makeStyles = (colors: ColorsType, fontSize: number) => {
       paddingHorizontal: 8,
       backgroundColor: "#dddddd",
       borderRadius: 8,
-      fontSize: fontSize - 4
+      fontSize: fontSize - 4,
+      textTransform: "capitalize"
     },
     favorite: {
 
     },
     favoriteIcon: {
-      color: "red"
+      color: colors.primaryColor
     },
     pressable: {
         marginRight: 8,

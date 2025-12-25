@@ -5,6 +5,7 @@ import { View, Text, StyleSheet, Pressable, Switch } from "react-native";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
+import { linkColor } from "@/constants/theme";
 
 export default function SettingsScreen() {
     const { colors } = useTheme();
@@ -27,7 +28,7 @@ export default function SettingsScreen() {
                             <Text style={styles.themeText}>Dark Mode</Text>
                             <View style={styles.switchView}>
                                 <Switch
-                                    trackColor={{ false: "#767577", true: "#009900" }}
+                                    trackColor={{ false: "#767577", true: colors.primaryColor }}
                                     thumbColor={ themeEnabled ? "#ffffff" : '#f4f3f4' }
                                     ios_backgroundColor={"#3e3e3e"}
                                     onValueChange={toggleSwitch}
@@ -42,15 +43,15 @@ export default function SettingsScreen() {
                     <Text style={styles.supportTitle}>Support</Text>
                     <View>
                         <View style={[styles.socialBase, styles.emailView]}>
-                            <Ionicons name="mail-outline" size={24} />
+                            <Ionicons name="mail-outline" size={24} color={colors.primaryColor} />
                             <Text style={styles.contactItem}>Email: devemeka2@gmail.com</Text>
                         </View>
                         <View  style={[styles.socialBase, styles.websiteView]}>
-                            <Ionicons name="globe-outline" size={24} />
+                            <Ionicons name="globe-outline" size={24} color={colors.primaryColor} />
                             <Text style={styles.contactItem}>Website: <Link href={"https://emekainya.com/"} style={styles.link}>Visit my web profile.</Link></Text>
                         </View>
                     </View>
-                </View>
+                </View>x
             </SafeAreaView>
         </SafeAreaProvider>
     );
@@ -84,7 +85,8 @@ const makeStyles = (colors: ColorsType) => {
             alignItems: "center"
         },
         themeIcon: {
-            flex: 1
+            flex: 1,
+            color: colors.primaryColor
         },
         themeText: {
             flex: 5
@@ -126,7 +128,7 @@ const makeStyles = (colors: ColorsType) => {
 
         },
         link: {
-
+            color: linkColor
         }
     });
 }

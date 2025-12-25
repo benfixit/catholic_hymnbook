@@ -16,7 +16,7 @@ export default function SavedScreen() {
     useEffect(() => {
         const data = hymns.filter(hymn => favorites.includes(hymn.id));
         setFavoriteHymns(data);
-    }, []);
+    }, [favorites]);
 
     const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<Nullable<HymnType>>>) => {
         const router = useRouter();
@@ -98,7 +98,7 @@ const makeStyles = (colors: ColorsType) => {
             borderColor: "transparent",
             borderRadius: 8,
             paddingVertical: 12,
-            backgroundColor: "rgb(255, 240, 240)"
+            backgroundColor: colors.secondaryColor
         },
         hymnTitleView: {
             flex: 5
@@ -114,7 +114,7 @@ const makeStyles = (colors: ColorsType) => {
             paddingVertical: 12
         },
         hymnId: {
-            color: "rgb(181, 26, 32)",
+            color: colors.primaryColor,
             fontWeight: "bold"
         },
         hymnTitle: {

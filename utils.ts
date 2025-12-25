@@ -1,9 +1,13 @@
 import { HymnType } from "./typings";
 
 export const searchFilterCallback = (hymn: HymnType, searchTerm: string) => {
+    if (isStringNumeric(searchTerm)) {
+      return hymn.id.toString().includes(searchTerm);
+    }
+
     const lowerCaseTerm = searchTerm.toLowerCase();
 
-    return hymn.id.toString().includes(lowerCaseTerm) || hymn.title.toLowerCase().includes(lowerCaseTerm) || hymn.content.toLowerCase().includes(lowerCaseTerm);
+    return hymn.title.toLowerCase().includes(lowerCaseTerm) || hymn.content.toLowerCase().includes(lowerCaseTerm);
 }
 
 export const truncateString = (str: string, maxLength: number) => {
@@ -21,41 +25,43 @@ export const truncateString = (str: string, maxLength: number) => {
   return str.slice(0, truncatedLength) + ending;
 }
 
-// // --- LITURGICAL ENGINE LOGIC ---
-// // In a production app, you might use a library like 'romcal', 
-// // but for a lightweight mobile app, we can use logic to determine the season.
-// const getLiturgicalState = (date = new Date()) => {
-//   const year = date.getFullYear();
-//   const month = date.getMonth(); // 0-indexed
-//   const day = date.getDate();
+export const formatRomcalId = (id: string) => {
+  return id.split('_').map(word => {
+    // Handle small words that shouldn't be capitalized unless first
+    const smallWords = ['of', 'the', 'and', 'in', 'a', 'to'];
+    if (smallWords.includes(word.toLowerCase())) {
+      return word.toLowerCase();
+    }
 
-//   // Helper: Get Easter Sunday (Meeus/Jones/Butcher algorithm)
-//   const getEaster = (y) => {
-//     const a = y % 19, b = Math.floor(y / 100), c = y % 100;
-//     const d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25);
-//     const g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
-//     const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7;
-//     const m = Math.floor((a + 11 * h + 22 * l) / 451);
-//     const n = Math.floor((h + l - 7 * m + 114) / 31), p = (h + l - 7 * m + 114) % 31;
-//     return new Date(y, n - 1, p + 1);
-//   };
+    return word.charAt(0).toUpperCase() + word.slice(1);
+    
+  }).join(' ').replace(/^\w/, c => c.toUpperCase()); // Ensure first letter is always caps
+}
 
-//   const easter = getEaster(year);
-//   const ashWednesday = new Date(easter);
-//   ashWednesday.setDate(easter.getDate() - 46);
-  
-//   const pentecost = new Date(easter);
-//   pentecost.setDate(easter.getDate() + 49);
+export const formatRomcalColors = (colors: string[]): string => {
+  if (colors.includes("PURPLE")) {
+    return "purple";
+  }
 
-//   const christmas = new Date(year, 11, 25);
-//   const adventStart = new Date(year, 11, 25);
-//   adventStart.setDate(25 - (christmas.getDay() || 7) - 21); // 4th Sunday before Christmas
+  const item = (colors.at(0) as string).toLowerCase();
 
-//   // Logic to determine season
-//   if (date >= adventStart && date < christmas) return { name: "Advent", color: "bg-purple-700", text: "text-white", tag: "Advent" };
-//   if (date >= christmas || month === 0 && day <= 10) return { name: "Christmas Season", color: "bg-yellow-500", text: "text-black", tag: "Christmas" };
-//   if (date >= ashWednesday && date < easter) return { name: "Lent", color: "bg-purple-800", text: "text-white", tag: "Lenten" };
-//   if (date >= easter && date < pentecost) return { name: "Easter Season", color: "bg-white", text: "text-amber-600", tag: "Easter" };
-  
-//   return { name: "Ordinary Time", color: "bg-green-700", text: "text-white", tag: "General" };
-// };
+  if (item === "white") {
+    return "gold";
+  }
+
+  return item;
+}
+
+export const formatRomcalSeasons = (seasons: string[]): string => {
+  if (seasons.includes("EASTER_TIME")) {
+    return "EASTER_TIME";
+  }
+
+  return (seasons.at(0) as string);
+}
+
+//@ts-ignore
+export const isStringNumeric = (str) => {
+  // Global isFinite performs type coercion, unlike the static Number.isFinite
+  return isFinite(str) && !isNaN(parseFloat(str));
+}

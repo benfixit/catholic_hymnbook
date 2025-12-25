@@ -2,67 +2,30 @@ import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
 import { useRouter } from "expo-router";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
-import { Romcal } from "romcal";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType, HymnType, Nullable } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
-import { categories } from "@/constants/categories";
+import { categories, ROMCAL_CATEGORIES_BRIDGE } from "@/constants/categories";
 import { useHymns } from "@/store/HymnProvider";
+import { useCalendar } from "@/store/SeasonProvider";
 
 export default function LiturgyScreen() {
     const { hymns, setHymn } = useHymns();
     const { colors } = useTheme();
-    const [calendar, setCalendar] = useState<{season: string[]}>({ season: []});
+    const { calendar } = useCalendar();
     
     const [filteredHymns, setFilteredHymns] = useState(hymns);
     const styles = useMemo(() => makeStyles(colors), [colors]);
-    
 
     useEffect(() => {
-        const generateCalendar = async () => {
-            const init = new Romcal();
-            const response = await init.generateCalendar();
-
-            // Get today's date in ISO format (YYYY-MM-DD)
-            const todayISO = new Date().toISOString().split('T')[0];
-            
-            // Find today's entry
-            const todayInfo = response[todayISO][0];
-
-            const data = {
-                name: todayInfo.name,        // "Christmas Eve"
-                color: todayInfo.colors[0],  // "white"
-                rank: todayInfo.rank,        // "VIGIL"
-                season: todayInfo.seasons     // "CHRISTMASTIDE"
-            };
-
-            setCalendar(data);
-        }
-
-        generateCalendar();
-    }, []);
-
-    useEffect(() => {
-        if (Object.keys(calendar).length !== 0) {
-            let data = hymns;
-
-            // remove hymns with 0 as id - They are extra hymns
-            data = data.filter(hymn => hymn.id.toString() !== "0");
-
-            console.log("season ::: ", calendar)
-            //@ts-ignore
-            const season = calendar.season && calendar.season[0].toLowerCase();
-            
-
             // filter by category
-            const category = categories.find(category => category.slug === season);
+            const category = categories.find(category => category.slug === ROMCAL_CATEGORIES_BRIDGE[calendar.season]);
             const idsSet = new Set(category?.hymns);
 
-            data = data.filter((hymn) => idsSet.has(hymn.id));
+            const data = hymns.filter((hymn) => idsSet.has(hymn.id));
 
             setFilteredHymns(data)
-        }
-    }, [calendar]);
+    }, []);
 
     const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<Nullable<HymnType>>>) => {
         const router = useRouter();
@@ -92,11 +55,14 @@ export default function LiturgyScreen() {
         <SafeAreaProvider>
             <SafeAreaView style={styles.container}>
                 <View style={styles.banner}>
-                    <Text style={styles.title}>Current Season</Text>
-                    <Text style={styles.season}>{calendar.season && calendar.season[0]}</Text>
+                    <Text style={styles.title}>{calendar.title}</Text>
+                    <View>
+                        <Text style={styles.season}>Season: {ROMCAL_CATEGORIES_BRIDGE[calendar.season]}</Text>
+                    </View>
+                    <Text style={styles.rank}>Rank: {calendar.rank}</Text>
                     <View style={styles.dateView}>
                         <Ionicons name="calendar" size={24} color={"#ffffff"} style={styles.calendar} />
-                        <Text style={styles.date}>Wednesday, 24 December</Text>
+                        <Text style={styles.date}>{calendar.date}</Text>
                     </View>
                 </View>
                 <View style={styles.suggestedView}>
@@ -126,19 +92,26 @@ const makeStyles = (colors: ColorsType) => {
         },
         banner: {
             borderRadius: 16,
-            backgroundColor: "purple",
+            backgroundColor: colors.primaryColor,
             padding: 16
         },
         title: {
             color: "#ffffff",
             fontSize: 16,
-            marginBottom: 16
+            marginBottom: 16,
+            fontWeight: "bold"
         },
         season: {
             color: "#ffffff",
-            fontWeight: "bold",
             fontSize: 16,
-            marginBottom: 16
+            marginBottom: 12,
+            textTransform: "capitalize"
+        },
+        rank: {
+            color: "#ffffff",
+            fontSize: 16,
+            marginBottom: 12,
+            textTransform: "capitalize"
         },
         dateView: {
             display: "flex",
@@ -147,10 +120,10 @@ const makeStyles = (colors: ColorsType) => {
             columnGap: 8
         },
         calendar: {
-            color: "#fff"
+            color: "#ffffff"
         },
         date: {
-            color: "#fff"
+            color: "#ffffff"
         },
         flatList: {
         },
@@ -178,7 +151,7 @@ const makeStyles = (colors: ColorsType) => {
             borderColor: "transparent",
             borderRadius: 8,
             paddingVertical: 12,
-            backgroundColor: "rgb(255, 240, 240)"
+            backgroundColor: colors.secondaryColor
         },
         hymnTitleView: {
             flex: 5
@@ -194,7 +167,7 @@ const makeStyles = (colors: ColorsType) => {
             paddingVertical: 12
         },
         hymnId: {
-            color: "rgb(181, 26, 32)",
+            color: colors.primaryColor,
             fontWeight: "bold"
         },
         hymnTitle: {

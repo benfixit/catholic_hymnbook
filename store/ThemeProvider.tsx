@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { useState, useEffect, createContext, ReactNode } from 'react';
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
-import { Colors, DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY } from '@/constants/theme';
+import { DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY, makeThemeColor } from '@/constants/theme';
 import { ThemeType } from '@/typings';
+import { useCalendar } from './SeasonProvider';
 
 type Props = {
   colors: Record<string, string>;
@@ -15,9 +16,10 @@ const ThemeContext = createContext<Props>({ colors: {}, theme: LIGHT_THEME, togg
 export default function ThemeProvider({ children }: { children: ReactNode }) {
     const [theme, setTheme] = useState<ThemeType>(LIGHT_THEME);
     const { getItem, setItem } = useAsyncStorage(THEME_STORAGE_KEY);
+    const { calendar } = useCalendar();
 
     // if it is automatic, use the system value
-    const colors = Colors[theme];
+    const colors = makeThemeColor(calendar.color)[theme];
 
     useEffect(() => {
       const getTheme = async () => {

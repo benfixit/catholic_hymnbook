@@ -13,7 +13,7 @@ export const LIGHT_THEME = 'light';
 const tintColorDark = '#fff';
 
 export const borderBottomColor = '#cdcdcd';
-export const mainColor = '#0078d7';
+export const linkColor = '#0078d7';
 
 export const Colors = {
   light: {
@@ -31,6 +31,53 @@ export const Colors = {
     icon: '#9BA1A6'
   },
 };
+
+export const makeThemeColor = (seasonColor: string) => {
+  let primaryColor = "";
+  let secondaryColor = "";
+
+  switch (seasonColor) {
+    case "purple":
+      primaryColor = "purple",
+      secondaryColor = "purple"
+      break;
+    case "gold":
+    case "white":
+      primaryColor = "#AE8625",
+      secondaryColor = "#F7EF8A"
+      break;
+    case "green":
+      primaryColor = "green",
+      secondaryColor = "green"
+      break;
+    case "red":
+      primaryColor = "red",
+      secondaryColor = "red"
+      break;
+  }
+
+  return {
+    light: {
+      text: '#11181C',
+      background: '#F7F9FB',
+      secondaryBackground: "#ffffff",
+      primaryColor,
+      secondaryColor,
+      tint: tintColorDark,
+      icon: '#687076'
+    },
+    dark: {
+      text: '#ECEDEE',
+      background: '#151718',
+      secondaryBackground: "#000000",
+      primaryColor,
+      secondaryColor,
+      tint: tintColorDark,
+      icon: '#9BA1A6'
+    },
+  }
+
+}
 
 export const Fonts = Platform.select({
   ios: {

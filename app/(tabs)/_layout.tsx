@@ -17,7 +17,7 @@ export default function TabScreen() {
     }
 
     return (
-        <Tabs screenOptions={{ headerRight: () => <HeaderRight /> }}>
+        <Tabs screenOptions={{ headerRight: () => <HeaderRight />, tabBarActiveTintColor: colors.primaryColor }}>
             <Tabs.Screen
                 name="index"
                 options={{
@@ -48,7 +48,7 @@ export default function TabScreen() {
             />
             {/* Hide the dynamic route from the tab bar */}
             <Tabs.Screen name="[id]" options={{ href: null }} />
-            <Tabs.Screen name="about" options={{ href: null }} /> 
+            <Tabs.Screen name="about" options={{ href: null, title: 'About' }} /> 
             <Tabs.Screen name="+not-found" options={{ href: null }} /> 
         </Tabs>
     );
@@ -59,7 +59,7 @@ const makeStyles = (colors: ColorsType) => {
     pressable: {
     },
     icon: {
-        color: "#000000",
+        color: colors.primaryColor,
         padding: 12,
     }
   });

@@ -4,6 +4,7 @@ import 'react-native-reanimated';
 import HymnProvider from '@/store/HymnProvider';
 import ThemeProvider from '@/store/ThemeProvider';
 import TypeFaceProvider from '@/store/TypeFaceProvider';
+import SeasonProvider from '@/store/SeasonProvider';
 
 const InitialLayout = () => {
   return (
@@ -19,11 +20,13 @@ const InitialLayout = () => {
 export default function RootLayout() {
   return (
     <TypeFaceProvider>
-      <ThemeProvider>
-        <HymnProvider>
-          <InitialLayout />
-        </HymnProvider>
-      </ThemeProvider>
+      <SeasonProvider>
+        <ThemeProvider>
+          <HymnProvider>
+            <InitialLayout />
+          </HymnProvider>
+        </ThemeProvider>
+      </SeasonProvider>
     </TypeFaceProvider>
   );
 }

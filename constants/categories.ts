@@ -176,3 +176,13 @@ export const categories: Array<CategoryType> = [
         ]
     }
 ];
+
+
+export const ROMCAL_CATEGORIES_BRIDGE: Record<string, Category> = {
+    CHRISTMAS_TIME: Category.CHRISTMAS, 
+    ORDINARY_TIME: Category.GENERAL,
+    LENT: Category.LENT,
+    PASCHAL_TRIDUUM: Category.EASTER,
+    EASTER_TIME: Category.EASTER,
+    ADVENT: Category.ADVENT
+}

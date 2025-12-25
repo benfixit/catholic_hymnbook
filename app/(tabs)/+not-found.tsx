@@ -1,4 +1,4 @@
-import { mainColor } from '@/constants/theme';
+import { linkColor } from '@/constants/theme';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import { Link, Stack } from 'expo-router';
 import { Text, View, StyleSheet } from 'react-native';
@@ -9,12 +9,12 @@ export default function NotFoundScreen() {
         <Stack.Screen />
         <View style={styles.container}>
             <Text>Hymn not found</Text>
-            {/* <Link href="/" dismissTo style={styles.link}>
+            <Link href="/" dismissTo style={styles.link}>
                 <Text>
-                  <Ionicons name='home' size={24} color={mainColor} />
+                  <Ionicons name='home' size={24} color={linkColor} />
                   Home
                 </Text>
-            </Link> */}
+            </Link>
         </View>
     </>
   );
