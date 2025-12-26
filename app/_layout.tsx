@@ -10,8 +10,19 @@ const InitialLayout = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Stack>
-        <Stack.Screen name='(tabs)' options={{ headerShown: false }} />
-        <Stack.Screen name='modal' options={{ headerShown: false, presentation: "containedTransparentModal" }} />
+        <Stack.Screen 
+          name='(tabs)' 
+          options={{ 
+            headerShown: false 
+          }} 
+        />
+        <Stack.Screen 
+          name='modal' 
+          options={{ 
+            headerShown: false, 
+            presentation: "containedTransparentModal" 
+          }} 
+        />
       </Stack>
     </GestureHandlerRootView>
   );

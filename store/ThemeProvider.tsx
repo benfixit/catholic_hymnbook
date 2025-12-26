@@ -4,6 +4,7 @@ import { useAsyncStorage } from "@react-native-async-storage/async-storage";
 import { DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY, makeThemeColor } from '@/constants/theme';
 import { ThemeType } from '@/typings';
 import { useCalendar } from './SeasonProvider';
+import { STORAGE_KEY_PREFIX } from '@/constants/app';
 
 type Props = {
   colors: Record<string, string>;
@@ -11,11 +12,13 @@ type Props = {
   toggleTheme: Function;
 };
 
+const KEY = STORAGE_KEY_PREFIX + THEME_STORAGE_KEY;
+
 const ThemeContext = createContext<Props>({ colors: {}, theme: LIGHT_THEME, toggleTheme: () => {} });
 
 export default function ThemeProvider({ children }: { children: ReactNode }) {
     const [theme, setTheme] = useState<ThemeType>(LIGHT_THEME);
-    const { getItem, setItem } = useAsyncStorage(THEME_STORAGE_KEY);
+    const { getItem, setItem } = useAsyncStorage(KEY);
     const { calendar } = useCalendar();
 
     // if it is automatic, use the system value
@@ -34,7 +37,7 @@ export default function ThemeProvider({ children }: { children: ReactNode }) {
 
 
     const toggleTheme = async () => {
-      const newTheme = theme === LIGHT_THEME ? DARK_THEME : LIGHT_THEME;
+      const newTheme = theme === DARK_THEME ? LIGHT_THEME : DARK_THEME;
       
       setTheme(newTheme);
       await setItem(newTheme);
@@ -50,7 +53,7 @@ export function useTheme() {
 
   if (theme == null) {
     throw new Error(
-      "Couldn't find a theme. Is your component inside NavigationContainer or does it have a theme?"
+      "Couldn't find a theme. Is your component inside ThemeContext or does it have a theme?"
     );
   }
 

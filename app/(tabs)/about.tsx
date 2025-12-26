@@ -6,7 +6,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 import { APP_TITLE } from "@/constants/app";
-import { linkColor } from "@/constants/theme";
+import { borderBottomColor, linkColor } from "@/constants/theme";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { useHymns } from "@/store/HymnProvider";
 
@@ -33,7 +33,7 @@ export default function About() {
                     
                     {/* About Section */}
                     <View>
-                        <Text style={styles.heading}>About</Text>
+                        <Text style={styles.heading}>ABOUT</Text>
                         <Text style={styles.paragraph}>
                             I give all praise and glory to God for giving me the knowldege and strength to build this project.
                         </Text>
@@ -47,9 +47,9 @@ export default function About() {
                     </View>
 
                     <View style={styles.card}>
-                        <Ionicons name="timer-outline" size={24} style={{ marginBottom: 12 }} />
-                        <Text style={{ fontSize: 16, fontWeight: "bold", marginBottom: 12 }}>Classic Roots</Text>
-                        <Text>Over {hymns.length} curated traditional hymns.</Text>
+                        <Ionicons name="timer-outline" size={24} style={styles.cardIcon} />
+                        <Text style={styles.cardTitle}>Classic Roots</Text>
+                        <Text style={styles.cardText}>Over {hymns.length} curated traditional hymns.</Text>
                     </View>
 
                     <View style={styles.quoteView}>
@@ -80,7 +80,7 @@ const makeStyles = (colors: ColorsType) => {
             display: "flex",
             alignItems: "center",
             borderBottomWidth: 1,
-            borderBottomColor: "#dddddd"
+            borderBottomColor: borderBottomColor
         },
         image: {
             resizeMode: 'contain', 
@@ -96,11 +96,11 @@ const makeStyles = (colors: ColorsType) => {
         },
         version: {
             fontSize: 16,
-            color: colors.text,
+            color: colors.secondaryText,
             marginBottom: 20,
         },
         heading: {
-            fontSize: 20,
+            fontSize: 16,
             fontWeight: '600',
             marginTop: 20,
             marginBottom: 10,
@@ -113,12 +113,25 @@ const makeStyles = (colors: ColorsType) => {
             color: colors.text,
         },
         card: {
-            backgroundColor: "#eeeeee",
+            backgroundColor: colors.secondaryBackground,
             padding: 24,
             borderRadius: 16,
             borderWidth: 1,
             borderColor: "#dddddd",
             marginBottom: 52
+        },
+        cardIcon: { 
+            marginBottom: 12,
+            color: colors.text
+        },
+        cardTitle: {
+            fontSize: 16, 
+            fontWeight: "bold", 
+            marginBottom: 12,
+            color: colors.text
+        },
+        cardText: { 
+            color: colors.secondaryText
         },
         quoteView: {
             padding: 48,

@@ -17,7 +17,18 @@ export default function TabScreen() {
     }
 
     return (
-        <Tabs screenOptions={{ headerRight: () => <HeaderRight />, tabBarActiveTintColor: colors.primaryColor }}>
+        <Tabs screenOptions={{ 
+            headerRight: () => <HeaderRight />, 
+            tabBarActiveTintColor: colors.primaryColor,
+            headerStyle: {
+                backgroundColor: colors.primaryColor
+            },
+            headerTintColor: "#ffffff",
+            tabBarStyle: {
+                backgroundColor: colors.secondaryBackground
+            }
+        }}
+        >
             <Tabs.Screen
                 name="index"
                 options={{
@@ -59,7 +70,7 @@ const makeStyles = (colors: ColorsType) => {
     pressable: {
     },
     icon: {
-        color: colors.primaryColor,
+        color: "#ffffff",
         padding: 12,
     }
   });

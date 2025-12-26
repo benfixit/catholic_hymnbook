@@ -5,6 +5,8 @@ import { ColorsType, HymnType, Nullable } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { useTheme } from "@/store/ThemeProvider";
 import { useHymns } from "@/store/HymnProvider";
+import { fetchHymnCategories } from "@/utils";
+import { categories } from "@/constants/categories";
 
 type Props = {
     hymns: Array<HymnType>
@@ -18,6 +20,8 @@ const List: React.FC<Props> = (props) => {
 
     const renderItem = (item: HymnType, setHymn: Dispatch<SetStateAction<Nullable<HymnType>>>) => {
         const router = useRouter();
+        const hymnCategories = fetchHymnCategories(categories, item).slice(0, 2);
+        const lastIndex = hymnCategories.length - 1;
 
         return (
             <Pressable onPress={() => {
@@ -30,7 +34,11 @@ const List: React.FC<Props> = (props) => {
                     </View>
                     <View style={styles.hymnTitleView}>
                         <Text style={styles.hymnTitle}>{item.title}</Text>
-                        <Text style={styles.hymnSubtitle}>English . Entrance</Text>
+                        <View style={styles.categories}>
+                            <Text style={styles.hymnSubtitle}>English . </Text>
+                            {hymnCategories.map((item, index) => <Text key={index} style={styles.tagItem}>{item.slug} {(index < lastIndex) && `.`} </Text>)}
+                        </View>
+                        
                     </View>
                     <View style={styles.hymnIconView}>
                         <Ionicons style={styles.hymnIcon} name="chevron-forward-outline" size={24} />
@@ -108,12 +116,22 @@ const makeStyles = (colors: ColorsType) => {
             marginBottom: 8
         },
         hymnSubtitle: {
-            color: "rgb(136, 152, 174)",
+            color: colors.secondaryText,
             fontSize: 12,
             backgroundColor: colors.secondaryBackground
         },
         hymnIcon: {
-            color: "rgb(136, 152, 174)",
+            color: colors.secondaryText,
+        },
+        categories: {
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center"
+        },
+        tagItem: {
+            color: colors.secondaryText,
+            textTransform: "capitalize",
+            fontSize: 12,
         }
     })
 }

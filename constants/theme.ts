@@ -5,32 +5,13 @@
 
 import { Platform } from 'react-native';
 
-export const THEME_STORAGE_KEY = "theme_store"
+export const THEME_STORAGE_KEY = "_theme"
 
 export const DARK_THEME = 'dark';
 export const LIGHT_THEME = 'light';
 
-const tintColorDark = '#fff';
-
-export const borderBottomColor = '#cdcdcd';
+export const borderBottomColor = '#dddddd';
 export const linkColor = '#0078d7';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#F7F9FB',
-    secondaryBackground: "#ffffff",
-    tint: tintColorDark,
-    icon: '#687076'
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    secondaryBackground: "#000000",
-    tint: tintColorDark,
-    icon: '#9BA1A6'
-  },
-};
 
 export const makeThemeColor = (seasonColor: string) => {
   let primaryColor = "";
@@ -38,8 +19,8 @@ export const makeThemeColor = (seasonColor: string) => {
 
   switch (seasonColor) {
     case "purple":
-      primaryColor = "purple",
-      secondaryColor = "purple"
+      primaryColor = "#65c99aff",
+      secondaryColor = "#e4ccfcff"
       break;
     case "gold":
     case "white":
@@ -47,32 +28,32 @@ export const makeThemeColor = (seasonColor: string) => {
       secondaryColor = "#F7EF8A"
       break;
     case "green":
-      primaryColor = "green",
-      secondaryColor = "green"
+      primaryColor = "#186420",
+      secondaryColor = "#b3f9ba"
       break;
     case "red":
-      primaryColor = "red",
-      secondaryColor = "red"
+      primaryColor = "#C41E3A",
+      secondaryColor = "#f8c5ce"
       break;
   }
 
   return {
     light: {
       text: '#11181C',
+      secondaryText: '#5c676dff',
       background: '#F7F9FB',
       secondaryBackground: "#ffffff",
       primaryColor,
       secondaryColor,
-      tint: tintColorDark,
       icon: '#687076'
     },
     dark: {
       text: '#ECEDEE',
+      secondaryText: '#8898AE',
       background: '#151718',
       secondaryBackground: "#000000",
       primaryColor,
       secondaryColor,
-      tint: tintColorDark,
       icon: '#9BA1A6'
     },
   }

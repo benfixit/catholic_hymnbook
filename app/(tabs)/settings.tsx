@@ -5,17 +5,12 @@ import { View, Text, StyleSheet, Pressable, Switch } from "react-native";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
-import { linkColor } from "@/constants/theme";
+import { borderBottomColor, DARK_THEME, linkColor } from "@/constants/theme";
 
 export default function SettingsScreen() {
-    const { colors } = useTheme();
-    const [themeEnabled, setThemeEnabled] = useState(false);
-    
+    const { colors, toggleTheme, theme } = useTheme();
     const styles = useMemo(() => makeStyles(colors), [colors]);
-
-    const toggleSwitch = () => {
-        setThemeEnabled(!themeEnabled);
-    }
+    const darkThemeEnabled = theme === DARK_THEME;
 
     return (
         <SafeAreaProvider>
@@ -24,15 +19,15 @@ export default function SettingsScreen() {
                     <Text style={styles.appearanceTitle}>Appearance</Text>
                     <Pressable style={styles.themePressable}>
                         <View style={styles.themeView}>
-                            <Ionicons name="sunny-outline" size={24} style={styles.themeIcon} />
+                            <Ionicons name={darkThemeEnabled ? "moon-outline" : "sunny-outline"} size={24} style={styles.themeIcon} />
                             <Text style={styles.themeText}>Dark Mode</Text>
                             <View style={styles.switchView}>
                                 <Switch
                                     trackColor={{ false: "#767577", true: colors.primaryColor }}
-                                    thumbColor={ themeEnabled ? "#ffffff" : '#f4f3f4' }
+                                    thumbColor={ darkThemeEnabled ? "#ffffff" : '#f4f3f4' }
                                     ios_backgroundColor={"#3e3e3e"}
-                                    onValueChange={toggleSwitch}
-                                    value={themeEnabled}
+                                    onValueChange={() => toggleTheme()}
+                                    value={darkThemeEnabled}
                                     style={styles.themeSwitch} // Example of resizing
                                 />
                             </View>
@@ -51,7 +46,7 @@ export default function SettingsScreen() {
                             <Text style={styles.contactItem}>Website: <Link href={"https://emekainya.com/"} style={styles.link}>Visit my web profile.</Link></Text>
                         </View>
                     </View>
-                </View>x
+                </View>
             </SafeAreaView>
         </SafeAreaProvider>
     );
@@ -69,13 +64,13 @@ const makeStyles = (colors: ColorsType) => {
         },
         appearanceTitle: {
             textTransform: "uppercase",
-            color: "#555555",
+            color: colors.secondaryText,
             marginBottom: 8
         },
         themePressable: {
             paddingHorizontal: 12,
             paddingVertical: 16,
-            backgroundColor: "#ffffff",
+            backgroundColor: colors.secondaryBackground,
             borderRadius: 8
         },
         themeView: {
@@ -89,7 +84,8 @@ const makeStyles = (colors: ColorsType) => {
             color: colors.primaryColor
         },
         themeText: {
-            flex: 5
+            flex: 5,
+            color: colors.text
         },
         switchView: {
             flex: 1,
@@ -102,7 +98,7 @@ const makeStyles = (colors: ColorsType) => {
         },
         supportTitle: {
             textTransform: "uppercase",
-            color: "#555555",
+            color: colors.secondaryText,
             marginBottom: 8
         },
         socialBase: { 
@@ -112,20 +108,20 @@ const makeStyles = (colors: ColorsType) => {
             columnGap: 16, 
             paddingHorizontal: 12,
             paddingVertical: 16,
-            backgroundColor: "#ffffff"
+            backgroundColor: colors.secondaryBackground,
         },
         emailView: {
             borderTopLeftRadius: 8,
             borderTopRightRadius: 8,
             borderBottomWidth: 1,
-            borderBottomColor: "#efefef"
+            borderBottomColor: borderBottomColor
         },
         websiteView: {
             borderBottomLeftRadius: 8,
             borderBottomRightRadius: 8
         },
         contactItem: {
-
+            color: colors.text
         },
         link: {
             color: linkColor

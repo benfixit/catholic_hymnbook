@@ -19,7 +19,7 @@ const FloatingActionButton = () => {
         onPress={handlePress}
         style={wrapper.floatingButton}
       >
-        <Ionicons name="add" size={30} color="#fff" />
+        <Ionicons name="text-outline" size={30} color="#fff" />
       </Pressable>
     </View>
   );

@@ -1,6 +1,6 @@
 import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
-import { Category, ColorsType } from '@/typings';
+import { CategoryType, ColorsType } from '@/typings';
 import Ionicons from '@react-native-vector-icons/ionicons';
 import { View, StyleSheet, ScrollView, Text, Pressable, Alert, Share, Platform } from 'react-native';
 import Markdown from "react-native-markdown-display";
@@ -11,6 +11,7 @@ import FloatingActionButton from '@/components/FloatingButton';
 import { useTypeFace } from '@/store/TypeFaceProvider';
 import { useEffect, useState } from 'react';
 import { categories } from '@/constants/categories';
+import { fetchHymnCategories } from '@/utils';
 
 export default function HymnScreen() {
   const { selectedHymn, toggleFavorites, favorites } = useHymns();
@@ -18,15 +19,14 @@ export default function HymnScreen() {
   const { fontSize } = useTypeFace();
   const wrapper = makeStyles(colors, fontSize);
   const markdown = makeMarkdownStyles(colors, fontSize);
-  const [hymnCategories, setHymnCategories] = useState<Category[]>([]);
+  const [hymnCategories, setHymnCategories] = useState<CategoryType[]>([]);
 
   if (!selectedHymn) {
     return;
   }
 
   useEffect(() => {
-    const data = categories.filter(category => category.hymns.includes(selectedHymn.id)).map(item => item.slug);
-    setHymnCategories(data);
+    setHymnCategories(fetchHymnCategories(categories, selectedHymn));
   }, []);
 
   let caption = `${selectedHymn.title.toUpperCase()}`;
@@ -90,7 +90,7 @@ export default function HymnScreen() {
             </View>
             <View  style={wrapper.meta}>
               <View  style={wrapper.tags}>
-                {hymnCategories.map((item, index) => <Text key={index} style={wrapper.tagItem}>{item}</Text>)}
+                {hymnCategories.map((item, index) => <Text key={index} style={wrapper.tagItem}>{item.slug}</Text>)}
               </View>
               <Pressable style={wrapper.favorite} onPress={() => toggleFavorites(selectedHymn.id)}>
                 <Ionicons style={wrapper.favoriteIcon} name={isFavorite ? "heart" : "heart-outline"} size={24} />
@@ -153,7 +153,8 @@ const makeStyles = (colors: ColorsType, fontSize: number) => {
     },
     caption: {
       fontWeight: "bold",
-      fontSize: fontSize + 2
+      fontSize: fontSize + 2,
+      color: colors.text
     },
     meta: {
       display: "flex",
@@ -169,7 +170,8 @@ const makeStyles = (colors: ColorsType, fontSize: number) => {
     tagItem: {
       paddingVertical: 4,
       paddingHorizontal: 8,
-      backgroundColor: "#dddddd",
+      backgroundColor: colors.secondaryBackground,
+      color: colors.text,
       borderRadius: 8,
       fontSize: fontSize - 4,
       textTransform: "capitalize"
@@ -184,8 +186,7 @@ const makeStyles = (colors: ColorsType, fontSize: number) => {
         marginRight: 8,
     },
     icon: {
-        // color: Colors.dark.text,
-        color: "#000000",
+        color: "#ffffff",
         padding: 12,
     }
   });

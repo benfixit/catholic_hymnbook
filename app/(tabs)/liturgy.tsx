@@ -8,6 +8,7 @@ import { categories, ROMCAL_CATEGORIES_BRIDGE } from "@/constants/categories";
 import { useHymns } from "@/store/HymnProvider";
 import { useCalendar } from "@/store/SeasonProvider";
 import List from "@/components/List";
+import { borderBottomColor } from "@/constants/theme";
 
 export default function LiturgyScreen() {
     const { hymns } = useHymns();
@@ -65,7 +66,7 @@ const makeStyles = (colors: ColorsType) => {
         },
         title: {
             color: "#ffffff",
-            fontSize: 16,
+            fontSize: 20,
             marginBottom: 16,
             fontWeight: "bold"
         },
@@ -102,14 +103,13 @@ const makeStyles = (colors: ColorsType) => {
             columnGap: 4
         },
         suggestedTitle: {
-            fontSize: 14
+            fontSize: 14,
+            color: colors.text
         },
         hr: {
             flex: 1,
-            borderBottomColor: "#000000",
-            borderBottomWidth: 1,
-            // marginTop: 16,
-            // marginBottom: 16
+            borderBottomColor: borderBottomColor,
+            borderBottomWidth: 1
         }
     });
 }

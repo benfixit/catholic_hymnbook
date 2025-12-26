@@ -1,4 +1,4 @@
-import { HymnType } from "./typings";
+import { CategoryType, HymnType } from "./typings";
 
 export const searchFilterCallback = (hymn: HymnType, searchTerm: string) => {
     if (isStringNumeric(searchTerm)) {
@@ -7,7 +7,15 @@ export const searchFilterCallback = (hymn: HymnType, searchTerm: string) => {
 
     const lowerCaseTerm = searchTerm.toLowerCase();
 
-    return hymn.title.toLowerCase().includes(lowerCaseTerm) || hymn.content.toLowerCase().includes(lowerCaseTerm);
+    return hymn.title.toLowerCase().includes(lowerCaseTerm) || 
+            hymn.content.toLowerCase().includes(lowerCaseTerm) ||
+            splitSearch(hymn, searchTerm);
+}
+
+const splitSearch = (hymn: HymnType, searchTerm: string) => {
+  const terms = searchTerm.split(" ");
+
+  return terms.every(term => hymn.content.includes(term));
 }
 
 export const truncateString = (str: string, maxLength: number) => {
@@ -64,4 +72,8 @@ export const formatRomcalSeasons = (seasons: string[]): string => {
 export const isStringNumeric = (str) => {
   // Global isFinite performs type coercion, unlike the static Number.isFinite
   return isFinite(str) && !isNaN(parseFloat(str));
+}
+
+export const fetchHymnCategories = (categories: CategoryType[], hymn: HymnType): CategoryType[] => {
+  return categories.filter(category => category.hymns.includes(hymn.id)).map(item => item);
 }

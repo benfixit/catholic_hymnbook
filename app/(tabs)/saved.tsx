@@ -40,7 +40,9 @@ export default function SavedScreen() {
 const makeStyles = (colors: ColorsType) => {
     return StyleSheet.create({
         container: {
-            padding: 16
+            padding: 16,
+            backgroundColor: colors.background,
+            flex: 1
         },
         icon: {
             color: "#888888",
