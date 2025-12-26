@@ -45,8 +45,11 @@ const makeStyles = (colors: ColorsType) => {
             flex: 1
         },
         icon: {
-            color: "#888888",
+            color: colors.secondaryText,
             marginBottom: 16
+        },
+        iconText: {
+            color: colors.secondaryText
         }
     })
 }

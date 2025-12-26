@@ -9,6 +9,7 @@ import { useHymns } from "@/store/HymnProvider";
 import { useCalendar } from "@/store/SeasonProvider";
 import List from "@/components/List";
 import { borderBottomColor } from "@/constants/theme";
+import EmptyScreen from "@/components/Empty";
 
 export default function LiturgyScreen() {
     const { hymns } = useHymns();
@@ -46,7 +47,16 @@ export default function LiturgyScreen() {
                     <Text style={styles.suggestedTitle}>Seasonal Suggestions</Text>
                     <View style={styles.hr} />
                 </View>
-                <List hymns={filteredHymns} />
+                {filteredHymns.length > 0 ? (
+                    <List hymns={filteredHymns} />
+                ): (
+                <EmptyScreen>
+                    <Ionicons name="reader-outline" size={48} style={styles.icon} />
+                    <Text style={styles.iconText}>
+                        No suggestions.
+                    </Text>
+                </EmptyScreen>
+                )}
             </SafeAreaView>
         </SafeAreaProvider>
     );
@@ -110,6 +120,13 @@ const makeStyles = (colors: ColorsType) => {
             flex: 1,
             borderBottomColor: borderBottomColor,
             borderBottomWidth: 1
+        },
+        icon: {
+            color: colors.secondaryText,
+            marginBottom: 16
+        },
+        iconText: {
+            color: colors.secondaryText
         }
     });
 }
