@@ -12,7 +12,7 @@ type ValueType = {
     category: Nullable<Category>, 
     setCategory: Dispatch<SetStateAction<Nullable<Category>>>,
     favorites: number[],
-    toggleFavorites: Dispatch<SetStateAction<number>>,
+    updateFavorites: Function,
 };
 
 export const HymnContext = createContext<ValueType>({
@@ -22,7 +22,7 @@ export const HymnContext = createContext<ValueType>({
     category: null,
     setCategory: () => {},
     favorites: [],
-    toggleFavorites: () => {},
+    updateFavorites: () => {},
 });
 
 const STORAGE_KEY = `hymbook_settings`;
@@ -66,8 +66,7 @@ const HymnProvider = ({ children }: { children: ReactNode }) => {
             category, 
             setCategory,
             favorites,
-            //@ts-ignore
-            toggleFavorites: updateFavorites
+            updateFavorites
         }}
         >
         {children}

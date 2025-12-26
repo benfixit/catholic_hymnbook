@@ -13,7 +13,6 @@ const FloatingActionButton = () => {
   };
 
   return (
-    // The main container should have flex: 1 to fill the screen
     <View style={wrapper.mainContainer}>      
       <Pressable
         onPress={handlePress}

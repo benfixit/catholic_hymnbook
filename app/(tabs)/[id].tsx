@@ -2,7 +2,7 @@ import { useHymns } from '@/store/HymnProvider';
 import { useTheme } from '@/store/ThemeProvider';
 import { CategoryType, ColorsType } from '@/typings';
 import Ionicons from '@react-native-vector-icons/ionicons';
-import { View, StyleSheet, ScrollView, Text, Pressable, Alert, Share, Platform } from 'react-native';
+import { View, StyleSheet, ScrollView, Text, Pressable, Alert, Share } from 'react-native';
 import Markdown from "react-native-markdown-display";
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { Redirect, router, Stack } from "expo-router";
@@ -14,7 +14,7 @@ import { categories } from '@/constants/categories';
 import { fetchHymnCategories } from '@/utils';
 
 export default function HymnScreen() {
-  const { selectedHymn, toggleFavorites, favorites } = useHymns();
+  const { selectedHymn, updateFavorites, favorites } = useHymns();
   const { colors } = useTheme();
   const { fontSize } = useTypeFace();
   const wrapper = makeStyles(colors, fontSize);
@@ -92,7 +92,7 @@ export default function HymnScreen() {
               <View  style={wrapper.tags}>
                 {hymnCategories.map((item, index) => <Text key={index} style={wrapper.tagItem}>{item.slug}</Text>)}
               </View>
-              <Pressable style={wrapper.favorite} onPress={() => toggleFavorites(selectedHymn.id)}>
+              <Pressable style={wrapper.favorite} onPress={() => updateFavorites(selectedHymn.id)}>
                 <Ionicons style={wrapper.favoriteIcon} name={isFavorite ? "heart" : "heart-outline"} size={24} />
               </Pressable>
             </View>

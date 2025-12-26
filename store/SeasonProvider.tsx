@@ -64,18 +64,6 @@ export default function SeasonProvider({ children }: { children: ReactNode }) {
                 date: formattedDate
             };
 
-            // console.log(data)
-
-            // const test = [];
-            // for (let item in response) {
-            //     const key = response[item];
-            //     if (key[0].colors.length > 1)
-            //       test.push([key[0].colors, item, key[0].id]) 
-                
-            // }
-
-            // console.log("Test data ::: ", test, test.length);
-
             setCalendar(data);
         }
 

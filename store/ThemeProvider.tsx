@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { useState, useEffect, createContext, ReactNode } from 'react';
+import { useState, useEffect, createContext, ReactNode, useContext } from 'react';
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
 import { DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY, makeThemeColor } from '@/constants/theme';
 import { ThemeType } from '@/typings';
@@ -49,7 +48,7 @@ export default function ThemeProvider({ children }: { children: ReactNode }) {
 }
 
 export function useTheme() {
-  const { theme, ...rest } = React.useContext(ThemeContext);
+  const { theme, ...rest } = useContext(ThemeContext);
 
   if (theme == null) {
     throw new Error(
