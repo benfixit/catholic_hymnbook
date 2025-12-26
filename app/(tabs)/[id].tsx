@@ -1,17 +1,17 @@
-import { useHymns } from '@/store/HymnProvider';
-import { useTheme } from '@/store/ThemeProvider';
-import { CategoryType, ColorsType } from '@/typings';
-import Ionicons from '@react-native-vector-icons/ionicons';
+import { useEffect, useState } from 'react';
 import { View, StyleSheet, ScrollView, Text, Pressable, Alert, Share } from 'react-native';
 import Markdown from "react-native-markdown-display";
+import Ionicons from '@react-native-vector-icons/ionicons';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { Redirect, router, Stack } from "expo-router";
 import { HeaderBackButton } from "@react-navigation/elements";
 import FloatingActionButton from '@/components/FloatingButton';
 import { useTypeFace } from '@/store/TypeFaceProvider';
-import { useEffect, useState } from 'react';
 import { categories } from '@/constants/categories';
 import { fetchHymnCategories } from '@/utils';
+import { useHymns } from '@/store/HymnProvider';
+import { useTheme } from '@/store/ThemeProvider';
+import { CategoryType, ColorsType } from '@/typings';
 
 export default function HymnScreen() {
   const { selectedHymn, updateFavorites, favorites } = useHymns();

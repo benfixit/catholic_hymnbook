@@ -2,8 +2,8 @@ import { useState, useEffect, createContext, ReactNode, useContext } from 'react
 import { useAsyncStorage } from "@react-native-async-storage/async-storage";
 import { DARK_THEME, LIGHT_THEME, THEME_STORAGE_KEY, makeThemeColor } from '@/constants/theme';
 import { ThemeType } from '@/typings';
-import { useCalendar } from './SeasonProvider';
 import { STORAGE_KEY_PREFIX } from '@/constants/app';
+import { useCalendar } from './SeasonProvider';
 
 type Props = {
   colors: Record<string, string>;

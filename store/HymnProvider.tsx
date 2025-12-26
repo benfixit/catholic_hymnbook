@@ -1,7 +1,7 @@
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from "react";
+import { useAsyncStorage } from "@react-native-async-storage/async-storage";
 import { Category, HymnType, Nullable } from "../typings";
 import allHymns from "../assets/hymns/index.json";
-import { useAsyncStorage } from "@react-native-async-storage/async-storage";
 
 type FavoritesType = number[];
 

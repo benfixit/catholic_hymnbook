@@ -1,12 +1,12 @@
+import { useEffect, useMemo, useState } from "react";
+import { Text, StyleSheet } from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import Ionicons from "@react-native-vector-icons/ionicons";
 import EmptyScreen from "@/components/Empty";
 import List from "@/components/List";
 import { useHymns } from "@/store/HymnProvider";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType, HymnType } from "@/typings";
-import Ionicons from "@react-native-vector-icons/ionicons";
-import { useEffect, useMemo, useState } from "react";
-import { Text, StyleSheet } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function SavedScreen() {
     const { favorites, hymns } = useHymns();

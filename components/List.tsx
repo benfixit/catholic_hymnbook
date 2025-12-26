@@ -1,12 +1,12 @@
 import { useRouter } from "expo-router";
 import React, { Dispatch, SetStateAction } from "react";
 import { FlatList, Pressable, StyleSheet, View, Text } from "react-native";
-import { ColorsType, HymnType, Nullable } from "@/typings";
 import Ionicons from "@react-native-vector-icons/ionicons";
 import { useTheme } from "@/store/ThemeProvider";
 import { useHymns } from "@/store/HymnProvider";
-import { fetchHymnCategories } from "@/utils";
 import { categories } from "@/constants/categories";
+import { fetchHymnCategories } from "@/utils";
+import { ColorsType, HymnType, Nullable } from "@/typings";
 
 type Props = {
     hymns: Array<HymnType>

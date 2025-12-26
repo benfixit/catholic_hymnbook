@@ -1,6 +1,5 @@
 import { Stack } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import 'react-native-reanimated';
 import HymnProvider from '@/store/HymnProvider';
 import ThemeProvider from '@/store/ThemeProvider';
 import TypeFaceProvider from '@/store/TypeFaceProvider';

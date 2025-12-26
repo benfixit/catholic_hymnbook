@@ -1,7 +1,7 @@
-import { useTheme } from "@/store/ThemeProvider";
-import { ColorsType } from "@/typings";
 import React, { useMemo, useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
+import { useTheme } from "@/store/ThemeProvider";
+import { ColorsType } from "@/typings";
 
 type Props = {
     onSearch: Function
@@ -9,9 +9,10 @@ type Props = {
 
 const SearchBox: React.FC<Props> = ({ onSearch }) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
-    const { colors, theme } = useTheme();
+    const { colors } = useTheme();
     const styles = useMemo(() => makeStyles(colors), [colors]);
     const handleChange = (text: string) => {
+        console.log("term ::: ", text);
         setSearchTerm(text);
 
         //@todo debounce this

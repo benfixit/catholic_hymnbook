@@ -1,6 +1,6 @@
 import { router, Tabs } from "expo-router";
 import { Pressable, StyleSheet } from "react-native";
-import Ionicons from "@react-native-vector-icons/ionicons"
+import Ionicons from "@react-native-vector-icons/ionicons";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
 

@@ -1,7 +1,7 @@
-import { linkColor } from '@/constants/theme';
-import Ionicons from '@react-native-vector-icons/ionicons';
 import { Link, Stack } from 'expo-router';
 import { Text, View, StyleSheet } from 'react-native';
+import Ionicons from '@react-native-vector-icons/ionicons';
+import { linkColor } from '@/constants/theme';
 
 export default function NotFoundScreen() {
   return (

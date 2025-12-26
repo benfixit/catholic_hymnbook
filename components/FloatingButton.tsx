@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Example icon set
 import { router } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons'; // Example icon set
 import { ColorsType } from '@/typings';
 import { useTheme } from '@/store/ThemeProvider';
 

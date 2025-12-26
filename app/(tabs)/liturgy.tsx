@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { View, Text, StyleSheet } from "react-native";
+import Ionicons from "@react-native-vector-icons/ionicons";
 import { useTheme } from "@/store/ThemeProvider";
 import { ColorsType } from "@/typings";
-import Ionicons from "@react-native-vector-icons/ionicons";
 import { categories, ROMCAL_CATEGORIES_BRIDGE } from "@/constants/categories";
 import { useHymns } from "@/store/HymnProvider";
 import { useCalendar } from "@/store/SeasonProvider";

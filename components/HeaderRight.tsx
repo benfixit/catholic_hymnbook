@@ -1,7 +1,7 @@
+import { Pressable, StyleSheet } from "react-native";
+import Ionicons from "@react-native-vector-icons/ionicons";
 import { LIGHT_THEME } from "@/constants/theme";
 import { useTheme } from "@/store/ThemeProvider";
-import Ionicons from "@react-native-vector-icons/ionicons";
-import { Pressable, StyleSheet } from "react-native";
 
 const HeaderRight = () => {
     const { theme, toggleTheme } = useTheme();
